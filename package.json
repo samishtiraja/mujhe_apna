@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --no-history",
+    "deploy": "gh-pages-clean && gh-pages -d dist --no-history --dotfiles",
     "lint": "oxlint",
     "preview": "vite preview",
     "export-video": "node scripts/exportVideo.js",

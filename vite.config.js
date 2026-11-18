@@ -112,6 +112,7 @@ function customAssetsPlugin() {
           filter: (src) => !src.toLowerCase().endsWith('.zip'),
         })
       }
+      fs.writeFileSync(path.join(rootDir, 'dist', '.nojekyll'), '')
     },
   }
 }
