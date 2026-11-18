@@ -9,7 +9,7 @@ export const lyricLines = [
     start: 15.0,
     end: 25.4,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '8%', left: '60%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '8%', left: '58%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
