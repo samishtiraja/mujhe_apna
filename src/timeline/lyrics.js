@@ -137,7 +137,7 @@ export const lyricLines = [
     start: 58.2,
     end: 68.0,
     text: 'जो मैं ऐसो जानती प्रीत करे दुख होए',
-    position: { anchor: 'right', top: '44%', right: '39%', textAlign: 'right' },
+    position: { anchor: 'right', top: '20%', right: '45%', textAlign: 'right' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
