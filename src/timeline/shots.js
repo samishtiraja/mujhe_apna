@@ -244,7 +244,7 @@ export const shotBackgrounds = [
     start: 58.20,
     end: 68.00,
     file: '',
-    src: '/assets/paper/plate_radha_krishna_separation.png',
+    src: '/assets/paper/plate_24c_eyes_longing.png',
     bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'smoke-dissolve', duration: 0.85 },
