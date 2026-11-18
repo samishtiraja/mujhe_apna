@@ -9,10 +9,10 @@ export const lyricLines = [
     start: 15.0,
     end: 25.4,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '18%', left: '60%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '8%', left: '60%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -44,7 +44,7 @@ export const lyricLines = [
     position: { anchor: 'low-center', top: '3%', left: '30%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -73,10 +73,10 @@ export const lyricLines = [
     start: 35.3,
     end: 45.2,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'lower-left', left: '8%', bottom: '14%', textAlign: 'left' },
+    position: { anchor: 'lower-left', left: '38%', bottom: '54%', textAlign: 'left' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.8rem, 3.2vw, 2.8rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -105,10 +105,10 @@ export const lyricLines = [
     start: 45.2,
     end: 55.1,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '10%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '2%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
