@@ -137,10 +137,10 @@ export const lyricLines = [
     start: 58.2,
     end: 68.0,
     text: 'जो मैं ऐसो जानती प्रीत करे दुख होए',
-    position: { anchor: 'right', top: '44%', right: '8%', textAlign: 'right' },
+    position: { anchor: 'right', top: '44%', right: '39%', textAlign: 'right' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -179,7 +179,7 @@ export const lyricLines = [
     position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -213,10 +213,10 @@ export const lyricLines = [
     start: 78.8,
     end: 88.6,
     text: 'मुझे प्रेमी बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '2%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -245,10 +245,10 @@ export const lyricLines = [
     start: 88.6,
     end: 98.8,
     text: 'मुझे प्रेमी बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'center', top: '50%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'center', top: '25%', left: '60%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -277,10 +277,10 @@ export const lyricLines = [
     start: 98.8,
     end: 108.8,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '8%', left: '60%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -309,10 +309,10 @@ export const lyricLines = [
     start: 108.8,
     end: 118.8,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '2%', left: '20%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -341,10 +341,10 @@ export const lyricLines = [
     start: 122.0,
     end: 132.0,
     text: 'रहिमन धागा प्रेम का मत तोड़ो चटकाए',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '4%', left: '20%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -378,10 +378,10 @@ export const lyricLines = [
     start: 132.0,
     end: 142.4,
     text: 'टूटे से फिर ना जुड़े, जुड़े गाँठ पड़ जाए',
-    position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '4%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -419,10 +419,10 @@ export const lyricLines = [
     start: 142.4,
     end: 152.8,
     text: 'गठबंधन बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '2%', left: '60%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -548,7 +548,7 @@ export const lyricLines = [
     position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -587,7 +587,7 @@ export const lyricLines = [
     position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -628,7 +628,7 @@ export const lyricLines = [
     position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -726,7 +726,7 @@ export const lyricLines = [
     position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -765,7 +765,7 @@ export const lyricLines = [
     position: { anchor: 'low-center', bottom: '8%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.0rem, 3.6vw, 3.2rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
