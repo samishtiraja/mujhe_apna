@@ -1,0 +1,1976 @@
+{
+  "song_title": "मुझे अपना बनाकर छोड़ गए",
+  "tempo_bpm": 97.3,
+  "segments": [
+    {
+      "segment_id": "seg_01",
+      "start_time": 0.00,
+      "end_time": 5.10,
+      "section_type": "Interlude",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 0.00,
+          "end_time": 5.10,
+          "role": "Drone / Ambience",
+          "technique": "Warm resonant Sa-Pa harmonic drone setting nocturnal viraha atmosphere",
+          "key_strike_at": 0.00
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 0.80,
+          "end_time": 5.10,
+          "role": "Rhythmic Pulse",
+          "technique": "Soft metallic ankle-bell shimmer on off-beats",
+          "key_strike_at": 1.25
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 1.25,
+          "end_time": 5.10,
+          "role": "Rhythmic Pulse",
+          "technique": "Muted finger-tapped buildup transitioning into sharp pickup roll at 4.80s",
+          "key_strike_at": 4.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Ambient Tanpura drone with anticipatory Ghungroo and Dholak pulse",
+        "percussion_groove": "Soft building 8-beat Keherwa pulse culminating in pickup roll at 4.80s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": false,
+        "line_hindi": null,
+        "hero_words": [],
+        "word_timestamps": []
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Twilight stillness and quiet anticipation of separation",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "जैसे-जैसे तानपूरे की गूँज उठे, हस्तनिर्मित कागज़ के पर्दे पर गोधूलि का रंग फैले; ढोलक के पिकअप रोल (4.80s) पर झरोखे का परदा हल्के से लहराए",
+        "framing_layout": "centered",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_02",
+      "start_time": 5.10,
+      "end_time": 15.00,
+      "section_type": "Interlude",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 5.10,
+          "end_time": 14.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Full brisk Keherwa groove with crisp Sam strike at 5.10s and sudden drop at 14.60s",
+          "key_strike_at": 5.10
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 5.10,
+          "end_time": 14.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp Dayan-Bayan rhythmic accompaniment doubling the folk groove",
+          "key_strike_at": 5.10
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 5.20,
+          "end_time": 14.80,
+          "role": "Lead Melody",
+          "technique": "Expressive bamboo flute stating the central hook melody with delicate gamak and meend",
+          "key_strike_at": 10.10
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 5.20,
+          "end_time": 14.50,
+          "role": "Emotional Accent",
+          "technique": "Plucked and bowed string counter-lines reinforcing the melancholic motif",
+          "key_strike_at": 7.60
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 5.10,
+          "end_time": 14.50,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady sixteenth-note shimmer",
+          "key_strike_at": 5.10
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Bansuri and bowed string duet presenting the signature viraha refrain",
+        "percussion_groove": "Full Keherwa folk-fusion groove dropping cleanly at 14.60s for vocal entrance",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": false,
+        "line_hindi": null,
+        "hero_words": [],
+        "word_timestamps": []
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Longing memory of Vrindavan evenings",
+        "character_focus": "Both",
+        "instrument_reactive_action": "ढोलक की पहली सम (5.10s) पर यमुना की लहरें और कदंब की पत्तियाँ हिलें; बाँसुरी के मींड (10.10s) के साथ राधा-कृष्ण की परछाईं धीरे-धीरे अलग होती दिखे और 14.60s के ठहराव पर सन्न रह जाए",
+        "framing_layout": "centered",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_03",
+      "start_time": 15.00,
+      "end_time": 25.40,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 15.00,
+          "end_time": 25.40,
+          "role": "Drone / Ambience",
+          "technique": "Intimate sustained drone supporting solo vocal vulnerability",
+          "key_strike_at": 15.00
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 15.00,
+          "end_time": 25.40,
+          "role": "Drone / Ambience",
+          "technique": "Soft sustained chordal bed shadowing the vocal contour",
+          "key_strike_at": 18.60
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 19.40,
+          "end_time": 24.80,
+          "role": "Emotional Accent",
+          "technique": "Gentle bowed sigh filling the breath gap after 'छोड़ गए'",
+          "key_strike_at": 19.50
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 24.70,
+          "end_time": 25.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Quick anticipative pickup roll launching the full chorus",
+          "key_strike_at": 24.70
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Exposed solo female vocal delivery of the main hook",
+        "percussion_groove": "A-rhythmic pause with only a crisp Dholak pickup roll at 24.70s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 15.10},
+          {"word": "अपना", "time": 16.10},
+          {"word": "बनाकर", "time": 17.20},
+          {"word": "छोड़", "time": 18.60},
+          {"word": "गए", "time": 19.40},
+          {"word": "आए", "time": 20.30},
+          {"word": "ना", "time": 21.00},
+          {"word": "सँवरिया", "time": 21.80},
+          {"word": "बेदरदी", "time": 23.50}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Sudden shock of abandonment and quiet heartbreak",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "बिना ताल की खामोशी में जब 'छोड़ गए' गूँजे और सारंगी की आह (19.50s) निकले, तब राधा जी धीरे से आँखें बंद करें; 24.70s पर ढोलक की थाप के साथ दिया की लौ तेज़ फड़फड़ाए",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_04",
+      "start_time": 25.40,
+      "end_time": 35.30,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 25.40,
+          "end_time": 35.30,
+          "role": "Rhythmic Pulse",
+          "technique": "Full 8-beat Keherwa groove with resonant Bayan thump on Sam",
+          "key_strike_at": 25.40
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 25.40,
+          "end_time": 35.30,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp Na-Dhin-Na-Tin interlocking rhythm",
+          "key_strike_at": 25.40
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 25.40,
+          "end_time": 35.30,
+          "role": "Rhythmic Pulse",
+          "technique": "Bright rhythmic shimmer accenting every half-beat",
+          "key_strike_at": 25.40
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 25.40,
+          "end_time": 35.30,
+          "role": "Drone / Ambience",
+          "technique": "Full reed chordal support beneath doubled vocal harmonies",
+          "key_strike_at": 25.40
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 33.80,
+          "end_time": 35.25,
+          "role": "Emotional Accent",
+          "technique": "Short sorrowful ascending murki bridging into the next refrain",
+          "key_strike_at": 34.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Lead vocal joined by chorus harmonies over full percussion",
+        "percussion_groove": "Full Keherwa groove hitting hard on Sam at 25.40s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 25.45},
+          {"word": "अपना", "time": 26.30},
+          {"word": "बनाकर", "time": 27.30},
+          {"word": "छोड़", "time": 28.50},
+          {"word": "गए", "time": 29.20},
+          {"word": "आए", "time": 30.10},
+          {"word": "ना", "time": 30.80},
+          {"word": "सँवरिया", "time": 31.60},
+          {"word": "बेदरदी", "time": 33.40}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Passionate lamentation and rhythmic restlessness",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "25.40s पर ढोलक की सम पड़ते ही दृश्य झरोखे के वाइड फ्रेम पर कट हो; घुँघरुओं की झंकार के साथ कागज़ की परतों में राधा की चुनरी लहराए",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_05",
+      "start_time": 35.30,
+      "end_time": 45.20,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 35.30,
+          "end_time": 45.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Driving Keherwa groove with mid-bar double-tap fill at 40.00s",
+          "key_strike_at": 35.30
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 35.30,
+          "end_time": 45.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Sustained rhythmic precision locking with Dholak",
+          "key_strike_at": 35.30
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 38.60,
+          "end_time": 40.20,
+          "role": "Emotional Accent",
+          "technique": "High-register plaintive call answering 'छोड़ गए'",
+          "key_strike_at": 38.80
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 35.30,
+          "end_time": 45.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Continuous dancing chime texture",
+          "key_strike_at": 35.30
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Full vocal chorus with Bansuri counter-phrase",
+        "percussion_groove": "Steady Keherwa groove with dynamic mid-cycle fill",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["छोड़", "आए ना", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 35.35},
+          {"word": "अपना", "time": 36.20},
+          {"word": "बनाकर", "time": 37.20},
+          {"word": "छोड़", "time": 38.40},
+          {"word": "गए", "time": 39.10},
+          {"word": "आए", "time": 40.00},
+          {"word": "ना", "time": 40.70},
+          {"word": "सँवरिया", "time": 41.50},
+          {"word": "बेदरदी", "time": 43.30}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Echoing accusation toward the empty path",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "जब 38.80s पर ऊँचे सुर में बाँसुरी खिंचे, तब खाली झूले पर रखी अकेली बाँसुरी पर हल्की सुनहरी चमक उभरे",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_06",
+      "start_time": 45.20,
+      "end_time": 55.10,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 45.20,
+          "end_time": 55.10,
+          "role": "Rhythmic Pulse",
+          "technique": "Sustained Keherwa beat with sharp rim accents",
+          "key_strike_at": 45.20
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 45.20,
+          "end_time": 55.10,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp supporting teka",
+          "key_strike_at": 45.20
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 45.20,
+          "end_time": 55.10,
+          "role": "Drone / Ambience",
+          "technique": "Full harmonic pad swelling toward verse transition",
+          "key_strike_at": 53.20
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 53.20,
+          "end_time": 55.10,
+          "role": "Emotional Accent",
+          "technique": "Sweeping meend tailing off 'बेदरदी'",
+          "key_strike_at": 53.50
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Closing refrain repetition before instrumental bridge",
+        "percussion_groove": "Full Keherwa groove resolving cleanly at 55.10s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 45.25},
+          {"word": "अपना", "time": 46.10},
+          {"word": "बनाकर", "time": 47.10},
+          {"word": "छोड़", "time": 48.30},
+          {"word": "गए", "time": 49.00},
+          {"word": "आए", "time": 49.90},
+          {"word": "ना", "time": 50.60},
+          {"word": "सँवरिया", "time": 51.40},
+          {"word": "बेदरदी", "time": 53.20}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Helpless surrender to memory",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "हारमोनियम और सारंगी के खिंचाव (53.50s) पर राधा जी झरोखे की चौखट पर सिर टिका दें; कागज़ की परतों में धीमी परछाइयाँ गहराएँ",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "stillness"
+      }
+    },
+    {
+      "segment_id": "seg_07",
+      "start_time": 55.10,
+      "end_time": 58.20,
+      "section_type": "Interlude",
+      "instruments_timeline": [
+        {
+          "instrument": "Bansuri",
+          "start_time": 55.10,
+          "end_time": 58.00,
+          "role": "Lead Melody",
+          "technique": "Crisp ornamental turnaround leading into the doha verse",
+          "key_strike_at": 55.30
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 55.10,
+          "end_time": 58.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Fast Tihai-style rhythmic roll at 57.50s marking verse entry",
+          "key_strike_at": 57.50
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 55.10,
+          "end_time": 58.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Light rhythmic cascade",
+          "key_strike_at": 55.10
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Short Bansuri turnaround",
+        "percussion_groove": "2-bar bridge culminating in Dholak Tihai at 57.50s",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": false,
+        "line_hindi": null,
+        "hero_words": [],
+        "word_timestamps": []
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Turning a page of inner reflection",
+        "character_focus": "Both",
+        "instrument_reactive_action": "बाँसुरी की तान के साथ कागज़ के पन्ने की तरह दृश्य पलटे; 57.50s की ढोलक तिहाई पर राधा और कृष्ण के मिलन की पुरानी स्मृति उभरे",
+        "framing_layout": "centered",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_08",
+      "start_time": 58.20,
+      "end_time": 68.00,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 58.20,
+          "end_time": 68.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Restrained lighter groove on first half (58.20s), full crisp slap returning at 63.10s",
+          "key_strike_at": 63.10
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 58.20,
+          "end_time": 68.00,
+          "role": "Drone / Ambience",
+          "technique": "Warm reed harmonies following the folk couplet melody",
+          "key_strike_at": 58.20
+        },
+        {
+          "instrument": "Tanpura",
+          "start_time": 58.20,
+          "end_time": 68.00,
+          "role": "Drone / Ambience",
+          "technique": "Continuous resonant drone",
+          "key_strike_at": 58.20
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 63.10,
+          "end_time": 68.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Re-entering shimmer on the repeat phrase",
+          "key_strike_at": 63.10
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "First couplet of Verse 1 ('जो मैं ऐसो जानती प्रीत करे दुख होए')",
+        "percussion_groove": "Soft sparse pulse swelling back to full Keherwa at 63.10s",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "जो मैं ऐसो जानती प्रीत करे दुख होए",
+        "hero_words": ["प्रीत", "दुख"],
+        "word_timestamps": [
+          {"word": "जो", "time": 58.20},
+          {"word": "मैं", "time": 58.60},
+          {"word": "ऐसो", "time": 59.00},
+          {"word": "जानती", "time": 59.70},
+          {"word": "प्रीत", "time": 60.60},
+          {"word": "करे", "time": 61.20},
+          {"word": "दुख", "time": 61.80},
+          {"word": "होए", "time": 62.30},
+          {"word": "जो", "time": 63.15},
+          {"word": "मैं", "time": 63.55},
+          {"word": "ऐसो", "time": 63.95},
+          {"word": "जानती", "time": 64.65},
+          {"word": "प्रीत", "time": 65.55},
+          {"word": "करे", "time": 66.15},
+          {"word": "दुख", "time": 66.75},
+          {"word": "होए", "time": 67.25}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Bitter regret and cautionary wisdom",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "63.10s पर ढोलक और घुँघरू के दोबारा जुड़ते ही राधा के हाथों में थमे सूखे कमल की पंखुड़ियाँ बिखरें",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_09",
+      "start_time": 68.00,
+      "end_time": 78.80,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 68.00,
+          "end_time": 77.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Energetic Keherwa beat with abrupt drop at 77.80s",
+          "key_strike_at": 68.00
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 68.00,
+          "end_time": 77.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Lively rhythmic doubling under the vocal warning",
+          "key_strike_at": 73.05
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 77.40,
+          "end_time": 78.80,
+          "role": "Emotional Accent",
+          "technique": "Soft descending breathy phrase bridging into the silence",
+          "key_strike_at": 77.60
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 73.00,
+          "end_time": 78.50,
+          "role": "Emotional Accent",
+          "technique": "Expressive bowed underline on 'प्रीत ना करियो कोए'",
+          "key_strike_at": 75.70
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Second couplet ('नगर ढिंढोरा पीटती प्रीत ना करियो कोए')",
+        "percussion_groove": "Full upbeat Keherwa dropping sharply at 77.80s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "नगर ढिंढोरा पीटती प्रीत ना करियो कोए",
+        "hero_words": ["नगर", "ढिंढोरा", "प्रीत ना करियो"],
+        "word_timestamps": [
+          {"word": "नगर", "time": 68.05},
+          {"word": "ढिंढोरा", "time": 68.80},
+          {"word": "पीटती", "time": 69.80},
+          {"word": "प्रीत", "time": 70.70},
+          {"word": "ना", "time": 71.15},
+          {"word": "करियो", "time": 71.60},
+          {"word": "कोए", "time": 72.30},
+          {"word": "नगर", "time": 73.05},
+          {"word": "ढिंढोरा", "time": 73.80},
+          {"word": "पीटती", "time": 74.80},
+          {"word": "प्रीत", "time": 75.70},
+          {"word": "ना", "time": 76.15},
+          {"word": "करियो", "time": 76.60},
+          {"word": "कोए", "time": 77.30}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Urgent warning echoed across the village courtyard",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "ढोलक की तेज़ थाप के साथ वृंदावन की गलियों में सखियों की आकृतियाँ उभरें; 77.80s पर ताल रुकते ही सन्नाटा छा जाए और बाँसुरी की हल्की फूँक पर पन्ने स्थिर हों",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_10",
+      "start_time": 78.80,
+      "end_time": 88.60,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 78.80,
+          "end_time": 88.60,
+          "role": "Drone / Ambience",
+          "technique": "Deep solo drone framing the lyric twist",
+          "key_strike_at": 78.80
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 78.80,
+          "end_time": 88.60,
+          "role": "Drone / Ambience",
+          "technique": "Whisper-soft sustained notes",
+          "key_strike_at": 79.70
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 88.00,
+          "end_time": 88.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp pickup roll launching the full chorus",
+          "key_strike_at": 88.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Intimate solo refrain variation ('मुझे प्रेमी बनाकर छोड़ गए')",
+        "percussion_groove": "Percussion silent until crisp Dholak pickup at 88.00s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे प्रेमी बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["प्रेमी", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 78.80},
+          {"word": "प्रेमी", "time": 79.70},
+          {"word": "बनाकर", "time": 80.80},
+          {"word": "छोड़", "time": 82.10},
+          {"word": "गए", "time": 82.90},
+          {"word": "आए", "time": 83.80},
+          {"word": "ना", "time": 84.50},
+          {"word": "सँवरिया", "time": 85.30},
+          {"word": "बेदरदी", "time": 87.00}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Tender vulnerability and broken promise of love",
+        "character_focus": "Both",
+        "instrument_reactive_action": "तानपूरे की तान पर राधा के माथे पर लगी चंदन की बिंदिया चमक उठे और दूर जाते कृष्ण की धुँधली आकृति दिखे; 88.00s की ढोलक रोल पर परछाईं ओझल हो",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_11",
+      "start_time": 88.60,
+      "end_time": 98.80,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 88.60,
+          "end_time": 98.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Full Keherwa groove striking hard at 88.60s",
+          "key_strike_at": 88.60
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 88.60,
+          "end_time": 98.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Tight rhythmic support with subtle bayan modulation",
+          "key_strike_at": 88.60
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 88.60,
+          "end_time": 98.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Bright rhythmic shimmer",
+          "key_strike_at": 88.60
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 96.80,
+          "end_time": 98.70,
+          "role": "Emotional Accent",
+          "technique": "Sorrowful echo trailing the word 'बेदरदी'",
+          "key_strike_at": 97.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Full chorus repetition of 'मुझे प्रेमी बनाकर छोड़ गए'",
+        "percussion_groove": "Full Keherwa folk rhythm",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे प्रेमी बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["प्रेमी", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 88.70},
+          {"word": "प्रेमी", "time": 89.60},
+          {"word": "बनाकर", "time": 90.60},
+          {"word": "छोड़", "time": 91.90},
+          {"word": "गए", "time": 92.60},
+          {"word": "आए", "time": 93.50},
+          {"word": "ना", "time": 94.20},
+          {"word": "सँवरिया", "time": 95.00},
+          {"word": "बेदरदी", "time": 96.70}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Intensifying ache of devotion unanswered",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "88.60s पर सम पड़ते ही कैनवास पर मोरपंख का छायांकन उभरे; 97.00s पर बाँसुरी की तान के साथ राधा आँसुओं को पोंछती दिखें",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_12",
+      "start_time": 98.80,
+      "end_time": 108.80,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 98.80,
+          "end_time": 108.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady energetic Keherwa pulse",
+          "key_strike_at": 98.80
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 98.80,
+          "end_time": 108.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp rhythmic drive",
+          "key_strike_at": 98.80
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 98.80,
+          "end_time": 108.80,
+          "role": "Drone / Ambience",
+          "technique": "Rich chordal swell supporting group vocals",
+          "key_strike_at": 98.80
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 102.00,
+          "end_time": 103.50,
+          "role": "Emotional Accent",
+          "technique": "Brief plaintive bow-slide answering 'छोड़ गए'",
+          "key_strike_at": 102.10
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Return to primary chorus hook",
+        "percussion_groove": "Unbroken Keherwa groove",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 98.85},
+          {"word": "अपना", "time": 99.70},
+          {"word": "बनाकर", "time": 100.70},
+          {"word": "छोड़", "time": 101.90},
+          {"word": "गए", "time": 102.60},
+          {"word": "आए", "time": 103.50},
+          {"word": "ना", "time": 104.20},
+          {"word": "सँवरिया", "time": 105.00},
+          {"word": "बेदरदी", "time": 106.80}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Unwavering longing",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "102.10s पर सारंगी के खिंचाव के साथ यमुना के किनारे जलते दीपकों की लौ दाहिनी ओर झुके",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_13",
+      "start_time": 108.80,
+      "end_time": 118.80,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 108.80,
+          "end_time": 118.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Full Keherwa groove with cadence fill at 118.00s",
+          "key_strike_at": 108.80
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 108.80,
+          "end_time": 118.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Synced rhythmic pulse",
+          "key_strike_at": 108.80
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 108.80,
+          "end_time": 118.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Shimmering off-beat texture",
+          "key_strike_at": 108.80
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 116.80,
+          "end_time": 118.80,
+          "role": "Emotional Accent",
+          "technique": "Melodic bridge pickup leading into Interlude 2",
+          "key_strike_at": 117.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Closing refrain before second verse bridge",
+        "percussion_groove": "Full Keherwa groove with turnaround fill at 118.00s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "आए ना", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 108.85},
+          {"word": "अपना", "time": 109.70},
+          {"word": "बनाकर", "time": 110.70},
+          {"word": "छोड़", "time": 111.90},
+          {"word": "गए", "time": 112.60},
+          {"word": "आए", "time": 113.50},
+          {"word": "ना", "time": 114.20},
+          {"word": "सँवरिया", "time": 115.00},
+          {"word": "बेदरदी", "time": 116.80}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Quiet resignation turning toward reflection",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "117.00s पर बाँसुरी की तान और 118.00s की ढोलक थाप पर कच्चे रेशमी धागे का प्रतीकात्मक रूप सामने आए",
+        "framing_layout": "centered",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_14",
+      "start_time": 118.80,
+      "end_time": 122.00,
+      "section_type": "Interlude",
+      "instruments_timeline": [
+        {
+          "instrument": "Bansuri",
+          "start_time": 118.80,
+          "end_time": 121.80,
+          "role": "Lead Melody",
+          "technique": "Delicate lyrical phrase transitioning to the Rahim doha",
+          "key_strike_at": 119.20
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 118.80,
+          "end_time": 122.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Short transition roll at 121.40s",
+          "key_strike_at": 121.40
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 118.80,
+          "end_time": 122.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Soft shimmer",
+          "key_strike_at": 118.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Short Bansuri instrumental bridge",
+        "percussion_groove": "Brief 1-bar groove with pickup roll at 121.40s",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": false,
+        "line_hindi": null,
+        "hero_words": [],
+        "word_timestamps": []
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Delicate fragility of human bonds",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "बाँसुरी के स्वर पर राधा की उँगलियों में उलझा लाल रक्षा-सूत्र तनता हुआ दिखे; 121.40s की थाप पर दृश्य कड़ा हो",
+        "framing_layout": "centered",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_15",
+      "start_time": 122.00,
+      "end_time": 132.00,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 122.00,
+          "end_time": 132.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Gentle pocket on first iteration, fuller slap entering at 127.05s",
+          "key_strike_at": 127.05
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 122.00,
+          "end_time": 132.00,
+          "role": "Drone / Ambience",
+          "technique": "Tender melodic accompaniment mirroring vocal phrasing",
+          "key_strike_at": 122.05
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 126.10,
+          "end_time": 131.80,
+          "role": "Emotional Accent",
+          "technique": "Sustained melancholic string swell on 'चटकाए'",
+          "key_strike_at": 126.20
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 127.00,
+          "end_time": 132.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Soft rhythmic shimmer on second half",
+          "key_strike_at": 127.05
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 2 Part A ('रहिमन धागा प्रेम का मत तोड़ो चटकाए')",
+        "percussion_groove": "Soft verse pulse expanding at 127.05s",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "रहिमन धागा प्रेम का मत तोड़ो चटकाए",
+        "hero_words": ["धागा", "प्रेम", "मत तोड़ो"],
+        "word_timestamps": [
+          {"word": "रहिमन", "time": 122.05},
+          {"word": "धागा", "time": 122.80},
+          {"word": "प्रेम", "time": 123.60},
+          {"word": "का", "time": 124.20},
+          {"word": "मत", "time": 124.70},
+          {"word": "तोड़ो", "time": 125.30},
+          {"word": "चटकाए", "time": 126.10},
+          {"word": "रहिमन", "time": 127.05},
+          {"word": "धागा", "time": 127.80},
+          {"word": "प्रेम", "time": 128.60},
+          {"word": "का", "time": 129.20},
+          {"word": "मत", "time": 129.70},
+          {"word": "तोड़ो", "time": 130.30},
+          {"word": "चटकाए", "time": 131.10}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Gentle pleading against snapping a fragile bond",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "126.20s पर सारंगी के खिंचाव के साथ कंगन का धागा टूटने की कगार पर काँपे; 127.05s पर ढोलक के साथ हाथ काँपते हुए उसे थामें",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_16",
+      "start_time": 132.00,
+      "end_time": 142.40,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 132.00,
+          "end_time": 141.90,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp Keherwa rhythm cutting out abruptly at 141.90s",
+          "key_strike_at": 132.05
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 132.00,
+          "end_time": 141.90,
+          "role": "Rhythmic Pulse",
+          "technique": "Full percussion drive supporting the climax of the couplet",
+          "key_strike_at": 137.10
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 141.40,
+          "end_time": 142.40,
+          "role": "Emotional Accent",
+          "technique": "Thin descending sigh into silence",
+          "key_strike_at": 141.60
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 2 Part B ('टूटे से फिर ना जुड़े, जुड़े गाँठ पड़ जाए')",
+        "percussion_groove": "Full Keherwa dropping out sharply at 141.90s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "टूटे से फिर ना जुड़े, जुड़े गाँठ पड़ जाए",
+        "hero_words": ["टूटे", "गाँठ"],
+        "word_timestamps": [
+          {"word": "टूटे", "time": 132.05},
+          {"word": "से", "time": 132.60},
+          {"word": "फिर", "time": 133.10},
+          {"word": "ना", "time": 133.60},
+          {"word": "जुड़े", "time": 134.10},
+          {"word": "जुड़े", "time": 134.80},
+          {"word": "गाँठ", "time": 135.40},
+          {"word": "पड़", "time": 136.00},
+          {"word": "जाए", "time": 136.50},
+          {"word": "टूटे", "time": 137.10},
+          {"word": "से", "time": 137.60},
+          {"word": "फिर", "time": 138.10},
+          {"word": "ना", "time": 138.60},
+          {"word": "जुड़े", "time": 139.10},
+          {"word": "जुड़े", "time": 139.80},
+          {"word": "गाँठ", "time": 140.40},
+          {"word": "पड़", "time": 141.00},
+          {"word": "जाए", "time": 141.50}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Irreversible scar of broken trust",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "'गाँठ पड़ जाए' के समय और 141.90s पर ताल रुकते ही लाल धागा दो हिस्सों में बँटकर बीच में एक गाँठ बन जाए और सारा रंग फीका पड़ जाए",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "stillness"
+      }
+    },
+    {
+      "segment_id": "seg_17",
+      "start_time": 142.40,
+      "end_time": 152.80,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 142.40,
+          "end_time": 152.80,
+          "role": "Drone / Ambience",
+          "technique": "Solemn ambient drone highlighting the wedding-knot metaphor",
+          "key_strike_at": 142.40
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 142.40,
+          "end_time": 152.80,
+          "role": "Drone / Ambience",
+          "technique": "Soft sustained chord pad",
+          "key_strike_at": 142.80
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 152.10,
+          "end_time": 152.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Fast pickup roll cueing the ensemble drop",
+          "key_strike_at": 152.10
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Exposed vocal refrain variation ('गठबंधन बनाकर छोड़ गए')",
+        "percussion_groove": "A-rhythmic pause ending with sharp Dholak roll at 152.10s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "गठबंधन बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["गठबंधन", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "गठबंधन", "time": 142.80},
+          {"word": "बनाकर", "time": 144.30},
+          {"word": "छोड़", "time": 145.70},
+          {"word": "गए", "time": 146.50},
+          {"word": "आए", "time": 147.40},
+          {"word": "ना", "time": 148.10},
+          {"word": "सँवरिया", "time": 148.90},
+          {"word": "बेदरदी", "time": 150.70}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Sacramental betrayal and lonely vows",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "शून्य ताल में राधा अपनी चुनरी की बँधी हुई खाली गाँठ को निहारें; 152.10s की ढोलक रोल पर वेदों के पन्ने हवा में उड़ें",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_18",
+      "start_time": 152.80,
+      "end_time": 163.00,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 152.80,
+          "end_time": 163.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Full Keherwa groove returning powerfully on Sam at 152.80s",
+          "key_strike_at": 152.80
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 152.80,
+          "end_time": 163.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Synced folk-classical rhythm",
+          "key_strike_at": 152.80
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 152.80,
+          "end_time": 163.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Continuous shimmering accompaniment",
+          "key_strike_at": 152.80
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 160.60,
+          "end_time": 162.80,
+          "role": "Emotional Accent",
+          "technique": "Soaring bowed tail under 'बेदरदी'",
+          "key_strike_at": 160.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Full chorus repetition of 'गठबंधन बनाकर छोड़ गए'",
+        "percussion_groove": "Full Keherwa rhythm",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "गठबंधन बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["गठबंधन", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "गठबंधन", "time": 152.90},
+          {"word": "बनाकर", "time": 154.30},
+          {"word": "छोड़", "time": 155.60},
+          {"word": "गए", "time": 156.40},
+          {"word": "आए", "time": 157.30},
+          {"word": "ना", "time": 158.00},
+          {"word": "सँवरिया", "time": 158.80},
+          {"word": "बेदरदी", "time": 160.60}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Grief bursting back into full intensity",
+        "character_focus": "Both",
+        "instrument_reactive_action": "152.80s पर सम पड़ते ही हवन कुंड की बुझी हुई चिंगारी हवा से बिखरे और 160.80s पर सारंगी के साथ आँगन सूना दिखे",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_19",
+      "start_time": 163.00,
+      "end_time": 173.00,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 163.00,
+          "end_time": 173.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Full driving Keherwa groove",
+          "key_strike_at": 163.00
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 163.00,
+          "end_time": 173.00,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady rhythmic pulse",
+          "key_strike_at": 163.00
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 166.20,
+          "end_time": 167.80,
+          "role": "Emotional Accent",
+          "technique": "High poignant trill answering 'छोड़ गए'",
+          "key_strike_at": 166.40
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Return to core chorus refrain",
+        "percussion_groove": "Full Keherwa groove",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 163.05},
+          {"word": "अपना", "time": 163.90},
+          {"word": "बनाकर", "time": 164.90},
+          {"word": "छोड़", "time": 166.10},
+          {"word": "गए", "time": 166.80},
+          {"word": "आए", "time": 167.70},
+          {"word": "ना", "time": 168.40},
+          {"word": "सँवरिया", "time": 169.20},
+          {"word": "बेदरदी", "time": 171.00}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Unrelenting sorrow",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "166.40s पर बाँसुरी की तान के साथ राधा की चूड़ियाँ खनकें और परछाईं लंबी होती जाए",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_20",
+      "start_time": 173.00,
+      "end_time": 183.40,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 173.00,
+          "end_time": 183.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady groove with crisp bridge fill at 182.80s into Verse 3",
+          "key_strike_at": 182.80
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 173.00,
+          "end_time": 183.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Tight supporting pattern",
+          "key_strike_at": 173.00
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 173.00,
+          "end_time": 183.40,
+          "role": "Drone / Ambience",
+          "technique": "Full harmonic layer",
+          "key_strike_at": 173.00
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 173.00,
+          "end_time": 183.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Continuous shimmer",
+          "key_strike_at": 173.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Chorus repeat propelling straight into Verse 3 without instrumental gap",
+        "percussion_groove": "Full Keherwa groove with seamless transition fill at 182.80s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 173.05},
+          {"word": "अपना", "time": 173.90},
+          {"word": "बनाकर", "time": 174.90},
+          {"word": "छोड़", "time": 176.10},
+          {"word": "गए", "time": 176.80},
+          {"word": "आए", "time": 177.70},
+          {"word": "ना", "time": 178.40},
+          {"word": "सँवरिया", "time": 179.20},
+          {"word": "बेदरदी", "time": 181.00}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Darkening anguish foreshadowing the fire metaphor",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "182.80s की ढोलक थाप पर कागज़ की पृष्ठभूमि का रंग गहरा सिंदूरी से अंगारे जैसा लाल होने लगे",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_21",
+      "start_time": 183.40,
+      "end_time": 193.60,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 183.40,
+          "end_time": 193.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Sustained Keherwa pulse intensifying on the second repeat at 188.60s",
+          "key_strike_at": 188.60
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 183.40,
+          "end_time": 193.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Sharp percussive clarity under rapid lyric syllables",
+          "key_strike_at": 183.50
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 183.40,
+          "end_time": 193.60,
+          "role": "Drone / Ambience",
+          "technique": "Dark minor-tinged reed support",
+          "key_strike_at": 183.50
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 3 Part A ('लकड़ी जल कोयला भई, कोयला जल भई राख')",
+        "percussion_groove": "Unbroken driving Keherwa groove",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "लकड़ी जल कोयला भई, कोयला जल भई राख",
+        "hero_words": ["कोयला", "राख"],
+        "word_timestamps": [
+          {"word": "लकड़ी", "time": 183.50},
+          {"word": "जल", "time": 184.20},
+          {"word": "कोयला", "time": 184.90},
+          {"word": "भई", "time": 185.70},
+          {"word": "कोयला", "time": 186.40},
+          {"word": "जल", "time": 187.10},
+          {"word": "भई", "time": 187.60},
+          {"word": "राख", "time": 188.10},
+          {"word": "लकड़ी", "time": 188.60},
+          {"word": "जल", "time": 189.30},
+          {"word": "कोयला", "time": 190.00},
+          {"word": "भई", "time": 190.80},
+          {"word": "कोयला", "time": 191.50},
+          {"word": "जल", "time": 192.20},
+          {"word": "भई", "time": 192.70},
+          {"word": "राख", "time": 193.20}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Slow inner consumption by the fire of separation",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "188.60s की ढोलक थाप के साथ जलती चंदन की लकड़ी कोयले और फिर सफेद राख के कणों में बदलती हुई कागज़ पर उड़े",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_22",
+      "start_time": 193.60,
+      "end_time": 204.20,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 193.60,
+          "end_time": 203.70,
+          "role": "Rhythmic Pulse",
+          "technique": "Driving Keherwa beat cutting sharply at 203.70s",
+          "key_strike_at": 199.10
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 193.60,
+          "end_time": 203.70,
+          "role": "Rhythmic Pulse",
+          "technique": "Urgent rhythmic punctuation",
+          "key_strike_at": 193.80
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 199.00,
+          "end_time": 204.20,
+          "role": "Emotional Accent",
+          "technique": "Deep weeping bow-stroke echoing 'कोयला बनी ना राख'",
+          "key_strike_at": 203.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 3 Part B ('मैं पापिन ऐसी जली ना कोयला बनी ना राख')",
+        "percussion_groove": "Full Keherwa cutting out dramatically at 203.70s",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मैं पापिन ऐसी जली ना कोयला बनी ना राख",
+        "hero_words": ["ऐसी जली", "ना राख"],
+        "word_timestamps": [
+          {"word": "मैं", "time": 193.80},
+          {"word": "पापिन", "time": 194.30},
+          {"word": "ऐसी", "time": 195.10},
+          {"word": "जली", "time": 195.80},
+          {"word": "ना", "time": 196.40},
+          {"word": "कोयला", "time": 196.90},
+          {"word": "बनी", "time": 197.70},
+          {"word": "ना", "time": 198.20},
+          {"word": "राख", "time": 198.60},
+          {"word": "मैं", "time": 199.10},
+          {"word": "पापिन", "time": 199.60},
+          {"word": "ऐसी", "time": 200.40},
+          {"word": "जली", "time": 201.10},
+          {"word": "ना", "time": 201.70},
+          {"word": "कोयला", "time": 202.20},
+          {"word": "बनी", "time": 203.00},
+          {"word": "ना", "time": 203.50},
+          {"word": "राख", "time": 203.90}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Agony beyond ashes—unending torment of viraha",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "203.70s पर ताल रुकने और 203.80s पर सारंगी की कातर तान के साथ राधा के चारों ओर धुएँ की हल्की रेखाएँ थम जाएँ",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "stillness"
+      }
+    },
+    {
+      "segment_id": "seg_23",
+      "start_time": 204.20,
+      "end_time": 214.40,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 204.20,
+          "end_time": 214.40,
+          "role": "Drone / Ambience",
+          "technique": "Hollow eerie drone underneath emotional climax",
+          "key_strike_at": 204.20
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 204.20,
+          "end_time": 214.40,
+          "role": "Drone / Ambience",
+          "technique": "Soft sustaining chords",
+          "key_strike_at": 204.40
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 213.80,
+          "end_time": 214.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Sharp pickup roll into the full chorus surge",
+          "key_strike_at": 213.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Exposed solo refrain ('मुझे जलती चिता में छोड़ गए')",
+        "percussion_groove": "A-rhythmic emotional break ending with Dholak roll at 213.80s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे जलती चिता में छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["जलती चिता", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 204.40},
+          {"word": "जलती", "time": 205.30},
+          {"word": "चिता", "time": 206.40},
+          {"word": "में", "time": 207.10},
+          {"word": "छोड़", "time": 207.80},
+          {"word": "गए", "time": 208.60},
+          {"word": "आए", "time": 209.50},
+          {"word": "ना", "time": 210.20},
+          {"word": "सँवरिया", "time": 211.00},
+          {"word": "बेदरदी", "time": 212.80}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Haunting desolation",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "तानपूरे की गूँज में राधा की आँखों में जलती हुई लपटों का प्रतिबिंब उभरे; 213.80s पर ढोलक की थाप से चिंगारियाँ ऊपर उठें",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_24",
+      "start_time": 214.40,
+      "end_time": 224.60,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 214.40,
+          "end_time": 224.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Powerful Sam hit at 214.40s driving the emotional zenith",
+          "key_strike_at": 214.40
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 214.40,
+          "end_time": 224.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Full energetic Keherwa teka",
+          "key_strike_at": 214.40
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 214.40,
+          "end_time": 224.60,
+          "role": "Rhythmic Pulse",
+          "technique": "Bright resonant shimmer",
+          "key_strike_at": 214.40
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 222.70,
+          "end_time": 224.50,
+          "role": "Emotional Accent",
+          "technique": "Sorrowful sustained note trailing 'बेदरदी'",
+          "key_strike_at": 222.90
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Full chorus repetition of 'मुझे जलती चिता में छोड़ गए'",
+        "percussion_groove": "Full peak-energy Keherwa groove",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे जलती चिता में छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["जलती चिता", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 214.50},
+          {"word": "जलती", "time": 215.40},
+          {"word": "चिता", "time": 216.40},
+          {"word": "में", "time": 217.10},
+          {"word": "छोड़", "time": 217.80},
+          {"word": "गए", "time": 218.50},
+          {"word": "आए", "time": 219.40},
+          {"word": "ना", "time": 220.10},
+          {"word": "सँवरिया", "time": 220.90},
+          {"word": "बेदरदी", "time": 222.70}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Cathartic peak of grief",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "214.40s की सम पर नारंगी-लाल कागज़ की परतें गहराएँ; 222.90s पर बाँसुरी की तान के साथ रात के आसमान में तारे टिमटिमाने लगें",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_25",
+      "start_time": 224.60,
+      "end_time": 234.80,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 224.60,
+          "end_time": 234.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady Keherwa pulse leading directly into final verse",
+          "key_strike_at": 224.60
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 224.60,
+          "end_time": 234.80,
+          "role": "Rhythmic Pulse",
+          "technique": "Synchronized accompaniment",
+          "key_strike_at": 224.60
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 224.60,
+          "end_time": 234.80,
+          "role": "Drone / Ambience",
+          "technique": "Full chordal sustain",
+          "key_strike_at": 224.60
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 232.60,
+          "end_time": 234.80,
+          "role": "Emotional Accent",
+          "technique": "Transitioning string line setting up Baba Farid's couplet",
+          "key_strike_at": 233.00
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Return to primary chorus refrain",
+        "percussion_groove": "Full Keherwa groove bridging seamlessly into Verse 4",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 224.70},
+          {"word": "अपना", "time": 225.55},
+          {"word": "बनाकर", "time": 226.55},
+          {"word": "छोड़", "time": 227.75},
+          {"word": "गए", "time": 228.45},
+          {"word": "आए", "time": 229.35},
+          {"word": "ना", "time": 230.05},
+          {"word": "सँवरिया", "time": 230.85},
+          {"word": "बेदरदी", "time": 232.65}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Deepening night transitioning to mystical devotion",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "233.00s पर सारंगी की तान के साथ कदंब के पेड़ की डाल पर एक अकेला काला कौआ (कागा) आकर बैठे",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_26",
+      "start_time": 234.80,
+      "end_time": 245.20,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 234.80,
+          "end_time": 245.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Steady Keherwa groove building intensity on repeat at 240.10s",
+          "key_strike_at": 240.10
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 234.80,
+          "end_time": 245.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp rhythmic support",
+          "key_strike_at": 235.00
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 234.80,
+          "end_time": 245.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Subtle shimmering pulse",
+          "key_strike_at": 234.80
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 4 Part A ('कागा सब तन खाइयो चुन चुन खइयो मांस')",
+        "percussion_groove": "Unbroken Keherwa folk groove",
+        "energy_level": "rising"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "कागा सब तन खाइयो चुन चुन खइयो मांस",
+        "hero_words": ["कागा", "सब तन"],
+        "word_timestamps": [
+          {"word": "कागा", "time": 235.00},
+          {"word": "सब", "time": 235.70},
+          {"word": "तन", "time": 236.20},
+          {"word": "खाइयो", "time": 236.80},
+          {"word": "चुन", "time": 237.70},
+          {"word": "चुन", "time": 238.20},
+          {"word": "खइयो", "time": 238.70},
+          {"word": "मांस", "time": 239.40},
+          {"word": "कागा", "time": 240.10},
+          {"word": "सब", "time": 240.80},
+          {"word": "तन", "time": 241.30},
+          {"word": "खाइयो", "time": 241.90},
+          {"word": "चुन", "time": 242.80},
+          {"word": "चुन", "time": 243.30},
+          {"word": "खइयो", "time": 243.80},
+          {"word": "मांस", "time": 244.50}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Sufi-Bhakti total surrender of the physical self",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "240.10s की ढोलक थाप पर डाल पर बैठा कागा पंख फड़फड़ाए; राधा निडर होकर आकाश की ओर हाथ फैलाएँ",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_27",
+      "start_time": 245.20,
+      "end_time": 256.20,
+      "section_type": "Verse",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 245.20,
+          "end_time": 255.70,
+          "role": "Rhythmic Pulse",
+          "technique": "Full rhythmic drive dropping out abruptly at 255.70s",
+          "key_strike_at": 250.90
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 245.20,
+          "end_time": 255.70,
+          "role": "Rhythmic Pulse",
+          "technique": "Crisp rhythmic backing",
+          "key_strike_at": 245.30
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 255.20,
+          "end_time": 256.20,
+          "role": "Emotional Accent",
+          "technique": "Soft breathy transition into silence",
+          "key_strike_at": 255.50
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Verse 4 Part B ('दो नैना मत खाइयो मोहे पिया मिलन की आस')",
+        "percussion_groove": "Full Keherwa ending sharply at 255.70s for final intimate drop",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "दो नैना मत खाइयो मोहे पिया मिलन की आस",
+        "hero_words": ["दो नैना", "पिया मिलन", "आस"],
+        "word_timestamps": [
+          {"word": "दो", "time": 245.30},
+          {"word": "नैना", "time": 245.90},
+          {"word": "मत", "time": 246.70},
+          {"word": "खाइयो", "time": 247.30},
+          {"word": "मोहे", "time": 248.20},
+          {"word": "पिया", "time": 248.80},
+          {"word": "मिलन", "time": 249.40},
+          {"word": "की", "time": 250.00},
+          {"word": "आस", "time": 250.40},
+          {"word": "दो", "time": 250.90},
+          {"word": "नैना", "time": 251.50},
+          {"word": "मत", "time": 252.30},
+          {"word": "खाइयो", "time": 252.90},
+          {"word": "मोहे", "time": 253.80},
+          {"word": "पिया", "time": 254.40},
+          {"word": "मिलन", "time": 255.00},
+          {"word": "की", "time": 255.60},
+          {"word": "आस", "time": 256.00}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Unbroken hope of final reunion through the eyes",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "255.70s पर ताल बंद होते ही और बाँसुरी के कोमल स्वर पर कैमरा सीधे राधा की आशा भरी आँखों पर आकर ठहर जाए",
+        "framing_layout": "character_left_text_right",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_28",
+      "start_time": 256.20,
+      "end_time": 266.20,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Tanpura",
+          "start_time": 256.20,
+          "end_time": 266.20,
+          "role": "Drone / Ambience",
+          "technique": "Pure meditative drone cradling the final solo line",
+          "key_strike_at": 256.20
+        },
+        {
+          "instrument": "Harmonium",
+          "start_time": 256.20,
+          "end_time": 266.20,
+          "role": "Drone / Ambience",
+          "technique": "Gentle sustaining chords",
+          "key_strike_at": 256.30
+        },
+        {
+          "instrument": "Dholak",
+          "start_time": 265.60,
+          "end_time": 266.20,
+          "role": "Rhythmic Pulse",
+          "technique": "Final crisp pickup roll into grand finale chorus",
+          "key_strike_at": 265.60
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Exposed solo refrain ('मोसे नैना मिलाकर छोड़ गए')",
+        "percussion_groove": "Silent space culminating in Dholak roll at 265.60s",
+        "energy_level": "subtle"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मोसे नैना मिलाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["नैना मिलाकर", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मोसे", "time": 256.30},
+          {"word": "नैना", "time": 257.20},
+          {"word": "मिलाकर", "time": 258.30},
+          {"word": "छोड़", "time": 259.60},
+          {"word": "गए", "time": 260.40},
+          {"word": "आए", "time": 261.30},
+          {"word": "ना", "time": 262.00},
+          {"word": "सँवरिया", "time": 262.80},
+          {"word": "बेदरदी", "time": 264.60}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Piercing memory of eye contact before departure",
+        "character_focus": "Both",
+        "instrument_reactive_action": "तानपूरे की गूँज के बीच राधा की आँखों में कृष्ण से नैन मिलने की पुरानी झलक चमके; 265.60s की ढोलक रोल पर वह झलक आँसू बनकर गिरे",
+        "framing_layout": "centered",
+        "camera_motion": "slow_push_in_eyes"
+      }
+    },
+    {
+      "segment_id": "seg_29",
+      "start_time": 266.20,
+      "end_time": 276.40,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 266.20,
+          "end_time": 276.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Full Keherwa groove striking hard at 266.20s",
+          "key_strike_at": 266.20
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 266.20,
+          "end_time": 276.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Full interlocking rhythm",
+          "key_strike_at": 266.20
+        },
+        {
+          "instrument": "Ghungroo",
+          "start_time": 266.20,
+          "end_time": 276.40,
+          "role": "Rhythmic Pulse",
+          "technique": "Bright rhythmic shimmer",
+          "key_strike_at": 266.20
+        },
+        {
+          "instrument": "Sarangi",
+          "start_time": 274.50,
+          "end_time": 276.30,
+          "role": "Emotional Accent",
+          "technique": "Expressive sweeping glide bridging to the final outro",
+          "key_strike_at": 274.60
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Full chorus repetition of 'मोसे नैना मिलाकर छोड़ गए'",
+        "percussion_groove": "Full Keherwa rhythm",
+        "energy_level": "emotional_peak"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मोसे नैना मिलाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["नैना", "सँवरिया", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मोसे", "time": 266.30},
+          {"word": "नैना", "time": 267.20},
+          {"word": "मिलाकर", "time": 268.20},
+          {"word": "छोड़", "time": 269.50},
+          {"word": "गए", "time": 270.30},
+          {"word": "आए", "time": 271.20},
+          {"word": "ना", "time": 271.90},
+          {"word": "सँवरिया", "time": 272.70},
+          {"word": "बेदरदी", "time": 274.50}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Bittersweet grandeur of eternal waiting",
+        "character_focus": "Radha",
+        "instrument_reactive_action": "266.20s पर ढोलक की सम के साथ महल की खिड़की से चंद्रमा की चाँदनी भीतर आए; 274.60s पर सारंगी के स्वर के साथ कागज़ का फ़्रेम धीमे-धीमे पीछे हटे",
+        "framing_layout": "character_right_text_left",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    },
+    {
+      "segment_id": "seg_30",
+      "start_time": 276.40,
+      "end_time": 287.00,
+      "section_type": "Chorus",
+      "instruments_timeline": [
+        {
+          "instrument": "Dholak",
+          "start_time": 276.40,
+          "end_time": 284.50,
+          "role": "Rhythmic Pulse",
+          "technique": "Final Keherwa cycle resolving cleanly on Sam at 284.45s",
+          "key_strike_at": 284.45
+        },
+        {
+          "instrument": "Tabla",
+          "start_time": 276.40,
+          "end_time": 284.50,
+          "role": "Rhythmic Pulse",
+          "technique": "Final rhythmic cadence",
+          "key_strike_at": 284.45
+        },
+        {
+          "instrument": "Bansuri",
+          "start_time": 284.50,
+          "end_time": 286.80,
+          "role": "Lead Melody",
+          "technique": "Final solitary sorrowful sigh fading into dusk",
+          "key_strike_at": 284.60
+        },
+        {
+          "instrument": "Tanpura",
+          "start_time": 276.40,
+          "end_time": 287.00,
+          "role": "Drone / Ambience",
+          "technique": "Sustained harmonic fade-out into silence",
+          "key_strike_at": 286.50
+        }
+      ],
+      "musical_summary": {
+        "primary_lead": "Final closing refrain fading into solo Bansuri and Tanpura resonance",
+        "percussion_groove": "Keherwa resolving at 284.45s leaving resonant silence",
+        "energy_level": "peaceful_silence"
+      },
+      "lyrics": {
+        "has_vocals": true,
+        "line_hindi": "मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी",
+        "hero_words": ["अपना", "छोड़", "बेदरदी"],
+        "word_timestamps": [
+          {"word": "मुझे", "time": 276.50},
+          {"word": "अपना", "time": 277.35},
+          {"word": "बनाकर", "time": 278.35},
+          {"word": "छोड़", "time": 279.55},
+          {"word": "गए", "time": 280.25},
+          {"word": "आए", "time": 281.15},
+          {"word": "ना", "time": 281.85},
+          {"word": "सँवरिया", "time": 282.65},
+          {"word": "बेदरदी", "time": 284.45}
+        ]
+      },
+      "cinematic_visual_direction": {
+        "emotional_mood": "Peaceful melancholic closure in twilight stillness",
+        "character_focus": "Prop (Flute, Thread, Diya)",
+        "instrument_reactive_action": "284.45s पर अंतिम ढोलक सम के साथ जलता हुआ दिया बुझने के करीब आए; 284.60s पर बाँसुरी की आखिरी फूँक और तानपूरे के विलय के साथ राधा अकेली क्षितिज की ओर देखती हुई स्थिर चित्र बन जाएँ",
+        "framing_layout": "centered",
+        "camera_motion": "slow_pull_back_distance"
+      }
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+/* Handcrafted Khadi & Ink Devotional Lyric Film */
+
+:root {
+  --paper-bg: #efe3d1;
+  --paper-deep: #e2d1b8;
+  --ink: #261c14;
+  --ink-soft: #433326;
+  --ink-faint: rgba(38, 28, 20, 0.22);
+  --maroon: #7d1e1d;
+  --font-serif: 'Rozha One', 'Tiro Devanagari Hindi', serif;
+  --font-hindi: 'Kalam', 'Rozha One', 'Tiro Devanagari Hindi', cursive, serif;
+  --font-handwriting: 'Kalam', 'Rozha One', cursive, serif;
+}
+
+.stage-viewport {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #19130e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* 16:9 Manuscript Frame */
+.stage-frame {
+  position: relative;
+  width: 100%;
+  max-width: calc(100vh * (16 / 9));
+  height: calc(100vw * (9 / 16));
+  max-height: 100vh;
+  aspect-ratio: 16 / 9;
+  background-color: var(--paper-bg);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+/* Plates & Cutout Cast Layer */
+.plates-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.plate-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  will-change: transform, opacity, filter;
+}
+
+.plate-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  filter: sepia(0.12) contrast(1.04);
+}
+
+.plate-ground-mist {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 36%;
+  pointer-events: none;
+  z-index: 1;
+  background: linear-gradient(
+    to top,
+    rgba(232, 217, 195, 0.78) 0%,
+    rgba(239, 227, 209, 0.36) 48%,
+    rgba(239, 227, 209, 0) 100%
+  );
+}
+
+/* Cast Cutouts: Grounded ink absorption into handmade paper */
+.scene-cast-element {
+  position: absolute;
+  pointer-events: none;
+  display: block;
+  will-change: transform, opacity, filter;
+}
+
+.scene-cast-element img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: contrast(1.05) sepia(0.08) drop-shadow(0 12px 18px rgba(38, 24, 14, 0.16));
+}
+
+/* Track Overlays */
+.tracks-container-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.track-text-element {
+  position: absolute;
+  font-family: var(--font-hindi);
+  pointer-events: none;
+  white-space: pre-line;
+  mix-blend-mode: multiply;
+  will-change: transform, opacity, filter;
+}
+
+/* Typography Layer (Credits & Wet-Ink Lyrics) */
+.type-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* IMPORTANT: No CSS transition on opacity/transform here—driven cleanly at 60fps by RAF clock */
+.lyric-line-wrapper {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.34em;
+  font-family: var(--font-hindi);
+  font-size: clamp(1.35rem, 2.85vw, 2.55rem);
+  line-height: 1.48;
+  letter-spacing: 0.015em;
+  mix-blend-mode: multiply;
+  will-change: transform, opacity, filter;
+}
+
+.lyric-line-ghost {
+  pointer-events: none;
+}
+
+.anchor-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: center;
+  max-width: 78%;
+}
+
+.anchor-left {
+  left: 8.5%;
+  top: 44%;
+  transform: translateY(-50%);
+  max-width: 44%;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.anchor-right {
+  right: 8.5%;
+  top: 44%;
+  transform: translateY(-50%);
+  max-width: 44%;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.anchor-lower-left {
+  left: 8.5%;
+  bottom: 13%;
+  max-width: 48%;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.anchor-low-center {
+  left: 50%;
+  bottom: 13%;
+  transform: translateX(-50%);
+  text-align: center;
+  justify-content: center;
+  max-width: 78%;
+}
+
+.anchor-low {
+  left: 50%;
+  bottom: 8.5%;
+  transform: translateX(-50%);
+  text-align: center;
+  justify-content: center;
+  max-width: 82%;
+}
+
+/* Individual Devanagari Word Calligraphy */
+
+/* ─────────────────────────────────────────────────────────────
+   Individual Devanagari Word Calligraphy & Reveal Presets
+   ───────────────────────────────────────────────────────────── */
+
+.lyric-word-container {
+  display: inline-block;
+  position: relative;
+  vertical-align: baseline;
+  will-change: transform, opacity, filter;
+}
+
+.lyric-word-faint {
+  display: inline-block;
+  color: var(--ink-faint);
+  opacity: 0.28;
+  filter: blur(0.25px);
+  user-select: none;
+}
+
+.lyric-word-ink {
+  display: inline-block;
+  user-select: none;
+  text-shadow:
+    0 0 14px rgba(239, 227, 209, 0.92),
+    0 2px 24px rgba(239, 227, 209, 0.75);
+}
+
+/* Calligraphy Pen Nib & Wet Ink Flow Animation */
+.pen-nib-container {
+  will-change: transform, left, top;
+  pointer-events: none;
+}
+
+.pen-ink-contact-point {
+  pointer-events: none;
+}
+
+.lyric-word-container.current .lyric-word-ink {
+  /* Subtle fresh wet ink depth while actively being written */
+  filter: drop-shadow(0 0 1px rgba(125, 30, 29, 0.35));
+}
+
+.lyric-word-container .lyric-word-faint + .lyric-word-ink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.lyric-word-container.word-style-ink-draw {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+.lyric-word-container.word-style-single-word {
+  display: inline-block;
+  transform-origin: center center;
+  white-space: nowrap;
+}
+
+.lyric-word-container.word-style-single-word .lyric-word-ink {
+  position: relative !important;
+  display: inline-block !important;
+  white-space: nowrap;
+}
+
+.lyric-word-container.word-style-karaoke-highlight {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+.lyric-word-container.word-style-paint-brush {
+  display: inline-block;
+  transform-origin: left bottom;
+}
+
+.lyric-word-container.word-style-glow-pulse {
+  display: inline-block;
+  transform-origin: center center;
+}
+
+.lyric-word-container.word-style-typewriter {
+  display: inline-block;
+  transform-origin: left center;
+}
+
+.lyric-word-container.word-style-pop-bounce,
+.lyric-word-container.word-style-pop {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+.lyric-word-container.word-style-smoke-fade {
+  display: inline-block;
+  transform-origin: center center;
+}
+
+.lyric-word-container.word-style-stamp {
+  display: inline-block;
+  transform-origin: center center;
+}
+
+.lyric-word-container.word-style-wave-float {
+  display: inline-block;
+  transform-origin: center bottom;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Layer 3: Particle Atmospheric Canvas
+   ───────────────────────────────────────────────────────────── */
+
+.particle-canvas-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 4;
+}
+
+/* Atmospheric 5-Act Emotional Lighting & Volumetric Glow Layer */
+.atmospheric-lighting-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 4;
+  overflow: hidden;
+}
+
+.lighting-wash {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  will-change: opacity, transform;
+}
+
+.mood-dawn-sunbeams {
+  background:
+    radial-gradient(ellipse 75% 65% at 84% 14%, rgba(255, 214, 130, 0.42) 0%, rgba(242, 178, 84, 0.16) 45%, transparent 78%),
+    linear-gradient(125deg, transparent 20%, rgba(255, 226, 158, 0.22) 48%, transparent 72%);
+  mix-blend-mode: soft-light;
+}
+
+.mood-monsoon-mist {
+  background:
+    linear-gradient(180deg, rgba(64, 74, 82, 0.22) 0%, rgba(92, 84, 76, 0.08) 55%, rgba(56, 48, 42, 0.24) 100%),
+    radial-gradient(ellipse at 50% 0%, rgba(168, 178, 186, 0.22) 0%, transparent 70%);
+  mix-blend-mode: multiply;
+}
+
+.mood-sindoor-dusk {
+  background:
+    radial-gradient(ellipse 80% 55% at 50% 18%, rgba(196, 76, 52, 0.24) 0%, rgba(145, 48, 38, 0.10) 55%, transparent 85%),
+    linear-gradient(180deg, rgba(168, 68, 42, 0.12) 0%, transparent 50%, rgba(78, 28, 22, 0.22) 100%);
+  mix-blend-mode: multiply;
+}
+
+.mood-chita-fireglow {
+  background:
+    radial-gradient(ellipse 88% 52% at 50% 102%, rgba(255, 112, 34, 0.56) 0%, rgba(204, 46, 18, 0.28) 46%, transparent 82%),
+    radial-gradient(circle at 38% 94%, rgba(255, 186, 76, 0.38) 0%, transparent 45%);
+  mix-blend-mode: screen;
+}
+
+.mood-chita-char {
+  background: radial-gradient(ellipse at 50% 45%, transparent 44%, rgba(36, 12, 8, 0.46) 100%);
+  mix-blend-mode: multiply;
+}
+
+.mood-twilight-horizon {
+  background:
+    radial-gradient(ellipse 66% 58% at 50% 46%, rgba(255, 236, 205, 0.12) 0%, rgba(44, 30, 26, 0.38) 100%),
+    linear-gradient(180deg, rgba(42, 32, 38, 0.24) 0%, transparent 44%, rgba(34, 22, 18, 0.34) 100%);
+  mix-blend-mode: multiply;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Layer 4: Editorial Credits & Poetic Annotations
+   ───────────────────────────────────────────────────────────── */
+
+.credits-container-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.credit-item {
+  position: absolute;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  will-change: transform, opacity, filter;
+}
+
+.credit-presentation {
+  font-family: var(--font-hindi);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.credit-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.2vw, 3.6rem);
+  color: var(--ink);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.credit-subtitle {
+  font-family: var(--font-hindi);
+  font-size: clamp(0.9rem, 1.5vw, 1.35rem);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.credit-poet {
+  font-family: var(--font-hindi);
+  font-size: clamp(1rem, 1.8vw, 1.4rem);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: center;
+}
+
+.credit-poet span {
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  opacity: 0.7;
+}
+
+.credit-doha,
+.credit-shloka {
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.2vw, 1.85rem);
+  line-height: 1.6;
+  color: var(--ink);
+  text-align: center;
+}
+
+.doha-line,
+.shloka-line {
+  display: block;
+}
+
+.doha-subtext,
+.shloka-subtext {
+  margin-top: 0.5rem;
+  font-family: var(--font-hindi);
+  font-size: 0.8em;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Layer 5: Unified Khadi Parchment Texture & Deckle Vignette
+   ───────────────────────────────────────────────────────────── */
+
+.parchment-unifier-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.parchment-fiber-weave {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.65;
+  filter: url(#khadi-paper-grain);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.parchment-grain-sheet {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.06) 0%, rgba(67, 51, 38, 0.08) 100%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.parchment-edge-vignette {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 90px 30px rgba(67, 51, 38, 0.28), inset 0 0 30px 10px rgba(125, 30, 29, 0.12);
+  pointer-events: none;
+}
+
+/* Shot Vignette Overlay */
+.shot-vignette-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Manuscript Play Veil & Badges
+   ───────────────────────────────────────────────────────────── */
+
+.play-prompt-backdrop {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(239, 226, 208, 0.55);
+  backdrop-filter: blur(2px);
+  z-index: 20;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.play-prompt-button {
+  background: transparent;
+  border: 1.5px solid var(--ink);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 1.8vw, 1.5rem);
+  padding: 0.6rem 1.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.25s ease;
+}
+
+.play-prompt-button:hover {
+  background: var(--ink);
+  color: var(--paper-bg);
+}
+
+.play-prompt-sub {
+  margin-top: 0.6rem;
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  opacity: 0.75;
+}
+
+/* Floating Active Section Badge */
+.current-section-badge {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.6rem;
+  z-index: 25;
+  font-family: var(--font-hindi);
+  font-size: clamp(0.75rem, 1.1vw, 0.95rem);
+  letter-spacing: 0.08em;
+  color: var(--badge-color, var(--maroon));
+  background: rgba(239, 226, 208, 0.75);
+  backdrop-filter: blur(4px);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  border: 1px solid rgba(140, 47, 47, 0.25);
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(42, 33, 24, 0.06);
+  animation: sectionBadgeFade 0.5s ease;
+}
+
+@keyframes sectionBadgeFade {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Editorial Controls & Scrubber
+   ───────────────────────────────────────────────────────────── */
+
+.controls-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.2rem 1.6rem 0.8rem;
+  background: linear-gradient(to top, rgba(239, 226, 208, 0.95) 0%, rgba(239, 226, 208, 0.6) 60%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  z-index: 30;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  font-family: var(--font-hindi);
+  color: var(--ink);
+}
+
+.controls-bar.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+}
+
+.progress-track-wrapper {
+  position: relative;
+  width: 100%;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.progress-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: rgba(42, 33, 24, 0.15);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--maroon);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.progress-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+}
+
+.progress-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--maroon);
+  border: none;
+  cursor: pointer;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.controls-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.control-btn {
+  background: none;
+  border: 1px solid rgba(42, 33, 24, 0.3);
+  border-radius: 4px;
+  color: var(--ink);
+  font-family: var(--font-hindi);
+  font-size: 0.9rem;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover {
+  border-color: var(--maroon);
+  color: var(--maroon);
+}
+
+.time-display {
+  font-family: var(--font-hindi);
+  font-size: 0.95rem;
+  color: var(--ink);
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.time-sep {
+  margin: 0 0.25rem;
+  color: var(--ink-faint);
+}
+
+/* Interactive Section Markers */
+.section-markers-track {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  pointer-events: none;
+  display: flex;
+}
+
+.section-segment {
+  position: absolute;
+  height: 100%;
+  pointer-events: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.section-dot {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--sec-color, var(--maroon));
+  opacity: 0.7;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.section-segment:hover .section-dot,
+.section-segment.active .section-dot {
+  transform: translateY(-50%) scale(1.6);
+  opacity: 1;
+}
+
+.section-label-chip {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  transform: translateX(-30%);
+  font-family: var(--font-hindi);
+  font-size: 0.68rem;
+  background: rgba(42, 33, 24, 0.85);
+  color: var(--paper-bg);
+  padding: 1px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.section-segment:hover .section-label-chip {
+  opacity: 1;
+  transform: translateX(-30%) translateY(-2px);
+}
+
+/* Export Mode Overrides */
+.stage-viewport.export-mode {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: var(--paper-bg) !important;
+}
+
+.stage-viewport.export-mode .stage-frame {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: none !important;
+  max-height: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.stage-viewport.export-mode .controls-bar,
+.stage-viewport.export-mode .play-prompt-backdrop,
+.stage-viewport.export-mode .current-section-badge {
+  display: none !important;
+}
