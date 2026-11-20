@@ -112,7 +112,7 @@ export const shotLayers = {
           id: 'radha_flute_heart_intro',
           src: '/assets/paper/cast_radha/radha_005_holding_flute_to_heart.png',
           start: 13.90,
-          end: 18.00,
+          end: 14.999,
           enter: { type: 'smoke-dissolve', duration: 0.6 },
           exit: { type: 'smoke-evaporate', duration: 0.4 },
           living: { type: 'sway', amp: 1.2, period: 4.2 },
@@ -128,401 +128,95 @@ export const shotLayers = {
   ],
 
     // ==========================================
-  // Chorus 1 (15.00–25.40): Krishna only, right side.
-  // A new pose is fully in on each beat. The next layer starts 0.35s early
-  // so the smoke crossfade completes on that beat.
-  s06_chorus_journey: [
-       
-        {
-          id: 'k1_flute_still',
-          src: '/assets/paper/cast_krishna/krishna_008_forming_heart_symbol_f.png',
-          start: 15.00,
-          end: 17.58,
-          enter: { type: 'smoke-dissolve', duration: 0.5 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.0, period: 4.2 },
-          position: { bottom: '0%', right: '3%', width: '42%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.04, yStart: 2, yEnd: -2 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'k2_walk_profile',
-          src: '/assets/paper/cast_krishna/krishna_086_walking_with_flute.png',
-          start: 17.23,
-          end: 20.11,
-          enter: { type: 'smoke-dissolve', duration: 0.35 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 0.8, period: 4.0 },
-          position: { bottom: '0%', right: '3%', width: '42%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.03, xStart: 10, xEnd: -6 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'k3_walking_away',
-          src: '/assets/paper/cast_krishna/krishna_055_walking_away_on_paper.png',
-          start: 19.76,
-          end: 21.97,
-          enter: { type: 'smoke-dissolve', duration: 0.35 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 0.7, period: 4.4 },
-          position: { bottom: '0%', right: '1%', width: '48%' },
-          motion: { scaleStart: 1.02, scaleEnd: 0.98, xStart: -4, xEnd: 14 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'k4_looking_back',
-          src: '/assets/paper/cast_krishna/krishna_042_looking_back_with_sorrow.png',
-          start: 21.62,
-          end: 23.80,
-          enter: { type: 'smoke-dissolve', duration: 0.35 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 0.9, period: 4.0 },
-          position: { bottom: '0%', right: '2%', width: '44%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.03, xStart: 6, xEnd: -4 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'k5_wind_leaving',
-          src: '/assets/paper/cast_krishna/krishna_075_silhouette_in_wind.png',
-          start: 23.45,
-          end: 25.40,
-          enter: { type: 'smoke-dissolve', duration: 0.35 },
-          exit: { type: 'smoke-evaporate', duration: 0.5 },
-          living: { type: 'breeze', intensity: 0.8 },
-          position: { bottom: '0%', right: '8%', width: '42%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.03, xStart: 0, xEnd: 10 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-  ],
+  // मुझे अपना बनाकर — lyric on top, figure left
+  s06_chorus_journey: beatCuts([
+    ['s06_01', '/assets/paper/cast_radha/radha_007_listening_for_flute_melody.png', 15, 15.719], // मुझे
+    ['s06_02', '/assets/paper/cast_radha/radha_032_reaching_outward_in_longing.png', 15.72, 16.346], // मुझे
+    ['s06_03', '/assets/paper/cast_radha/radha_071_pulling_red_veil.png', 16.347, 16.95], // अपना
+    ['s06_04', '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png', 16.951, 17.577], // बनाकर
+    ['s06_05', '/assets/paper/cast_radha/radha_012_hands_holding_red_thread.png', 17.578, 18.18], // बनाकर
+    ['s06_06', '/assets/paper/cast_krishna/krishna_081_standing_with_bansuri.png', 18.181, 18.807], // बनाकर
+    ['s06_07', '/assets/paper/cast_krishna/krishna_055_walking_away_on_paper.png', 18.808, 19.457], // छोड़
+    ['s06_08', '/assets/paper/cast_krishna/krishna_075_silhouette_in_wind.png', 19.458, 20.107], // गए
+    ['s06_09', '/assets/paper/cast_radha/radha_027_peeking_from_marble_archway.png', 20.108, 20.758], // आए
+    ['s06_10', '/assets/paper/cast_radha/radha_084_standing_in_shock.png', 20.759, 21.338], // ना
+    ['s06_11', '/assets/paper/cast_radha/radha_086_standing_with_crossed_arms.png', 21.339, 21.965], // ना
+    ['s06_12', '/assets/paper/cast_krishna/krishna_090_playing_flute.png', 21.966, 22.569], // सँवरिया
+    ['s06_13', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 22.57, 23.173], // सँवरिया
+    ['s06_14', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 23.174, 23.799], // सँवरिया
+    ['s06_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 23.8, 24.403], // बेदरदी
+    ['s06_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 24.404, 25.007], // बेदरदी
+    ['s06_17', '/assets/paper/cast_krishna/krishna_076_sitting_in_sorrow.png', 25.008, 25.399], // बेदरदी
+  ], SLOT_LEFT),
 
-    // ==========================================
-    // SHOT 07 (seg_04): 25.40s - 35.30s (Chorus Cycle 2 - Sam Strike)
-    // ==========================================
-  s07_chorus_cycle2: [
-        {
-          id: 'c2_radha_veil_pull',
-          src: '/assets/paper/cast_radha/radha_071_pulling_red_veil.png',
-          start: 25.40,
-          end: 28.50,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.4, period: 4.2 },
-          position: { bottom: '6%', left: '1%', width: '42%' },
-          motion: { scaleStart: 1.06, scaleEnd: 1.11, yStart: 3, yEnd: -3 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c2_krishna_flute_memory',
-          src: '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png',
-          start: 25.40,
-          end: 28.50,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.2, period: 4.0 },
-          position: { top: '8%', left: '32%', width: '34%' },
-          motion: { scaleStart: 0.99, scaleEnd: 1.05, yStart: -2, yEnd: 2 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c2_radha_stepping_back',
-          src: '/assets/paper/cast_radha/radha_088_stepping_backwards_looking.png',
-          start: 28.50,
-          end: 31.60,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.2, period: 3.6 },
-          position: { bottom: '3%', left: '-3%', width: '42%' },
-          keyframes: [
-            { at: 0.0, x: 10, y: 0, scale: 1.12 },
-            { at: 0.45, x: -6, y: 2, scale: 1.08 },
-            { at: 1.0, x: -12, y: 4, scale: 1.05 },
-          ],
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c2_krishna_silhouette_leaving',
-          src: '/assets/paper/cast_krishna/krishna_017_running_in_dynamic_pose.png',
-          start: 28.50,
-          end: 31.60,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          position: { bottom: '15%', left: '30%', width: '34%' },
-          keyframes: [
-            { at: 0.0, x: 0, y: 0, scale: 1.25 },
-            { at: 0.5, x: -45, y: -12, scale: 1.0 },
-            { at: 1.0, x: -110, y: -30, scale: 0.76 },
-          ],
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c2_radha_peeking_waiting',
-          src: '/assets/paper/cast_radha/radha_027_peeking_from_marble_archway.png',
-          start: 31.60,
-          end: 33.40,
-          enter: { type: 'smoke-dissolve', duration: 0.40 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.2, period: 4.0 },
-          position: { bottom: '0%', left: '0', width: '44%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.05, xStart: -3, xEnd: 3 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c2_krishna_distant_walk',
-          src: '/assets/paper/cast_krishna/krishna_055_walking_away_on_paper.png',
-          start: 31.60,
-          end: 33.40,
-          enter: { type: 'smoke-dissolve', duration: 0.40 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          position: { bottom: '14%', left: '25%', width: '32%' },
-          motion: { scaleStart: 1.25, scaleEnd: 1.3, xStart: 0, xEnd: -20 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c2_radha_grief_midriff',
-          src: '/assets/paper/cast_radha/radha_076_sitting_hugging_midriff.png',
-          start: 33.40,
-          end: 35.30,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 0.9, period: 3.4 },
-          position: { bottom: '2%', left: '3%', width: '42%' },
-          keyframes: [
-            { at: 0.0, x: 0, y: -3, scale: 1.04 },
-            { at: 1.0, x: 0, y: 4, scale: 1.09 },
-          ],
-          blend: 'normal',
-          zIndex: 4,
-        },
-        {
-          id: 'c2_krishna_sorrow_memory',
-          src: '/assets/paper/cast_krishna/krishna_042_looking_back_with_sorrow.png',
-          start: 33.40,
-          end: 35.30,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.0, period: 3.6 },
-          position: { bottom: '10%', left: '28%', width: '36%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.05, yStart: 2, yEnd: -2 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-  ],
+  // मुझे अपना बनाकर — lyric on top, figure left
+  s07_chorus_cycle2: beatCuts([
+    ['s07_01', '/assets/paper/cast_radha/radha_072_resting_chin_on_hand.png', 25.4, 26.191], // मुझे
+    ['s07_02', '/assets/paper/cast_radha/radha_092_tying_red_thread_on.png', 26.192, 26.818], // अपना
+    ['s07_03', '/assets/paper/cast_radha/radha_010_standing_in_quiet_dignity.png', 26.819, 27.445], // अपना
+    ['s07_04', '/assets/paper/cast_radha/radha_045_stringing_flowers_into_gar.png', 27.446, 28.049], // बनाकर
+    ['s07_05', '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png', 28.05, 28.676], // बनाकर
+    ['s07_06', '/assets/paper/cast_krishna/krishna_042_looking_back_with_sorrow.png', 28.677, 29.279], // छोड़
+    ['s07_07', '/assets/paper/cast_krishna/krishna_054_turning_into_wind.png', 29.28, 29.906], // गए
+    ['s07_08', '/assets/paper/cast_radha/radha_020_radha_gazing_at_full_moon.png', 29.907, 30.533], // आए
+    ['s07_09', '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png', 30.534, 31.16], // ना
+    ['s07_10', '/assets/paper/cast_radha/radha_093_walking_forward_hesitantly.png', 31.161, 31.764], // ना
+    ['s07_11', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 31.765, 32.391], // सँवरिया
+    ['s07_12', '/assets/paper/cast_krishna/krishna_090_playing_flute.png', 32.392, 33.018], // सँवरिया
+    ['s07_13', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 33.019, 33.621], // सँवरिया
+    ['s07_14', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 33.622, 34.248], // बेदरदी
+    ['s07_15', '/assets/paper/cast_radha/radha_004_curled_figure_hiding_grief.png', 34.249, 34.852], // बेदरदी
+    ['s07_16', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 34.853, 35.299], // बेदरदी
+  ], SLOT_LEFT),
 
-    // ==========================================
-    // SHOT 08 (seg_05): 35.30s - 45.20s (Chorus Cycle 3 - Echoing Accusation | Lyric lower-left)
-    // ==========================================
-  s08_chorus_cycle3: [
-        {
-          id: 'c3_radha_prayer',
-          src: '/assets/paper/cast_radha/radha_070_praying_with_clasped_hands.png',
-          start: 35.30,
-          end: 40.00,
-          brightness: 1.05,
-          contrast: 1.15,
-          opacity: 1.0,
-          enter: { type: 'smoke-dissolve', duration: 0.5 },
-          exit: { type: 'smoke-evaporate', duration: 0.4 },
-          living: { type: 'sway', amp: 1.2, period: 3.8 },
-          position: { bottom: '22%', right: '0%', width: '45%' },
-          motion: { scaleStart: 0.9, scaleEnd: 0.95, yStart: 2, yEnd: -2 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c3_krishna_mist_walk',
-          src: '/assets/paper/cast_krishna/krishna_057_walking_through_river_mist.png',
-          start: 35.30,
-          end: 40.00,
-          enter: { type: 'smoke-dissolve', duration: 0.55 },
-          exit: { type: 'smoke-evaporate', duration: 0.45 },
-          position: { top: '8%', left: '8%', width: '31%' },
-          motion: { scaleStart: 1.02, scaleEnd: 0.88, xStart: 0, xEnd: -18 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c3_radha_kneeling',
-          src: '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png',
-          start: 40.00,
-          end: 45.20,
-          enter: { type: 'smoke-dissolve', duration: 0.5 },
-          exit: { type: 'smoke-evaporate', duration: 0.45 },
-          living: { type: 'yearning', intensity: 1.0 },
-          position: { bottom: '2%', right: '5%', width: '46%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.05, yStart: 2, yEnd: -2 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c3_krishna_silhouette',
-          src: '/assets/paper/cast_krishna/krishna_020_silhouette_looking_ove.png',
-          start: 40.00,
-          end: 45.20,
-          brightness: 0.92,
-          contrast: 1.15,
-          opacity: 1.0,
-          enter: { type: 'smoke-dissolve', duration: 0.5 },
-          exit: { type: 'smoke-evaporate', duration: 0.45 },
-          position: { top: '30%', left: '20%', width: '28%' },
-          motion: { scaleStart: 1.96, scaleEnd: 1.8, xStart: 0, xEnd: -16 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-  ],
+  // मुझे अपना बनाकर — lyric on the left, figure right
+  s08_chorus_cycle3: beatCuts([
+    ['s08_01', '/assets/paper/cast_radha/radha_030_radha_portrait_with_tear_falling.png', 35.3, 36.083], // मुझे
+    ['s08_02', '/assets/paper/cast_radha/radha_071_pulling_red_veil.png', 36.084, 36.71], // अपना
+    ['s08_03', '/assets/paper/cast_radha/radha_092_tying_red_thread_on.png', 36.711, 37.313], // अपना
+    ['s08_04', '/assets/paper/cast_radha/radha_012_hands_holding_red_thread.png', 37.314, 37.94], // बनाकर
+    ['s08_05', '/assets/paper/cast_krishna/krishna_081_standing_with_bansuri.png', 37.941, 38.544], // बनाकर
+    ['s08_06', '/assets/paper/cast_krishna/krishna_026_turning_away_with_flute.png', 38.545, 39.171], // छोड़
+    ['s08_07', '/assets/paper/cast_krishna/krishna_086_walking_with_flute.png', 39.172, 39.798], // गए
+    ['s08_08', '/assets/paper/cast_radha/radha_028_pointing_into_distance.png', 39.799, 40.425], // आए
+    ['s08_09', '/assets/paper/cast_radha/radha_084_standing_in_shock.png', 40.426, 41.029], // ना
+    ['s08_10', '/assets/paper/cast_radha/radha_086_standing_with_crossed_arms.png', 41.03, 41.656], // ना
+    ['s08_11', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 41.657, 42.259], // सँवरिया
+    ['s08_12', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 42.26, 42.886], // सँवरिया
+    ['s08_13', '/assets/paper/cast_krishna/krishna_090_playing_flute.png', 42.887, 43.513], // सँवरिया
+    ['s08_14', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 43.514, 44.14], // बेदरदी
+    ['s08_15', '/assets/paper/cast_krishna/krishna_076_sitting_in_sorrow.png', 44.141, 44.744], // बेदरदी
+    ['s08_16', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 44.745, 45.199], // बेदरदी
+  ], SLOT_RIGHT),
 
-    // ==========================================
-    // SHOT 09 (seg_06): 45.20s - 55.10s (Chorus Cycle 4 - Helpless Surrender)
-    // ==========================================
-  s09_chorus_cycle4: [
-        {
-          id: 'fg_dropped_bansuri',
-          src: '/assets/paper/ref_bansuri_peacock_feather.png',
-          role: 'foreground',
-          start: 45.20,
-          end: 55.10,
-          opacity: 0.58,
-          position: { bottom: '-3%', left: '-2%', width: '26%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.06, xStart: -3, xEnd: 5 },
-          zIndex: 5,
-        },
-        {
-          id: 'c4_krishna_wind',
-          src: '/assets/paper/cast_krishna/krishna_084_walking_along_river_edge.png',
-          start: 45.20,
-          end: 50.00,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          position: { bottom: '14%', left: '9%', width: '34%' },
-          motion: { scaleStart: 1.02, scaleEnd: 0.86, xStart: 0, xEnd: -15 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c4_radha_archway',
-          src: '/assets/paper/cast_radha/radha_025_leaning_against_tree.png',
-          start: 45.20,
-          end: 50.00,
-          brightness: 1.05,
-          contrast: 1.15,
-          opacity: 1.0,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.2, period: 3.8 },
-          position: { bottom: '0%', right: '18%', width: '44%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.05, xStart: -2, xEnd: 2 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-        {
-          id: 'c4_krishna_crying',
-          src: '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png',
-          start: 50.00,
-          end: 55.10,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 1.0, period: 3.6 },
-          position: { bottom: '20%', left: '8%', width: '38%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.04, yStart: 2, yEnd: -2 },
-          blend: 'normal',
-          zIndex: 2,
-        },
-        {
-          id: 'c4_radha_curled',
-          src: '/assets/paper/cast_radha/radha_004_curled_figure_hiding_grief.png',
-          start: 50.00,
-          end: 55.10,
-          enter: { type: 'smoke-dissolve', duration: 0.45 },
-          exit: { type: 'smoke-evaporate', duration: 0.35 },
-          living: { type: 'sway', amp: 0.8, period: 3.2 },
-          position: { bottom: '12%', right: '8%', width: '42%' },
-          motion: { scaleStart: 1.0, scaleEnd: 1.05, yStart: -2, yEnd: 2 },
-          blend: 'normal',
-          zIndex: 3,
-        },
-  ],
+  // मुझे अपना बनाकर — lyric on top, figure left
+  s09_chorus_cycle4: beatCuts([
+    ['s09_01', '/assets/paper/cast_radha/radha_007_listening_for_flute_melody.png', 45.2, 45.975], // मुझे
+    ['s09_02', '/assets/paper/cast_radha/radha_010_standing_in_quiet_dignity.png', 45.976, 46.601], // अपना
+    ['s09_03', '/assets/paper/cast_radha/radha_071_pulling_red_veil.png', 46.602, 47.228], // अपना
+    ['s09_04', '/assets/paper/cast_radha/radha_045_stringing_flowers_into_gar.png', 47.229, 47.832], // बनाकर
+    ['s09_05', '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png', 47.833, 48.459], // बनाकर
+    ['s09_06', '/assets/paper/cast_radha/radha_088_stepping_backwards_looking.png', 48.46, 49.086], // छोड़
+    ['s09_07', '/assets/paper/cast_krishna/krishna_075_silhouette_in_wind.png', 49.087, 49.69], // गए
+    ['s09_08', '/assets/paper/cast_radha/radha_027_peeking_from_marble_archway.png', 49.691, 50.317], // आए
+    ['s09_09', '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png', 50.318, 50.944], // ना
+    ['s09_10', '/assets/paper/cast_radha/radha_093_walking_forward_hesitantly.png', 50.945, 51.547], // ना
+    ['s09_11', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 51.548, 52.174], // सँवरिया
+    ['s09_12', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 52.175, 52.801], // सँवरिया
+    ['s09_13', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 52.802, 53.405], // सँवरिया
+    ['s09_14', '/assets/paper/cast_radha/radha_004_curled_figure_hiding_grief.png', 53.406, 54.032], // बेदरदी
+    ['s09_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 54.033, 54.636], // बेदरदी
+    ['s09_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 54.637, 55.099], // बेदरदी
+  ], SLOT_LEFT),
 
-    // ==========================================
-    // SHOT 10 (seg_07): 55.10s - 58.20s (Interlude 1 - Diya & Kadamba)
-    // ==========================================
-  // SHOT 10 (seg_07): 55.10s - 58.20s (Interlude 1 - Diya & Kadamba)
-  // ==========================================
-  s10_interlude_diya: [
-    {
-      id: 'int1_kadamba',
-      src: '/assets/paper/ref_ancient_kadamba_blossoms.png',
-      start: 55.10,
-      end: 58.20,
-      opacity: 0.95,
-      contrast: 1.15,
-      brightness: 1.02,
-      enter: { type: 'smoke-dissolve', duration: 0.5 },
-      exit: { type: 'smoke-evaporate', duration: 0.45 },
-      living: { type: 'breeze', intensity: 1.0 },
-      position: { top: '6%', left: '14%', width: '38%' },
-      motion: { scaleStart: 0.99, scaleEnd: 1.04, yStart: -2, yEnd: 2 },
-      blend: 'normal',
-      zIndex: 2,
-    },
-    {
-      id: 'int1_diya',
-      src: '/assets/paper/ref_clay_diya_flickering.png',
-      start: 55.10,
-      end: 58.20,
-      opacity: 1.0,
-      contrast: 1.18,
-      brightness: 1.06,
-      enter: { type: 'ink-bleed', duration: 0.5 },
-      exit: { type: 'smoke-evaporate', duration: 0.45 },
-      living: { type: 'diya', intensity: 1.2 },
-      position: { bottom: '10%', right: '22%', width: '36%' },
-      motion: { scaleStart: 1.0, scaleEnd: 1.06, yStart: 2, yEnd: -2 },
-      blend: 'normal',
-      zIndex: 3,
-    },
-    {
-      id: 'int1_radha_sorrow',
-      src: '/assets/paper/cast_radha/radha_001_holding_songbird_whisp.png',
-      start: 55.10,
-      end: 58.20,
-      opacity: 1.0,
-      contrast: 1.15,
-      brightness: 1.02,
-      enter: { type: 'smoke-dissolve', duration: 0.5 },
-      exit: { type: 'smoke-evaporate', duration: 0.45 },
-      living: { type: 'sway', amp: 1.0, period: 3.6 },
-      position: { top: '0%', right: '0%', width: '44%' },
-      motion: { scaleStart: 1.0, scaleEnd: 1.04, yStart: 2, yEnd: -2 },
-      blend: 'normal',
-      zIndex: 4,
-    },
-    {
-      id: 'int1_krishna_sorrow',
-      src: '/assets/paper/cast_krishna/krishna_041_jumping_joyfully_mid_air.png',
-      start: 55.10,
-      end: 58.20,
-      opacity: 1.0,
-      contrast: 1.15,
-      brightness: 0.95,
-      enter: { type: 'smoke-dissolve', duration: 0.5 },
-      exit: { type: 'smoke-evaporate', duration: 0.45 },
-      living: { type: 'sway', amp: 1.0, period: 3.8 },
-      position: { top: '8%', left: '0%', width: '32%' },
-      motion: { scaleStart: 1.02, scaleEnd: 1.06, yStart: 2, yEnd: -2 },
-      blend: 'normal',
-      zIndex: 3,
-    }
-  ],
+  // अंतराल — one quiet pose, no lyric
+  s10_interlude_diya: beatCuts([
+    ['s10_01', '/assets/paper/cast_radha/radha_021_radha_holding_earthen_diya_lamp.png', 55.1, 55.866],
+    ['s10_02', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 55.867, 56.493],
+    ['s10_03', '/assets/paper/cast_radha/radha_020_radha_gazing_at_full_moon.png', 56.494, 57.12],
+    ['s10_04', '/assets/paper/cast_krishna/krishna_088_leaning_against_tree.png', 57.121, 57.724],
+    ['s10_05', '/assets/paper/cast_radha/radha_075_sitting_alone_on_swing.png', 57.725, 58.199],
+  ], SLOT_LEFT),
 
   // ==========================================
   // SHOT 11 (seg_08): 58.20s - 68.00s (Verse 1 - प्रीत करे दुख होए | Lyric lower-left)
