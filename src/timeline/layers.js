@@ -147,7 +147,7 @@ export const shotLayers = {
     ['s06_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 23.8, 24.403], // बेदरदी
     ['s06_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 24.404, 25.007], // बेदरदी
     ['s06_17', '/assets/paper/cast_krishna/krishna_076_sitting_in_sorrow.png', 25.008, 25.399], // बेदरदी
-  ], SLOT_LEFT),
+  ], SLOT_RIGHT),
 
   // मुझे अपना बनाकर — lyric on top, figure left
   s07_chorus_cycle2: beatCuts([
