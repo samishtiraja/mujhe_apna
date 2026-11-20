@@ -134,15 +134,15 @@ export const shotLayers = {
     ['s06_02', '/assets/paper/cast_radha/radha_032_reaching_outward_in_longing.png', 15.72, 16.346], // मुझे
     ['s06_03', '/assets/paper/cast_radha/radha_071_pulling_red_veil.png', 16.347, 16.95], // अपना
     ['s06_04', '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png', 16.951, 17.577], // बनाकर
-    ['s06_05', '/assets/paper/cast_radha/radha_012_hands_holding_red_thread.png', 17.578, 18.18], // बनाकर
+    ['s06_05', '/assets/paper/cast_radha/radha_011_walking_parting_river_reeds.png', 17.578, 18.18], // बनाकर
     ['s06_06', '/assets/paper/cast_krishna/krishna_081_standing_with_bansuri.png', 18.181, 18.807], // बनाकर
     ['s06_07', '/assets/paper/cast_krishna/krishna_055_walking_away_on_paper.png', 18.808, 19.457], // छोड़
     ['s06_08', '/assets/paper/cast_krishna/krishna_075_silhouette_in_wind.png', 19.458, 20.107], // गए
     ['s06_09', '/assets/paper/cast_radha/radha_027_peeking_from_marble_archway.png', 20.108, 20.758], // आए
-    ['s06_10', '/assets/paper/cast_radha/radha_084_standing_in_shock.png', 20.759, 21.338], // ना
+    ['s06_10', '/assets/paper/cast_radha/radha_083_standing_by_river.png', 20.759, 21.338], // ना
     ['s06_11', '/assets/paper/cast_radha/radha_086_standing_with_crossed_arms.png', 21.339, 21.965], // ना
     ['s06_12', '/assets/paper/cast_krishna/krishna_090_playing_flute.png', 21.966, 22.569], // सँवरिया
-    ['s06_13', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 22.57, 23.173], // सँवरिया
+    ['s06_13', '/assets/paper/cast_krishna/krishna_040_holding_pink_lotus_flower.png', 22.57, 23.173], // सँवरिया
     ['s06_14', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 23.174, 23.799], // सँवरिया
     ['s06_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 23.8, 24.403], // बेदरदी
     ['s06_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 24.404, 25.007], // बेदरदी
@@ -163,7 +163,7 @@ export const shotLayers = {
     ['s07_10', '/assets/paper/cast_radha/radha_093_walking_forward_hesitantly.png', 31.161, 31.764], // ना
     ['s07_11', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 31.765, 32.391], // सँवरिया
     ['s07_12', '/assets/paper/cast_krishna/krishna_090_playing_flute.png', 32.392, 33.018], // सँवरिया
-    ['s07_13', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 33.019, 33.621], // सँवरिया
+    ['s07_13', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 33.019, 33.621], // सँवरिया
     ['s07_14', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 33.622, 34.248], // बेदरदी
     ['s07_15', '/assets/paper/cast_radha/radha_004_curled_figure_hiding_grief.png', 34.249, 34.852], // बेदरदी
     ['s07_16', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 34.853, 35.299], // बेदरदी
@@ -187,7 +187,7 @@ export const shotLayers = {
     ['s08_14', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 43.514, 44.14], // बेदरदी
     ['s08_15', '/assets/paper/cast_krishna/krishna_076_sitting_in_sorrow.png', 44.141, 44.744], // बेदरदी
     ['s08_16', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 44.745, 45.199], // बेदरदी
-  ], SLOT_RIGHT),
+  ], {top: '-2%', left: '2%', width: '34%'}),
 
   // मुझे अपना बनाकर — lyric on top, figure left
   s09_chorus_cycle4: beatCuts([

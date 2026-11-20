@@ -163,9 +163,9 @@ export const shotBackgrounds = [
     id: 's08_chorus_cycle3',
     start: 35.30,
     end: 45.20,
-    file: 'plate_07b_flowing_yamuna.png',
-    src: '/assets/paper/plate_07b_flowing_yamuna.png',
-    bgOpacity: 0.48,
+    file: 'plate_05c_viraha_trio.png',
+    src: '/assets/paper/plate_05c_viraha_trio.png',
+    bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'parchment-drift', duration: 0.85 },
     effects: {
