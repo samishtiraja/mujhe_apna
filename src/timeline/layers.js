@@ -353,8 +353,10 @@ export const shotLayers = {
       blend: 'normal',
       zIndex: 4,
     },
-    // अंतरा १ दोहराव — जो मैं ऐसो जानती. Beat cut, one figure, no overlap. Swap src to change the pose.
-    ...beatCuts([
+  ],
+
+  // अंतरा १ दोहराव — जो मैं ऐसो जानती (63.00s - 68.00s)
+  s11_verse1_preet_dukh_2: beatCuts([
     ['s11b_01', '/assets/paper/cast_radha/Woman_looking_downward_silently_69d16308.png', 63, 63.389], // जो
     ['s11b_02', '/assets/paper/cast_radha/radha_010_standing_in_quiet_dignity.png', 63.39, 64.04], // मैं
     ['s11b_03', '/assets/paper/cast_radha/radha_030_portrait_with_tear_falling.png', 64.041, 64.667], // ऐसो
@@ -364,8 +366,7 @@ export const shotLayers = {
     ['s11b_07', '/assets/paper/cast_radha/Figure_touching_forearm_in_grief_de00a3c1.png', 66.572, 67.198], // दुख
     ['s11b_08', '/assets/paper/cast_radha/Young_woman_covering_eyes_waterc…_eddf034d.png', 67.199, 67.824], // होए
     ['s11b_09', '/assets/paper/cast_radha/Woman_crying_with_lifted_hand_45127963.png', 67.825, 67.999], // होए
-    ], { bottom: '1%', right: '-8%', width: '60%'}),
-  ],
+  ], { bottom: '1%', right: '-8%', width: '60%'}),
 
   // नगर ढिंढोरा पीटती — s12_08 tak left. s12_09 se right.
   // s12_10 onward belongs to the town-crier plate. On the first shot the next
