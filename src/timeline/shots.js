@@ -242,6 +242,28 @@ export const shotBackgrounds = [
   {
     id: 's11_verse1_preet_dukh',
     start: 58.20,
+    end: 63.00,
+    file: 'plate_24c_eyes_longing.png',
+    src: '/assets/paper/plate_24c_eyes_longing.png',
+    bgOpacity: 1,
+    fade: 0.65,
+    transition: { type: 'smoke-dissolve', duration: 0.85 },
+    effects: {
+      vignette: { strength: 0.30, size: 68 },
+      colorGrade: { saturate: 0.98, brightness: 1.0, contrast: 1.06 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.06,
+      originStartX: 46,
+      originStartY: 50,
+      originEndX: 54,
+      originEndY: 48,
+    },
+  },
+  {
+    id: 's11_verse1_preet_dukh_2',
+    start: 63.00,
     end: 68.00,
     file: 'plate_24c_eyes_longing.png',
     src: '/assets/paper/plate_24c_eyes_longing.png',
