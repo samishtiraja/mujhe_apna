@@ -236,7 +236,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.6, period: 3.8 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+      position: { bottom: '1%', left: '-3%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.02, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -253,7 +253,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.5, period: 3.8 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+      position: { bottom: '1%', left: '-3%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.02, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -270,7 +270,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.45, period: 4.0 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+     position: { bottom: '1%', left: '-13%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.02, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -287,7 +287,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'pulse', amp: 0.012, period: 2.8 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+     position: { bottom: '1%', left: '-13%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.03, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -304,7 +304,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.7, period: 3.6 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+      position: { bottom: '1%', left: '-3%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.02, xStart: 2, xEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -321,7 +321,7 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.4, period: 3.4 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+     position: { bottom: '1%', left: '-3%', width: '60%' },
       motion: { scaleStart: 1.01, scaleEnd: 1.03, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
@@ -338,14 +338,14 @@ export const shotLayers = {
       enter: { type: 'cut', duration: 0 },
       exit: { type: 'cut', duration: 0 },
       living: { type: 'sway', amp: 0.35, period: 4.2 },
-      position: { bottom: '1%', left: '3%', width: '40%' },
+      position: { bottom: '1%', left: '-3%', width: '60%' },
       motion: { scaleStart: 1.0, scaleEnd: 1.02, yStart: 1, yEnd: -1 },
       blend: 'normal',
       zIndex: 4,
     },
     // अंतरा १ दोहराव — जो मैं ऐसो जानती. Beat cut, one figure, no overlap. Swap src to change the pose.
     ...beatCuts([
-    ['s11b_01', '/assets/paper/cast_radha/Woman_looking_back_in_surprise_fc3bb96d_2K.jpg_b2e6b282.png', 63, 63.389], // जो
+    ['s11b_01', '/assets/paper/cast_radha/Woman_looking_downward_silently_69d16308.png', 63, 63.389], // जो
     ['s11b_02', '/assets/paper/cast_radha/radha_010_standing_in_quiet_dignity.png', 63.39, 64.04], // मैं
     ['s11b_03', '/assets/paper/cast_radha/radha_030_portrait_with_tear_falling.png', 64.041, 64.667], // ऐसो
     ['s11b_04', '/assets/paper/cast_radha/Young_woman_standing_quietly_ee728baf.png', 64.668, 65.294], // जानती
@@ -354,7 +354,7 @@ export const shotLayers = {
     ['s11b_07', '/assets/paper/cast_radha/Figure_touching_forearm_in_grief_de00a3c1.png', 66.572, 67.198], // दुख
     ['s11b_08', '/assets/paper/cast_radha/Young_woman_covering_eyes_waterc…_eddf034d.png', 67.199, 67.824], // होए
     ['s11b_09', '/assets/paper/cast_radha/Woman_crying_with_lifted_hand_45127963.png', 67.825, 67.999], // होए
-    ], SLOT_LEFT),
+    ], { bottom: '1%', left: '-8%', width: '60%'}),
   ],
 
   // नगर ढिंढोरा पीटती
@@ -377,7 +377,7 @@ export const shotLayers = {
     ['s12_16', '/assets/paper/cast_radha/radha_029_pointing_toward_rainbow.png', 77.276, 77.925], // कोए
     ['s12_17', '/assets/paper/cast_radha/radha_044_standing_with_open_arms.png', 77.926, 78.529], // कोए
     ['s12_18', '/assets/paper/cast_radha/Woman_posing_with_open_arms_8e912f83.png', 78.53, 78.799], // कोए
-  ], SLOT_LEFT),
+  ], { bottom: '0%', left: '-8%', width: '60%'}),
 
   // मुझे प्रेमी बनाकर
   s13_chorus_premi_1: beatCuts([
@@ -397,7 +397,7 @@ export const shotLayers = {
     ['s13_14', '/assets/paper/cast_krishna/krishna_062_experiencing_emotional_pain.png', 86.703, 87.329], // बेदरदी
     ['s13_15', '/assets/paper/cast_radha/Woman_looking_downward_silently_8fb7c299.png', 87.33, 87.979], // बेदरदी
     ['s13_16', '/assets/paper/cast_krishna/krishna_093_suffering_emotional_pain.png', 87.98, 88.599], // बेदरदी
-  ], SLOT_LEFT),
+  ], { bottom: '0%', left: '-1%', width: '55%'}),
 
   // मुझे प्रेमी बनाकर २
   s14_chorus_premi_2: beatCuts([
@@ -416,9 +416,9 @@ export const shotLayers = {
     ['s14_13', '/assets/paper/cast_krishna/Figure_walking_with_bansuri_2bb67f13.png', 96.131, 96.757], // सँवरिया
     ['s14_14', '/assets/paper/cast_radha/radha_059_embracing_tree_and_weeping.png', 96.758, 97.383], // बेदरदी
     ['s14_15', '/assets/paper/cast_krishna/krishna_048_reclining_looking_at_clouds.png', 97.384, 98.01], // बेदरदी
-    ['s14_16', '/assets/paper/cast_radha/Woman_sitting_with_quiet_sorrow_aae2a689.png', 98.011, 98.614], // बेदरदी
+    ['s14_16', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 98.011, 98.614], // बेदरदी
     ['s14_17', '/assets/paper/cast_krishna/krishna_105_young_figure_looking_at_reflection.png', 98.615, 98.799], // बेदरदी
-  ], SLOT_LEFT),
+  ], { bottom: '0%', left: '-3%', width: '55%'}),
 
   // मुझे अपना बनाकर
   s15_chorus_apna_3: beatCuts([
@@ -439,7 +439,7 @@ export const shotLayers = {
     ['s15_15', '/assets/paper/cast_krishna/krishna_074_pressing_holy_dust_to.png', 107.346, 107.972], // बेदरदी
     ['s15_16', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_c9b43d9b.png', 107.973, 108.599], // बेदरदी
     ['s15_17', '/assets/paper/cast_krishna/krishna_056_walking_in_rain.png', 108.6, 108.799], // बेदरदी
-  ], SLOT_LEFT),
+  ], { bottom: '0%', right: '-3%', width: '55%'}),
 
   // मुझे अपना बनाकर — lyric left, figure right
   s16_chorus_apna_4: beatCuts([
@@ -497,7 +497,7 @@ export const shotLayers = {
   s19_verse2_toote_ganth: beatCuts([
     ['s19_01', '/assets/paper/cast_radha/Young_woman_holding_broken_thread_f2a44cb6.png', 132, 132.446], // टूटे
     ['s19_02', '/assets/paper/cast_radha/radha_055_resting_on_stairs.png', 132.447, 133.096], // से
-    ['s19_03', '/assets/paper/cast_radha/Woman_looking_back_in_surprise_fc3bb96d_2K.jpg_b2e6b282.png', 133.097, 133.723], // फिर
+    ['s19_03', '/assets/paper/cast_radha/Woman_looking_downward_silently_69d16308.png', 133.097, 133.723], // फिर
     ['s19_04', '/assets/paper/cast_radha/Woman_warning_do_not_love_068f8aa0.png', 133.724, 134.35], // ना
     ['s19_05', '/assets/paper/cast_radha/Young_woman_clutching_red_thread_22cf02f8.png', 134.351, 134.977], // जुड़े
     ['s19_06', '/assets/paper/cast_radha/Woman_holding_red_sacred_thread_b14267c1.png', 134.978, 135.604], // जुड़े
@@ -806,7 +806,7 @@ export const shotLayers = {
     ['s33_12', '/assets/paper/cast_krishna/krishna_098_adjusting_peacock.png', 282.889, 283.515], // सँवरिया
     ['s33_13', '/assets/paper/cast_krishna/krishna_102_carving_bamboo_f.png', 283.516, 284.142], // सँवरिया
     ['s33_14', '/assets/paper/cast_krishna/krishna_105_young_figure_looking_at_reflection.png', 284.143, 284.769], // बेदरदी
-    ['s33_15', '/assets/paper/cast_radha/Woman_sitting_with_quiet_sorrow_aae2a689.png', 284.77, 285.442], // बेदरदी
+    ['s33_15', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 284.77, 285.442], // बेदरदी
     ['s33_16', '/assets/paper/cast_krishna/krishna_036_gazing_downward_at_ripples.png', 285.443, 286.092], // बेदरदी
     ['s33_17', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_351c8e5e.png', 286.093, 287.999], // बेदरदी
   ], SLOT_LEFT),
