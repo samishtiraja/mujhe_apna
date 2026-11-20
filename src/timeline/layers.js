@@ -201,13 +201,13 @@ export const shotLayers = {
     ['s09_08', '/assets/paper/cast_radha/radha_027_peeking_from_marble_archway.png', 49.691, 50.317], // आए
     ['s09_09', '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png', 50.318, 50.944], // ना
     ['s09_10', '/assets/paper/cast_radha/radha_093_walking_forward_hesitantly.png', 50.945, 51.547], // ना
-    ['s09_11', '/assets/paper/cast_krishna/krishna_043_playing_flute_on_paper.png', 51.548, 52.174], // सँवरिया
+    ['s09_11', '/assets/paper/cast_krishna/krishna_035_gazing_at_starlit_heavens.png', 51.548, 52.174], // सँवरिया
     ['s09_12', '/assets/paper/cast_krishna/krishna_045_pointing_flute_at_moon.png', 52.175, 52.801], // सँवरिया
     ['s09_13', '/assets/paper/cast_krishna/krishna_050_sitting_with_bamboo_flute.png', 52.802, 53.405], // सँवरिया
     ['s09_14', '/assets/paper/cast_radha/radha_004_curled_figure_hiding_grief.png', 53.406, 54.032], // बेदरदी
     ['s09_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 54.033, 54.636], // बेदरदी
     ['s09_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 54.637, 55.099], // बेदरदी
-  ], SLOT_LEFT),
+  ], {top: '5%', right: '5%', width: '54%'}),
 
   // अंतराल — one quiet pose, no lyric
   s10_interlude_diya: beatCuts([
