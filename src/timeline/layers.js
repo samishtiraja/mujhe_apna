@@ -401,7 +401,7 @@ export const shotLayers = {
 
   // मुझे प्रेमी बनाकर २
   s14_chorus_premi_2: beatCuts([
-    ['s14_01', '/assets/paper/cast_radha/Woman_turning_and_looking_back_4db4c9f1.png', 88.6, 89.21], // मुझे
+    ['s14_01', '/assets/paper/cast_radha/Woman_walking_in_town_aa85b854.png', 88.6, 89.21], // मुझे
     ['s14_02', '/assets/paper/cast_radha/radha_032_radha_reaching_outward_in_longing.png', 89.211, 89.86], // मुझे
     ['s14_03', '/assets/paper/cast_radha/Woman_holding_bamboo_flute_a97eddef.png', 89.861, 90.487], // प्रेमी
     ['s14_04', '/assets/paper/cast_krishna/krishna_094_holding_bamboo_flute.png', 90.488, 91.114], // बनाकर
@@ -756,7 +756,7 @@ export const shotLayers = {
     ['s31_04', '/assets/paper/cast_radha/radha_068_looking_into_round_mirror.png', 257.811, 258.414], // नैना
     ['s31_05', '/assets/paper/cast_radha/radha_033_reaching_toward_peacock.png', 258.415, 259.041], // मिलाकर
     ['s31_06', '/assets/paper/cast_krishna/krishna_032_extending_helping.png', 259.042, 259.645], // मिलाकर
-    ['s31_07', '/assets/paper/cast_radha/Woman_turning_and_looking_back_4db4c9f1.png', 259.646, 260.295], // छोड़
+    ['s31_07', '/assets/paper/cast_radha/Woman_walking_in_town_aa85b854.png', 259.646, 260.295], // छोड़
     ['s31_08', '/assets/paper/cast_krishna/Young_figure_leaving_with_bansuri_74bc42a7.png', 260.296, 260.922], // गए
     ['s31_09', '/assets/paper/cast_krishna/Krishna_leaving_with_bansuri_4f6908bb_2K.jpg_0b8b6b5c.png', 260.923, 261.549], // गए
     ['s31_10', '/assets/paper/cast_radha/radha_029_radha_pointing_toward_rainbow.png', 261.55, 262.176], // आए
