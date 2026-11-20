@@ -135,7 +135,7 @@ export const shotLayers = {
        
         {
           id: 'k1_flute_still',
-          src: '/assets/paper/cast_krishna/krishna_037_holding_bamboo_flute.png',
+          src: '/assets/paper/cast_krishna/krishna_008_forming_heart_symbol_f.png',
           start: 15.00,
           end: 17.58,
           enter: { type: 'smoke-dissolve', duration: 0.5 },
