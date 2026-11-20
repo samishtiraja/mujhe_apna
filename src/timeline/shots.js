@@ -107,9 +107,9 @@ export const shotBackgrounds = [
   // ==========================================
   {
     id: 's06_chorus_journey',
-    start: 16.00,
+    start: 15.00,
     end: 25.40,
-    file: 'plate_04a_tear_threshold.png',
+    file: 'Figure_looking_back_at_twilight_4619df71.png',
     src: '/assets/paper/backgrounds/Figure_looking_back_at_twilight_4619df71.jpg',
     bgOpacity: 1.2,
     fade: 0.55,
