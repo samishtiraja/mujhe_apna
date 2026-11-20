@@ -268,7 +268,7 @@ export const shotBackgrounds = [
   {
     id: 's12_verse1_dindora',
     start: 68.00,
-    end: 78.80,
+    end: 73.80,
     file: '',
     src: '/assets/paper/plate_14a_beating_dholak.png',
     bgOpacity: 0.9,
@@ -287,6 +287,30 @@ export const shotBackgrounds = [
       originEndX: 47,
       originEndY: 48,
     },
+  },
+  {
+    id: 's12_verse1_dindora_2',
+    start: 73.80,
+    end: 78.80,
+    file: 'plate_14b_town_crier.png',
+    src: '/assets/paper/plate_14b_town_crier.png',
+     bgOpacity: 0.9,
+    fade: 0.6,
+    transition: { type: 'ink-burst', duration: 0.75 },
+    effects: {
+      vignette: { strength: 0.32, size: 66 },
+      colorGrade: { saturate: 1.05, brightness: 1.0, contrast: 1.08 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.08,
+      beatPunch: 1.45,
+      originStartX: 52,
+      originStartY: 50,
+      originEndX: 47,
+      originEndY: 48,
+    },
+
   },
 
   // ==========================================
