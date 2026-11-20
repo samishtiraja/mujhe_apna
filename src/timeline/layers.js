@@ -507,7 +507,7 @@ export const shotLayers = {
       id: 'v1_r1_jo_main',
       src: '/assets/paper/cast_radha/radha_007_listening_for_flute_melody.png',
       start: 58.20,
-      end: 58.959, // beat 58.979
+      end: 58.978, // beat 58.979
       opacity: 1.0,
       contrast: 1.15,
       brightness: 1.02,
@@ -524,7 +524,7 @@ export const shotLayers = {
       id: 'v1_r2_aiso',
       src: '/assets/paper/cast_radha/radha_072_resting_chin_on_hand.png',
       start: 58.979,
-      end: 59.586, // beat 59.606
+      end: 59.605, // beat 59.606
       opacity: 1.0,
       contrast: 1.15,
       brightness: 1.02,
@@ -541,7 +541,7 @@ export const shotLayers = {
       id: 'v1_r3_jaanti',
       src: '/assets/paper/cast_radha/radha_086_standing_with_crossed_arms.png',
       start: 59.606,
-      end: 60.213, // beat 60.233
+      end: 60.232, // beat 60.233
       opacity: 1.0,
       contrast: 1.15,
       brightness: 1.02,
@@ -558,7 +558,7 @@ export const shotLayers = {
       id: 'v1_r4_preet',
       src: '/assets/paper/cast_radha/radha_005_holding_flute_to_heart.png',
       start: 60.233,
-      end: 60.816, // beat 60.836
+      end: 60.835, // beat 60.836
       opacity: 1.0,
       contrast: 1.12,
       brightness: 1.03,
@@ -575,7 +575,7 @@ export const shotLayers = {
       id: 'v1_r5_kare',
       src: '/assets/paper/cast_radha/radha_093_walking_forward_hesitantly.png',
       start: 60.836,
-      end: 61.466, // beat 61.486
+      end: 61.485, // beat 61.486
       opacity: 1.0,
       contrast: 1.15,
       brightness: 1.02,
@@ -592,7 +592,7 @@ export const shotLayers = {
       id: 'v1_r6_dukh',
       src: '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png',
       start: 61.486,
-      end: 62.093, // beat 62.113
+      end: 62.112, // beat 62.113
       opacity: 1.0,
       contrast: 1.16,
       brightness: 1.0,
@@ -609,7 +609,7 @@ export const shotLayers = {
       id: 'v1_r7_hoe',
       src: '/assets/paper/cast_radha/radha_076_sitting_hugging_midriff.png',
       start: 62.113,
-      end: 62.98,
+      end: 62.999,
       opacity: 1.0,
       contrast: 1.14,
       brightness: 1.0,
