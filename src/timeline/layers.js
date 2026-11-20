@@ -437,7 +437,7 @@ export const shotLayers = {
     ['s15_13', '/assets/paper/cast_krishna/krishna_035_gazing_at_starlit_heavens.png', 106.092, 106.718], // सँवरिया
     ['s15_14', '/assets/paper/cast_radha/Woman_looking_downward_silently_69d16308.png', 106.719, 107.345], // बेदरदी
     ['s15_15', '/assets/paper/cast_krishna/krishna_074_pressing_holy_dust_to.png', 107.346, 107.972], // बेदरदी
-    ['s15_16', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_c9b43d9b.png', 107.973, 108.599], // बेदरदी
+    ['s15_16', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee__c2bb6904.jpg', 107.973, 108.599], // बेदरदी
     ['s15_17', '/assets/paper/cast_krishna/krishna_056_walking_in_rain.png', 108.6, 108.799], // बेदरदी
   ], { bottom: '0%', right: '-3%', width: '55%'}),
 
@@ -456,11 +456,11 @@ export const shotLayers = {
     ['s16_11', '/assets/paper/cast_krishna/krishna_059_whispering_to_dove.png', 114.846, 115.472], // सँवरिया
     ['s16_12', '/assets/paper/cast_krishna/krishna_031_greeting_with_folded_hands.png', 115.473, 116.099], // सँवरिया
     ['s16_13', '/assets/paper/cast_krishna/krishna_103_contemplating_radha.png', 116.1, 116.726], // सँवरिया
-    ['s16_14', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_351c8e5e.png', 116.727, 117.353], // बेदरदी
+    ['s16_14', '/assets/paper/cast_radha/Kneeling_woman_holding_red_thread_8526b54d.png', 116.727, 117.353], // बेदरदी
     ['s16_15', '/assets/paper/cast_krishna/krishna_096_breathing_heavy.png', 117.354, 117.956], // बेदरदी
     ['s16_16', '/assets/paper/cast_radha/Woman_looking_downward_in_silence_c5bbd308.png', 117.957, 118.583], // बेदरदी
     ['s16_17', '/assets/paper/cast_krishna/krishna_105_looking_at_reflection.png', 118.584, 118.799], // बेदरदी
-  ], SLOT_RIGHT),
+  ], { bottom: '0%', left: '-3%', width: '55%'}),
 
   // अंतराल
   s17_interlude_braj_cow: beatCuts([
@@ -808,7 +808,7 @@ export const shotLayers = {
     ['s33_14', '/assets/paper/cast_krishna/krishna_105_young_figure_looking_at_reflection.png', 284.143, 284.769], // बेदरदी
     ['s33_15', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 284.77, 285.442], // बेदरदी
     ['s33_16', '/assets/paper/cast_krishna/krishna_036_gazing_downward_at_ripples.png', 285.443, 286.092], // बेदरदी
-    ['s33_17', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_351c8e5e.png', 286.093, 287.999], // बेदरदी
+    ['s33_17', '/assets/paper/cast_radha/Kneeling_woman_holding_red_thread_8526b54d.png', 286.093, 287.999], // बेदरदी
   ], SLOT_LEFT),
 }
 
