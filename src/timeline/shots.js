@@ -296,6 +296,7 @@ export const shotBackgrounds = [
     src: '/assets/paper/plate_14b_town_crier.png',
      bgOpacity: 0.9,
     fade: 0.6,
+    fadeIn: 0,
     transition: { type: 'ink-burst', duration: 0.75 },
     effects: {
       vignette: { strength: 0.32, size: 66 },

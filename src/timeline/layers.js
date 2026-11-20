@@ -31,6 +31,16 @@ function beatCuts(rows, position) {
   }))
 }
 
+// Pale pencil cutouts stay gray in normal blend. Multiply seats the line into the paper.
+function inkCuts(rows, position) {
+  return beatCuts(rows, position).map((layer) => ({
+    ...layer,
+    blend: 'multiply',
+    contrast: 1.28,
+    brightness: 0.92,
+  }))
+}
+
 export const shotLayers = {
 
   // Video Shots and Cutout Layers Configuration (Cinematic & Emotionally Synced)
@@ -357,8 +367,11 @@ export const shotLayers = {
     ], { bottom: '1%', left: '-8%', width: '60%'}),
   ],
 
-  // नगर ढिंढोरा पीटती
-  s12_verse1_dindora: beatCuts([
+  // नगर ढिंढोरा पीटती — s12_08 tak left. s12_09 se right.
+  // s12_10 onward belongs to the town-crier plate. On the first shot the next
+  // plate painted over them and the ink looked washed out.
+  s12_verse1_dindora: [
+    ...beatCuts([
     ['s12_01', '/assets/paper/cast_radha/radha_090_striding_forward_holding_veil.png', 68, 68.451], // नगर
     ['s12_02', '/assets/paper/cast_radha/radha_053_radha_walking_with_urgent_footsteps.png', 68.452, 69.078], // नगर
     ['s12_03', '/assets/paper/cast_radha/Woman_calling_out_with_gesture_da0cba5c.png', 69.079, 69.705], // ढिंढोरा
@@ -367,7 +380,13 @@ export const shotLayers = {
     ['s12_06', '/assets/paper/cast_radha/Woman_gesturing_stop_warning_love_5fdf59dd.png', 70.96, 71.609], // ना
     ['s12_07', '/assets/paper/cast_radha/Young_woman_refusing_with_gestures_843808da.png', 71.61, 72.236], // करियो
     ['s12_08', '/assets/paper/cast_radha/radha_029_radha_pointing_toward_rainbow.png', 72.237, 72.863], // कोए
+    ], { bottom: '0%', left: '-8%', width: '60%'}),
+    ...beatCuts([
     ['s12_09', '/assets/paper/cast_radha/radha_053_walking_with_urgent_footsteps.png', 72.864, 73.49], // नगर
+    ], { bottom: '0%', right: '-8%', width: '60%'}),
+  ],
+
+  s12_verse1_dindora_2: inkCuts([
     ['s12_10', '/assets/paper/cast_radha/radha_044_radha_standing_with_open_arms.png', 73.491, 74.14], // ढिंढोरा
     ['s12_11', '/assets/paper/cast_radha/Young_woman_placing_hand_on_c3c9fb61.png', 74.141, 74.767], // ढिंढोरा
     ['s12_12', '/assets/paper/cast_radha/radha_049_twirling_in_joyful_circles.png', 74.768, 75.394], // पीटती
@@ -377,7 +396,7 @@ export const shotLayers = {
     ['s12_16', '/assets/paper/cast_radha/radha_029_pointing_toward_rainbow.png', 77.276, 77.925], // कोए
     ['s12_17', '/assets/paper/cast_radha/radha_044_standing_with_open_arms.png', 77.926, 78.529], // कोए
     ['s12_18', '/assets/paper/cast_radha/Woman_posing_with_open_arms_8e912f83.png', 78.53, 78.799], // कोए
-  ], { bottom: '0%', left: '-8%', width: '60%'}),
+  ], { bottom: '0%', right: '-8%', width: '60%'}),
 
   // मुझे प्रेमी बनाकर
   s13_chorus_premi_1: beatCuts([

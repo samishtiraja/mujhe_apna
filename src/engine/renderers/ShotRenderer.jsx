@@ -390,22 +390,28 @@ export default function ShotRenderer({ activeShots = [], time = 0, reduceMotion 
           }
         }
 
-        const combinedTransform = [cameraState.transform, transitionStyle.transform].filter(Boolean).join(' ')
-        const combinedFilter = [transitionStyle.filter, effectsStyle.filter].filter(Boolean).join(' ')
-
         return (
           <div
             key={shot.id}
             className="plate-layer"
             style={{
               opacity,
-              ...effectsStyle,
-              ...transitionStyle,
-              transform: combinedTransform || undefined,
+              mixBlendMode: effectsStyle.mixBlendMode,
+              filter: effectsStyle.filter,
+              transform: cameraState.transform || undefined,
               transformOrigin: '50% 50%',
-              filter: combinedFilter || undefined,
             }}
           >
+            {/* Plate transition blur stays on the background. Cutouts are siblings, so they stay sharp. */}
+            <div
+              style={{
+                position: 'absolute',
+                inset: 0,
+                pointerEvents: 'none',
+                transformOrigin: '50% 50%',
+                ...transitionStyle,
+              }}
+            >
             {/* Custom Scene Plate (100% clean & crisp, zero default image behind it while active) */}
             {shouldRenderCustomPlate && (
               <>
@@ -444,6 +450,7 @@ export default function ShotRenderer({ activeShots = [], time = 0, reduceMotion 
             )}
 
             {vignetteStyle && <div className="shot-vignette-overlay" style={vignetteStyle} />}
+            </div>
 
             {Array.isArray(shot.layers) &&
               shot.layers.map((layer, lIdx) => {
