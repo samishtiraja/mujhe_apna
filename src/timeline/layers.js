@@ -493,7 +493,7 @@ export const shotLayers = {
     ['s17_06', '/assets/paper/cast_krishna/krishna_077_sitting_twirling_flute.png', 121.719, 121.999],
   ], SLOT_LEFT),
 
-  // रहिमन धागा प्रेम का — lyric left, figure right
+  // रहिमन धागा प्रेम का — 122.00s - 127.00s
   s18_verse2_dhaga_prem: beatCuts([
     ['s18_01', '/assets/paper/cast_radha/radha_035_seated_in_anjali_mudra.png', 122, 122.345], // रहिमन
     ['s18_02', '/assets/paper/cast_radha/radha_070_praying_with_clasped_hands.png', 122.346, 122.972], // रहिमन
@@ -502,8 +502,12 @@ export const shotLayers = {
     ['s18_05', '/assets/paper/cast_radha/radha_063_holding_broken_red_thread.png', 124.25, 124.876], // का
     ['s18_06', '/assets/paper/cast_radha/Woman_warning_crowd_d85261e7.png', 124.877, 125.503], // मत
     ['s18_07', '/assets/paper/cast_radha/Woman_holding_broken_red_thread_96274177.png', 125.504, 126.13], // तोड़ो
-    ['s18_08', '/assets/paper/cast_radha/Figure_holding_broken_thread_6a9f821f.png', 126.131, 126.78], // चटकाए
-    ['s18_09', '/assets/paper/cast_radha/radha_097_writing_on_parchment_roll.png', 126.781, 127.407], // रहिमन
+    ['s18_08', '/assets/paper/cast_radha/Figure_holding_broken_thread_6a9f821f.png', 126.131, 126.999], // चटकाए
+  ], { bottom: '0%', left: '-3%', width: '55%'}),
+
+  // रहिमन धागा प्रेम का (दोहराव) — 127.00s - 132.00s
+  s18_verse2_dhaga_prem_2: beatCuts([
+    ['s18_09', '/assets/paper/cast_radha/radha_097_writing_on_parchment_roll.png', 127, 127.407], // रहिमन
     ['s18_10', '/assets/paper/cast_radha/Woman_standing_with_folded_hands_441ce051.png', 127.408, 128.034], // रहिमन
     ['s18_11', '/assets/paper/cast_radha/Woman_studying_red_thread_knot_a1ac7607.png', 128.035, 128.661], // धागा
     ['s18_12', '/assets/paper/cast_radha/Young_woman_holding_her_heart_c838684c.png', 128.662, 129.311], // प्रेम
@@ -512,14 +516,14 @@ export const shotLayers = {
     ['s18_15', '/assets/paper/cast_radha/Young_woman_holding_broken_thread_8df537f2.png', 130.566, 131.192], // तोड़ो
     ['s18_16', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 131.193, 131.819], // चटकाए
     ['s18_17', '/assets/paper/cast_radha/Woman_holding_broken_red_thread_1233e71b.png', 131.82, 131.999], // चटकाए
-  ], { bottom: '0%', left: '-3%', width: '55%'}),
+  ], { bottom: '0%', right: '-3%', width: '55%'}),
 
   // टूटे से फिर ना जुड़े
   s19_verse2_toote_ganth: beatCuts([
     ['s19_01', '/assets/paper/cast_radha/Young_woman_holding_broken_thread_f2a44cb6.png', 132, 132.446], // टूटे
     ['s19_02', '/assets/paper/cast_radha/radha_055_resting_on_stairs.png', 132.447, 133.096], // से
     ['s19_03', '/assets/paper/cast_radha/Woman_looking_downward_silently_69d16308.png', 133.097, 133.723], // फिर
-    ['s19_04', '/assets/paper/cast_radha/Woman_warning_do_not_love_068f8aa0.png', 133.724, 134.35], // ना
+    ['s19_04', '/assets/paper/cast_radha/Woman_warning_crowd_d85261e7.png', 133.724, 134.35], // ना
     ['s19_05', '/assets/paper/cast_radha/Young_woman_clutching_red_thread_22cf02f8.png', 134.351, 134.977], // जुड़े
     ['s19_06', '/assets/paper/cast_radha/Woman_holding_red_sacred_thread_b14267c1.png', 134.978, 135.604], // जुड़े
     ['s19_07', '/assets/paper/cast_radha/Woman_studying_red_thread_2ce8ef62.png', 135.605, 136.23], // गाँठ
@@ -527,7 +531,7 @@ export const shotLayers = {
     ['s19_09', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_c0c7ce84.png', 136.882, 137.508], // टूटे
     ['s19_10', '/assets/paper/cast_radha/radha_069_lying_on_ground.png', 137.509, 138.135], // से
     ['s19_11', '/assets/paper/cast_radha/radha_026_looking_back_over_shoulder.png', 138.136, 138.761], // फिर
-    ['s19_12', '/assets/paper/cast_radha/Woman_turning_with_wide_eyes_89ee378a.png', 138.762, 139.412], // ना
+    ['s19_12', '/assets/paper/cast_radha/Young_woman_holding_red_thread_2963fdc2.png', 138.762, 139.412], // ना
     ['s19_13', '/assets/paper/cast_radha/Woman_draws_red_thread_ae457ab8.png', 139.413, 140.015], // जुड़े
     ['s19_14', '/assets/paper/cast_radha/Young_woman_clutching_red_thread_f0556142.png', 140.016, 140.665], // जुड़े
     ['s19_15', '/assets/paper/cast_radha/Young_woman_tying_thread_a27e2a75.png', 140.666, 141.292], // गाँठ
@@ -802,7 +806,7 @@ export const shotLayers = {
     ['s32_08', '/assets/paper/cast_krishna/krishna_052_stepping_through_forest_g.png', 270.35, 270.976], // गए
     ['s32_09', '/assets/paper/cast_radha/radha_028_radha_pointing_into_distance.png', 270.977, 271.603], // आए
     ['s32_10', '/assets/paper/cast_radha/radha_084_standing_in_shock.png', 271.604, 272.207], // ना
-    ['s32_11', '/assets/paper/cast_radha/Woman_turning_with_wide_eyes_89ee378a.png', 272.208, 272.833], // ना
+    ['s32_11', '/assets/paper/cast_radha/Young_woman_holding_red_thread_2963fdc2.png', 272.208, 272.833], // ना
     ['s32_12', '/assets/paper/cast_krishna/Young_figure_walking_with_bansuri_d21ef318.png', 272.834, 273.46], // सँवरिया
     ['s32_13', '/assets/paper/cast_krishna/krishna_086_walking_with_flute.png', 273.461, 274.111], // सँवरिया
     ['s32_14', '/assets/paper/cast_krishna/Young_figure_holding_flute_96103db3.png', 274.112, 274.714], // सँवरिया
