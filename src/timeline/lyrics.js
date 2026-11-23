@@ -582,7 +582,7 @@ export const lyricLines = [
   {
     id: 'line_seg_22',
     start: 193.6,
-    end: 204.2,
+    end: 199.11,
     text: 'मैं पापिन ऐसी जली ना कोयला बनी ना राख',
     position: { anchor: 'low-center', top: '6%', left: '20%', textAlign: 'center' },
     style: {
@@ -609,6 +609,29 @@ export const lyricLines = [
       { text: 'बनी', time: 197.7 },
       { text: 'ना', time: 198.2, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'राख', time: 198.6, style: { color: '#8c2f2f' } }, // Hero word
+    ],
+  },
+  {
+    id: 'line_seg_22_2',
+    start: 199.11,
+    end: 204.2,
+    text: 'मैं पापिन ऐसी जली ना कोयला बनी ना राख',
+    position: { anchor: 'low-center', top: '6%', left: '55%', textAlign: 'center' },
+    style: {
+      fontFamily: "'Kalam', 'Rozha One', cursive, serif",
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
+      fontWeight: '700',
+      letterSpacing: '0.025em',
+      activeColor: '#7d1e1d', // Fresh wet sindoor crimson
+      sungColor: '#261c14',   // Dried warm walnut-lampblack ink
+      unsungColor: '#6e5645',
+    },
+    wordReveal: { type: 'single-word' },
+    motion: { scaleStart: 0.99, scaleEnd: 1.02, yStart: 2, yEnd: -2 },
+    living: { type: 'pulse', amp: 0.015, period: 3.5 },
+    enter: { type: 'ink-reveal', duration: 0.45 },
+    exit: { type: 'ink-dry', duration: 0.55 },
+    words: [
       { text: 'मैं', time: 199.1 },
       { text: 'पापिन', time: 199.6 },
       { text: 'ऐसी', time: 200.4, style: { color: '#8c2f2f' } }, // Hero word
@@ -625,7 +648,7 @@ export const lyricLines = [
     start: 204.2,
     end: 214.4,
     text: 'मुझे जलती चिता में छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '2%', left: '40%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -658,10 +681,10 @@ export const lyricLines = [
     start: 214.4,
     end: 224.6,
     text: 'मुझे जलती चिता में छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+    fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -675,7 +698,7 @@ export const lyricLines = [
     exit: { type: 'ink-dry', duration: 0.55 },
     words: [
       { text: 'मुझे', time: 214.5 },
-      { text: 'जलती', time: 215.4, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'जलती', time: 215.4, style: { color: '#8c2f2f' },position: { anchor: 'low-center', top: '12%', left: '67%', textAlign: 'center' }, }, // Hero word
       { text: 'चिता', time: 216.4, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'में', time: 217.1 },
       { text: 'छोड़', time: 217.8 },
@@ -683,7 +706,7 @@ export const lyricLines = [
       { text: 'आए', time: 219.4 },
       { text: 'ना', time: 220.1 },
       { text: 'सँवरिया', time: 220.9, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 222.7, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 222.7, style: { color: '#8c2f2f' },position: { anchor: 'low-center', top: '12%', left: '67%', textAlign: 'center' } }, // Hero word
     ],
   },
   {
@@ -691,10 +714,10 @@ export const lyricLines = [
     start: 224.6,
     end: 234.8,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'right', top: '44%', right: '8%', textAlign: 'right' },
+    position: { anchor: 'right', top: '24%', left: '28%', textAlign: 'right' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -723,7 +746,7 @@ export const lyricLines = [
     start: 234.8,
     end: 245.2,
     text: 'कागा सब तन खाइयो चुन चुन खइयो मांस',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -803,10 +826,10 @@ export const lyricLines = [
     start: 256.2,
     end: 266.2,
     text: 'मोसे नैना मिलाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '12%', left: '55%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -826,8 +849,8 @@ export const lyricLines = [
       { text: 'गए', time: 260.4 },
       { text: 'आए', time: 261.3 },
       { text: 'ना', time: 262.0, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 262.8 },
-      { text: 'बेदरदी', time: 264.6, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 262.8, position: { anchor: 'top-center', top: '28%', left: '40%', textAlign: 'center' }, },
+      { text: 'बेदरदी', time: 264.6, style: { color: '#8c2f2f' },position: { anchor: 'top-center', top: '18%', left: '40%', textAlign: 'center' }, }, // Hero word
     ],
   },
   {
@@ -838,7 +861,7 @@ export const lyricLines = [
     position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+        fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -867,10 +890,10 @@ export const lyricLines = [
     start: 276.4,
     end: 287.0,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'center', top: '50%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'center', top: '10%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(2.1rem, 3.8vw, 3.4rem)',
+        fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson

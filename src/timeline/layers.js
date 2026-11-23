@@ -704,7 +704,7 @@ export const shotLayers = {
   // मुझे जलती चिता में २
   s27_chorus_jalti_chita_2: beatCuts([
     ['s27_01', '/assets/paper/cast_radha/radha_001_holding_songbird_whisp.png', 214.4, 214.784], // मुझे
-    ['s27_02', '/assets/paper/cast_radha/Standing_figure_holding_gaze_4dde8b1c.png', 214.785, 215.411], // मुझे
+    ['s27_02', '/assets/paper/cast_radha/radha_083_standing_by_river.png', 214.785, 215.411], // मुझे
     ['s27_03', '/assets/paper/cast_radha/Woman_burning_from_within_8b8e352f.png', 215.412, 216.037], // जलती
     ['s27_04', '/assets/paper/cast_radha/radha_021_holding_earthen_diya_lamp.png', 216.038, 216.664], // जलती
     ['s27_05', '/assets/paper/cast_radha/radha_064_holding_burning_incense_stick.png', 216.665, 217.291], // चिता
@@ -720,7 +720,7 @@ export const shotLayers = {
     ['s27_15', '/assets/paper/cast_radha/radha_054_holding_clay_calf.png', 222.935, 223.561], // बेदरदी
     ['s27_16', '/assets/paper/cast_krishna/krishna_080_standing_in_storm_clouds.png', 223.562, 224.164], // बेदरदी
     ['s27_17', '/assets/paper/cast_radha/radha_078_sitting_with_white_cow.png', 224.165, 224.599], // बेदरदी
-  ],  { bottom: '1%', left: '0%', width: '65%' }),
+  ],  { bottom: '1%', left: '-4%', width: '65%' }),
 
   // मुझे अपना बनाकर — lyric right
   s28_chorus_apna_7: beatCuts([
