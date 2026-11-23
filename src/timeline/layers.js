@@ -673,7 +673,7 @@ export const shotLayers = {
     ['s25_15', '/assets/paper/cast_radha/Young_woman_holding_falling_ash_3a4c90bd.png', 202.269, 202.895], // कोयला
     ['s25_16', '/assets/paper/cast_radha/Woman_standing_with_folded_hands_441ce051.png', 202.896, 203.522], // बनी
     ['s25_17', '/assets/paper/cast_radha/Woman_warning_crowd_d85261e7.png', 203.523, 204.199], // ना
-  ], SLOT_TOP_LEFT),
+  ], { bottom: '1%', right: '-6%', width: '65%' }),
 
   // मुझे जलती चिता में
   s26_chorus_jalti_chita_1: beatCuts([
