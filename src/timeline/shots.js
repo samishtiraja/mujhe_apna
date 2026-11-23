@@ -575,9 +575,9 @@ export const shotBackgrounds = [
     id: 's20_chorus_gathbandhan_1',
     start: 142.40,
     end: 152.80,
-    file: 'plate_goverdhan_complete_dawn.png',
-    src: '/assets/paper/plate_goverdhan_complete_dawn.png',
-    bgOpacity: 0.46,
+    file: '62720312-248a-475d-ac1f-99fb0f51e48d.jpg',
+    src: '/assets/paper/backgrounds/62720312-248a-475d-ac1f-99fb0f51e48d.jpg',
+    bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'ink-burst', duration: 0.8 },
     effects: {
@@ -602,9 +602,9 @@ export const shotBackgrounds = [
     id: 's21_chorus_gathbandhan_2',
     start: 152.80,
     end: 163.00,
-    file: 'plate_10a_sunset_empty_path.png',
-    src: '/assets/paper/plate_10a_sunset_empty_path.png',
-    bgOpacity: 0.50,
+    file: '10a8101a-85da-4d61-8725-9bcc152a90b3.jpg',
+    src: '/assets/paper/backgrounds/10a8101a-85da-4d61-8725-9bcc152a90b3.jpg',
+    bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'parchment-drift', duration: 0.85 },
     effects: {
@@ -631,7 +631,7 @@ export const shotBackgrounds = [
     end: 173.00,
     file: 'plate_05a_silent_flute.png',
     src: '/assets/paper/plate_05a_silent_flute.png',
-    bgOpacity: 0.48,
+    bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'smoke-dissolve', duration: 0.85 },
     effects: {
@@ -658,7 +658,7 @@ export const shotBackgrounds = [
     end: 183.40,
     file: 'plate_08b_radha_grief.png',
     src: '/assets/paper/plate_08b_radha_grief.png',
-    bgOpacity: 0.46,
+    bgOpacity: 1,
     fade: 0.65,
     transition: { type: 'smoke-dissolve', duration: 0.9 },
     effects: {
