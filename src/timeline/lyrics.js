@@ -26,14 +26,14 @@ export const lyricLines = [
     exit: { type: 'ink-dry', duration: 0.55 },
     words: [
       { text: 'मुझे', time: 15.1,  },
-      { text: 'अपना', time: 16.1, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'अपना', time: 16.05, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'बनाकर', time: 17.2 },
-      { text: 'छोड़', time: 18.6, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'गए', time: 19.4 },
-      { text: 'आए', time: 20.3 },
-      { text: 'ना', time: 21.0, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 21.8 },
-      { text: 'बेदरदी', time: 23.5, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'छोड़', time: 18.16, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'गए', time: 19.24 },
+      { text: 'आए', time: 20.74 },
+      { text: 'ना', time: 21.54, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 22.22 },
+      { text: 'बेदरदी', time: 24.12, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -62,10 +62,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 27.3 },
       { text: 'छोड़', time: 28.5 },
       { text: 'गए', time: 29.2 },
-      { text: 'आए', time: 30.1 },
-      { text: 'ना', time: 30.8, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 31.6, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 33.4, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 30.58 },
+      { text: 'ना', time: 31.24, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 32.08, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 33.16, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -94,10 +94,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 37.2 },
       { text: 'छोड़', time: 38.4, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 39.1 },
-      { text: 'आए', time: 40.0, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'ना', time: 40.7, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 41.5 },
-      { text: 'बेदरदी', time: 43.3, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 40.48, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'ना', time: 41.28, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 41.98 },
+      { text: 'बेदरदी', time: 43.54, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -126,10 +126,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 47.1 },
       { text: 'छोड़', time: 48.3 },
       { text: 'गए', time: 49.0 },
-      { text: 'आए', time: 49.9 },
-      { text: 'ना', time: 50.6, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 51.4, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 53.2, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 50.36 },
+      { text: 'ना', time: 51.16, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 51.88, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 52.86, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -234,10 +234,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 80.8 },
       { text: 'छोड़', time: 82.1, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 82.9 },
-      { text: 'आए', time: 83.8 },
-      { text: 'ना', time: 84.5 },
-      { text: 'सँवरिया', time: 85.3 },
-      { text: 'बेदरदी', time: 87.0, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 84.26 },
+      { text: 'ना', time: 85.2 },
+      { text: 'सँवरिया', time: 85.78 },
+      { text: 'बेदरदी', time: 86.74, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -266,10 +266,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 90.6 },
       { text: 'छोड़', time: 91.9 },
       { text: 'गए', time: 92.6 },
-      { text: 'आए', time: 93.5 },
-      { text: 'ना', time: 94.2 },
-      { text: 'सँवरिया', time: 95.0, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 96.7, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 94.28 },
+      { text: 'ना', time: 94.9 },
+      { text: 'सँवरिया', time: 95.84, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 96.8, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -298,10 +298,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 100.7 },
       { text: 'छोड़', time: 101.9, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 102.6 },
-      { text: 'आए', time: 103.5 },
-      { text: 'ना', time: 104.2, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 105.0 },
-      { text: 'बेदरदी', time: 106.8, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 104.28 },
+      { text: 'ना', time: 104.88, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 105.6 },
+      { text: 'बेदरदी', time: 106.56, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -330,10 +330,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 110.7 },
       { text: 'छोड़', time: 111.9 },
       { text: 'गए', time: 112.6 },
-      { text: 'आए', time: 113.5, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'ना', time: 114.2, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 115.0 },
-      { text: 'बेदरदी', time: 116.8, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 114.28, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'ना', time: 114.88, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 115.6 },
+      { text: 'बेदरदी', time: 116.44, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -439,9 +439,9 @@ export const lyricLines = [
       { text: 'बनाकर', time: 144.3 },
       { text: 'छोड़', time: 145.7, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 146.5 },
-      { text: 'आए', time: 147.4 },
-      { text: 'ना', time: 148.1 },
-      { text: 'सँवरिया', time: 148.9 },
+      { text: 'आए', time: 148.22 },
+      { text: 'ना', time: 149.26 },
+      { text: 'सँवरिया', time: 149.74 },
       { text: 'बेदरदी', time: 150.7, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
@@ -470,10 +470,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 154.3 },
       { text: 'छोड़', time: 155.6 },
       { text: 'गए', time: 156.4 },
-      { text: 'आए', time: 157.3 },
-      { text: 'ना', time: 158.0 },
-      { text: 'सँवरिया', time: 158.8, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 160.6, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 158.32 },
+      { text: 'ना', time: 159.28 },
+      { text: 'सँवरिया', time: 159.88, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 160.96, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -502,10 +502,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 164.9 },
       { text: 'छोड़', time: 166.1, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 166.8 },
-      { text: 'आए', time: 167.7 },
-      { text: 'ना', time: 168.4, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 169.2 },
-      { text: 'बेदरदी', time: 171.0, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 168.36 },
+      { text: 'ना', time: 169.32, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 169.8 },
+      { text: 'बेदरदी', time: 170.88, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -534,10 +534,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 174.9 },
       { text: 'छोड़', time: 176.1 },
       { text: 'गए', time: 176.8 },
-      { text: 'आए', time: 177.7 },
-      { text: 'ना', time: 178.4, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 179.2, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 181.0, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 178.4 },
+      { text: 'ना', time: 179.32, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 179.8, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 180.88, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -670,10 +670,10 @@ export const lyricLines = [
       { text: 'में', time: 207.1 },
       { text: 'छोड़', time: 207.8, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 208.6 },
-      { text: 'आए', time: 209.5 },
-      { text: 'ना', time: 210.2 },
-      { text: 'सँवरिया', time: 211.0 },
-      { text: 'बेदरदी', time: 212.8, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 209.8 },
+      { text: 'ना', time: 210.64 },
+      { text: 'सँवरिया', time: 211.36 },
+      { text: 'बेदरदी', time: 212.44, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -703,10 +703,10 @@ export const lyricLines = [
       { text: 'में', time: 217.1 },
       { text: 'छोड़', time: 217.8 },
       { text: 'गए', time: 218.5 },
-      { text: 'आए', time: 219.4 },
-      { text: 'ना', time: 220.1 },
-      { text: 'सँवरिया', time: 220.9, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 222.7, style: { color: '#8c2f2f' },position: { anchor: 'low-center', top: '12%', left: '67%', textAlign: 'center' } }, // Hero word
+      { text: 'आए', time: 219.82 },
+      { text: 'ना', time: 220.66 },
+      { text: 'सँवरिया', time: 221.38, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 222.46, style: { color: '#8c2f2f' },position: { anchor: 'low-center', top: '12%', left: '67%', textAlign: 'center' } }, // Hero word
     ],
   },
   {
@@ -735,10 +735,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 226.55 },
       { text: 'छोड़', time: 227.75, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 228.45 },
-      { text: 'आए', time: 229.35 },
-      { text: 'ना', time: 230.05, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 230.85 },
-      { text: 'बेदरदी', time: 232.65, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 230.13 },
+      { text: 'ना', time: 231.09, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 231.45 },
+      { text: 'बेदरदी', time: 232.53, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -847,10 +847,10 @@ export const lyricLines = [
       { text: 'मिलाकर', time: 258.3, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'छोड़', time: 259.6, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 260.4 },
-      { text: 'आए', time: 261.3 },
-      { text: 'ना', time: 262.0, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 262.8, position: { anchor: 'top-center', top: '28%', left: '40%', textAlign: 'center' }, },
-      { text: 'बेदरदी', time: 264.6, style: { color: '#8c2f2f' },position: { anchor: 'top-center', top: '18%', left: '40%', textAlign: 'center' }, }, // Hero word
+      { text: 'आए', time: 261.6 },
+      { text: 'ना', time: 262.2, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 263.16, position: { anchor: 'top-center', top: '28%', left: '40%', textAlign: 'center' }, },
+      { text: 'बेदरदी', time: 264.36, style: { color: '#8c2f2f' },position: { anchor: 'top-center', top: '18%', left: '40%', textAlign: 'center' }, }, // Hero word
     ],
   },
   {
@@ -879,10 +879,10 @@ export const lyricLines = [
       { text: 'मिलाकर', time: 268.2 },
       { text: 'छोड़', time: 269.5 },
       { text: 'गए', time: 270.3 },
-      { text: 'आए', time: 271.2 },
-      { text: 'ना', time: 271.9, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 272.7, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बेदरदी', time: 274.5, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 271.86 },
+      { text: 'ना', time: 272.58, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 273.18, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बेदरदी', time: 274.02, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
   {
@@ -911,10 +911,10 @@ export const lyricLines = [
       { text: 'बनाकर', time: 278.35 },
       { text: 'छोड़', time: 279.55, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 280.25 },
-      { text: 'आए', time: 281.15 },
-      { text: 'ना', time: 281.85, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'सँवरिया', time: 282.65 },
-      { text: 'बेदरदी', time: 284.45, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'आए', time: 281.69 },
+      { text: 'ना', time: 282.29, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'सँवरिया', time: 283.25 },
+      { text: 'बेदरदी', time: 284.21, style: { color: '#8c2f2f' } }, // Hero word
     ],
   },
 ]
