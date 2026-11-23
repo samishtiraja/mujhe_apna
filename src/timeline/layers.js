@@ -629,7 +629,7 @@ export const shotLayers = {
     ['s23_18', '/assets/paper/cast_radha/radha_023_kneeling_at_riverbank.png', 183.298, 183.399], // बेदरदी
   ], { bottom: '1%', right: '-3%', width: '60%' }),
 
-  // लकड़ी जल कोयला भई
+  // लकड़ी जल कोयला भई — 183.40s - 188.36s (Left)
   s24_verse3_lakdi_jal_koyla: beatCuts([
     ['s24_01', '/assets/paper/cast_radha/Young_woman_holding_burning_stick_38e8b89f.png', 183.4, 183.924], // लकड़ी
     ['s24_02', '/assets/paper/cast_radha/Woman_standing_in_fire_54ae3f99.png', 183.925, 184.551], // जल
@@ -639,6 +639,10 @@ export const shotLayers = {
     ['s24_06', '/assets/paper/cast_radha/Woman_looking_at_soot-stained_hands_02409c79.png', 186.456, 187.082], // कोयला
     ['s24_07', '/assets/paper/cast_radha/radha_019_radha_catching_monsoon_rain.png', 187.083, 187.732], // जल
     ['s24_08', '/assets/paper/cast_radha/Young_woman_holding_falling_ash_8b034bf6.png', 187.733, 188.359], // भई
+  ], { bottom: '1%', left: '-6%', width: '65%' }),
+
+  // लकड़ी जल कोयला भई (दोहराव) — 188.36s - 193.60s (Opposite / Right)
+  s24_verse3_lakdi_jal_koyla_2: beatCuts([
     ['s24_09', '/assets/paper/cast_radha/Woman_holding_flaming_wooden_stick_615c4d5d.png', 188.36, 188.986], // लकड़ी
     ['s24_10', '/assets/paper/cast_radha/Woman_holding_burning_wooden_stick_d7624600.png', 188.987, 189.613], // जल
     ['s24_11', '/assets/paper/cast_radha/Young_woman_holding_burning_flame_ab8385e3.png', 189.614, 190.263], // जल

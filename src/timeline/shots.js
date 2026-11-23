@@ -676,12 +676,12 @@ export const shotBackgrounds = [
   },
 
   // ==========================================
-  // SHOT 24 (seg_21): 183.40s - 193.60s (Verse 3 - लकड़ी जल कोयला भई | Viraha Chita Climax Begins)
+  // SHOT 24 (seg_21): 183.40s - 188.36s (Verse 3 - लकड़ी जल कोयला भई 1)
   // ==========================================
   {
     id: 's24_verse3_lakdi_jal_koyla',
     start: 183.40,
-    end: 193.60,
+    end: 188.36,
     file: 'plate_20c_sandalwood_embers.png',
     src: '/assets/paper/plate_20c_sandalwood_embers.png',
     bgOpacity: 0.56,
@@ -699,6 +699,29 @@ export const shotBackgrounds = [
       originStartY: 52,
       originEndX: 52,
       originEndY: 46,
+    },
+  },
+  {
+    id: 's24_verse3_lakdi_jal_koyla_2',
+    start: 188.36,
+    end: 193.60,
+    file: 'plate_20c_sandalwood_embers.png',
+    src: '/assets/paper/plate_20c_sandalwood_embers.png',
+    bgOpacity: 0.56,
+    fade: 0.7,
+    transition: { type: 'ink-burst', duration: 0.9 },
+    effects: {
+      vignette: { strength: 0.38, size: 62 },
+      colorGrade: { saturate: 1.18, brightness: 0.99, contrast: 1.12, sepia: 0.14 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.08,
+      beatPunch: 1.3,
+      originStartX: 52,
+      originStartY: 46,
+      originEndX: 48,
+      originEndY: 52,
     },
   },
 
