@@ -245,7 +245,7 @@ export const lyricLines = [
     start: 88.6,
     end: 98.8,
     text: 'मुझे प्रेमी बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'center', top: '25%', left: '60%', textAlign: 'center' },
+    position: { anchor: 'center', top: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -277,7 +277,7 @@ export const lyricLines = [
     start: 98.8,
     end: 108.8,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '8%', left: '60%', textAlign: 'center' },
+    position: { anchor: 'top-center', top: '0%', left: '45%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -341,7 +341,7 @@ export const lyricLines = [
     start: 122.0,
     end: 132.0,
     text: 'रहिमन धागा प्रेम का मत तोड़ो चटकाए',
-    position: { anchor: 'low-center', top: '4%', left: '20%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '4%', left: '40%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -450,10 +450,10 @@ export const lyricLines = [
     start: 152.8,
     end: 163.0,
     text: 'गठबंधन बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'left', top: '44%', left: '8%', textAlign: 'left' },
+    position: { anchor: 'left', top: '14%', left: '38%', textAlign: 'left' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -481,10 +481,10 @@ export const lyricLines = [
     start: 163.0,
     end: 173.0,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'top-center', top: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'top-center', bottom: '12%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -513,10 +513,10 @@ export const lyricLines = [
     start: 173.0,
     end: 183.4,
     text: 'मुझे अपना बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '32%', left: '50%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
-      fontSize: 'clamp(1.9rem, 3.4vw, 3.0rem)',
+      fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
       fontWeight: '700',
       letterSpacing: '0.025em',
       activeColor: '#7d1e1d', // Fresh wet sindoor crimson
@@ -584,7 +584,7 @@ export const lyricLines = [
     start: 193.6,
     end: 204.2,
     text: 'मैं पापिन ऐसी जली ना कोयला बनी ना राख',
-    position: { anchor: 'low-center', bottom: '12%', left: '50%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '6%', left: '20%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
