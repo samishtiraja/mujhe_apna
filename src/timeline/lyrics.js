@@ -164,7 +164,7 @@ export const lyricLines = [
       { text: 'जो', time: 63.15 },
       { text: 'मैं', time: 63.55 },
       { text: 'ऐसो', time: 63.95 },
-      { text: 'जानती', time: 64.65 },
+      { text: 'जानती', time: 64.65,position: { anchor: 'right', top: '20%', right: '35%', textAlign: 'right' }, },
       { text: 'प्रीत', time: 65.55, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'करे', time: 66.15 },
       { text: 'दुख', time: 66.75, style: { color: '#8c2f2f' } }, // Hero word
@@ -341,7 +341,7 @@ export const lyricLines = [
     start: 122.0,
     end: 132.0,
     text: 'रहिमन धागा प्रेम का मत तोड़ो चटकाए',
-    position: { anchor: 'low-center', top: '4%', left: '40%', textAlign: 'center' },
+    position: { anchor: 'low-center', top: '9%', left: '55%', textAlign: 'center' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
       fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',
@@ -450,7 +450,7 @@ export const lyricLines = [
     start: 152.8,
     end: 163.0,
     text: 'गठबंधन बनाकर छोड़ गए, आए ना सँवरिया बेदरदी',
-    position: { anchor: 'left', top: '14%', left: '38%', textAlign: 'left' },
+    position: { anchor: 'left', top: '14%', left: '28%', textAlign: 'left' },
     style: {
       fontFamily: "'Kalam', 'Rozha One', cursive, serif",
        fontSize: 'clamp(3.9rem, 9.4vw, 39.0rem)',

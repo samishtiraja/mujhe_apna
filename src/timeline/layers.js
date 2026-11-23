@@ -501,7 +501,7 @@ export const shotLayers = {
     ['s14_15', '/assets/paper/cast_krishna/krishna_048_reclining_looking_at_clouds.png', 97.384, 98.01], // बेदरदी
     ['s14_16', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 98.011, 98.614], // बेदरदी
     ['s14_17', '/assets/paper/cast_krishna/krishna_105_young_figure_looking_at_reflection.png', 98.615, 98.799], // बेदरदी
-  ], { bottom: '0%', left: '-6%', width: '65%'}),
+  ], { bottom: '0%', left: '-6%', width: '60%'}),
 
   // मुझे अपना बनाकर
   s15_chorus_apna_3: beatCuts([
@@ -522,7 +522,7 @@ export const shotLayers = {
     ['s15_15', '/assets/paper/cast_krishna/krishna_074_pressing_holy_dust_to.png', 107.346, 107.972], // बेदरदी
     ['s15_16', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee__c2bb6904.jpg', 107.973, 108.599], // बेदरदी
     ['s15_17', '/assets/paper/cast_krishna/krishna_056_walking_in_rain.png', 108.6, 108.799], // बेदरदी
-  ], { bottom: '0%', right: '-3%', width: '65%'}),
+  ], { bottom: '0%', right: '-3%', width: '60%'}),
 
   // मुझे अपना बनाकर — lyric left, figure right
   s16_chorus_apna_4: beatCuts([
@@ -720,7 +720,7 @@ export const shotLayers = {
     ['s19_06', '/assets/paper/cast_radha/Woman_holding_red_sacred_thread_b14267c1.png', 134.978, 135.604], // जुड़े
     ['s19_07', '/assets/paper/cast_radha/Woman_studying_red_thread_2ce8ef62.png', 135.605, 136.23], // गाँठ
     ['s19_08', '/assets/paper/cast_radha/radha_040_silhouette_facing_sunset.png', 136.231, 136.881], // जाए
-  ], { bottom: '1%', left: '-3%', width: '65%' }),
+  ], { bottom: '1%', left: '-3%', width: '60%' }),
 
   // टूटे से फिर ना जुड़े (दोहराव) — 136.88s - 142.40s (Right)
   s19_verse2_toote_ganth_2: beatCuts([
@@ -733,7 +733,7 @@ export const shotLayers = {
     ['s19_15', '/assets/paper/cast_radha/Young_woman_tying_thread_a27e2a75.png', 140.666, 141.292], // गाँठ
     ['s19_16', '/assets/paper/cast_radha/radha_040_radha_silhouette_facing_sunset.png', 141.293, 141.919], // जाए
     ['s19_17', '/assets/paper/cast_krishna/Figure_walking_away_holding_flute_be774b2d.png', 141.92, 142.399], // जाए
-  ],  { bottom: '1%', right: '-6%', width: '65%' }),
+  ],  { bottom: '1%', right: '-6%', width: '60%' }),
 
   // गठबंधन बनाकर
   s20_chorus_gathbandhan_1: beatCuts([
@@ -755,7 +755,7 @@ export const shotLayers = {
     ['s20_16', '/assets/paper/cast_krishna/krishna_036_gazing_downward_at_ripples.png', 151.348, 151.974], // बेदरदी
     ['s20_17', '/assets/paper/cast_radha/radha_067_leaning_on_stone_parapet.png', 151.975, 152.601], // बेदरदी
     ['s20_18', '/assets/paper/cast_krishna/krishna_080_standing_in_storm_clouds.png', 152.602, 152.799], // बेदरदी
-  ],  { bottom: '1%', left: '-3%', width: '65%' }),
+  ],  { bottom: '1%', left: '-3%', width: '60%' }),
 
   // गठबंधन बनाकर २ — lyric left, figure right
   s21_chorus_gathbandhan_2: beatCuts([
@@ -797,7 +797,7 @@ export const shotLayers = {
     ['s22_15', '/assets/paper/cast_krishna/krishna_062_experiencing_emotional_pain.png', 171.386, 172.012], // बेदरदी
     ['s22_16', '/assets/paper/cast_radha/radha_025_radha_leaning_against_tree.png', 172.013, 172.639], // बेदरदी
     ['s22_17', '/assets/paper/cast_krishna/Figure_holding_bansuri_with_tear_ab630819.png', 172.64, 172.999], // बेदरदी
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // मुझे अपना बनाकर
   s23_chorus_apna_6: beatCuts([
@@ -831,7 +831,7 @@ export const shotLayers = {
     ['s24_06', '/assets/paper/cast_radha/Woman_looking_at_soot-stained_hands_02409c79.png', 186.456, 187.082], // कोयला
     ['s24_07', '/assets/paper/cast_radha/radha_019_radha_catching_monsoon_rain.png', 187.083, 187.732], // जल
     ['s24_08', '/assets/paper/cast_radha/Young_woman_holding_falling_ash_8b034bf6.png', 187.733, 188.359], // भई
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // लकड़ी जल कोयला भई (दोहराव) — 188.36s - 193.60s (Opposite / Right)
   s24_verse3_lakdi_jal_koyla_2: beatCuts([
@@ -844,7 +844,7 @@ export const shotLayers = {
     ['s24_15', '/assets/paper/cast_radha/radha_064_holding_burning_incense_stick.png', 192.145, 192.794], // जल
     ['s24_16', '/assets/paper/cast_radha/radha_008_prostrate_on_beige_paper.png', 192.795, 193.421], // भई
     ['s24_17', '/assets/paper/cast_radha/Woman_holding_smoking_coal_abf8c154.png', 193.422, 193.599], // राख
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // मैं पापिन ऐसी जली — 193.60s - 199.11s (Left)
   s25_verse3_papin_aisi_jali: beatCuts([
@@ -857,7 +857,7 @@ export const shotLayers = {
     ['s25_07', '/assets/paper/cast_radha/Woman_holding_flaming_wooden_stick_bdffd7f7.png', 197.207, 197.833], // कोयला
     ['s25_08', '/assets/paper/cast_radha/Woman_standing_in_quiet_dignity_2384a8a0.png', 197.834, 198.483], // बनी
     ['s25_09', '/assets/paper/cast_radha/radha_069_lying_on_ground.png', 198.484, 199.11], // राख
-  ], { bottom: '1%', right: '-6%', width: '65%' }),
+  ], { bottom: '1%', right: '-6%', width: '60%' }),
 
   // मैं पापिन ऐसी जली (दोहराव) — 199.11s - 204.20s (Right)
   s25_verse3_papin_aisi_jali_2: beatCuts([
@@ -869,7 +869,7 @@ export const shotLayers = {
     ['s25_15', '/assets/paper/cast_radha/Young_woman_holding_falling_ash_3a4c90bd.png', 202.269, 202.895], // कोयला
     ['s25_16', '/assets/paper/cast_radha/Woman_standing_with_folded_hands_441ce051.png', 202.896, 203.522], // बनी
     ['s25_17', '/assets/paper/cast_radha/Woman_warning_crowd_d85261e7.png', 203.523, 204.199], // ना
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // मुझे जलती चिता में
   s26_chorus_jalti_chita_1: beatCuts([
@@ -890,7 +890,7 @@ export const shotLayers = {
     ['s26_15', '/assets/paper/cast_krishna/krishna_064_holding_single_tear.png', 212.904, 213.53], // बेदरदी
     ['s26_16', '/assets/paper/cast_radha/radha_077_sitting_with_spotted_deer.png', 213.531, 214.157], // बेदरदी
     ['s26_17', '/assets/paper/cast_krishna/krishna_088_leaning_against_tree.png', 214.158, 214.399], // बेदरदी
-  ], { bottom: '1%', right: '0%', width: '65%' }),
+  ], { bottom: '1%', right: '0%', width: '60%' }),
 
   // मुझे जलती चिता में २
   s27_chorus_jalti_chita_2: beatCuts([
@@ -911,7 +911,7 @@ export const shotLayers = {
     ['s27_15', '/assets/paper/cast_radha/radha_054_holding_clay_calf.png', 222.935, 223.561], // बेदरदी
     ['s27_16', '/assets/paper/cast_krishna/krishna_080_standing_in_storm_clouds.png', 223.562, 224.164], // बेदरदी
     ['s27_17', '/assets/paper/cast_radha/radha_078_sitting_with_white_cow.png', 224.165, 224.599], // बेदरदी
-  ],  { bottom: '1%', left: '-4%', width: '65%' }),
+  ],  { bottom: '1%', left: '-4%', width: '60%' }),
 
   // मुझे अपना बनाकर — lyric right
   s28_chorus_apna_7: beatCuts([
@@ -932,7 +932,7 @@ export const shotLayers = {
     ['s28_15', '/assets/paper/cast_radha/Woman_crying_with_lifted_hand_45127963.png', 232.943, 233.569], // बेदरदी
     ['s28_16', '/assets/paper/cast_krishna/krishna_105_looking_at_reflection.png', 233.57, 234.195], // बेदरदी
     ['s28_17', '/assets/paper/cast_radha/radha_052_radha_walking_with_sorrowful_steps.png', 234.196, 234.799], // बेदरदी
-  ], { bottom: '1%', right: '0%', width: '65%' }),
+  ], { bottom: '1%', right: '0%', width: '60%' }),
 
   // कागा सब तन — 234.80s - 239.84s (Top-Left)
   s29_verse4_kaga_sab_tan: beatCuts([
@@ -944,7 +944,7 @@ export const shotLayers = {
     ['s29_06', '/assets/paper/cast_radha/radha_036_radha_seated_in_lotus_pose.png', 237.958, 238.584], // चुन
     ['s29_07', '/assets/paper/cast_radha/Figure_touching_forearm_in_grief_de00a3c1.png', 238.585, 239.211], // खइयो
     ['s29_08', '/assets/paper/cast_radha/radha_059_embracing_tree_and_weeping.png', 239.212, 239.838], // मांस
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // कागा सब तन (दोहराव) — 239.84s - 245.20s (Top-Right)
   s29_verse4_kaga_sab_tan_2: beatCuts([
@@ -957,7 +957,7 @@ export const shotLayers = {
     ['s29_15', '/assets/paper/cast_radha/Young_woman_covering_eyes_waterc…_c5aa362e.png', 243.624, 244.25], // खइयो
     ['s29_16', '/assets/paper/cast_radha/radha_098_hugging_knees.png', 244.251, 244.877], // मांस
     ['s29_17', '/assets/paper/cast_radha/radha_076_sitting_hugging_midriff.png', 244.878, 245.199], // मांस
-  ], { bottom: '1%', right: '-6%', width: '65%' }),
+  ], { bottom: '1%', right: '-6%', width: '60%' }),
 
   // दो नैना मत खाइयो — 245.20s - 250.68s (Top-Left)
   s30_verse4_do_naina: beatCuts([
@@ -970,7 +970,7 @@ export const shotLayers = {
     ['s30_07', '/assets/paper/cast_krishna/krishna_100_reaching_upward.png', 248.755, 249.381], // पिया
     ['s30_08', '/assets/paper/cast_radha/radha_032_radha_reaching_outward_in_longing.png', 249.382, 250.031], // मिलन
     ['s30_09', '/assets/paper/cast_radha/radha_020_gazing_at_full_moon.png', 250.032, 250.682], // की
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // दो नैना मत खाइयो (दोहराव) — 250.68s - 256.20s (Top-Right)
   s30_verse4_do_naina_2: beatCuts([
@@ -983,7 +983,7 @@ export const shotLayers = {
     ['s30_16', '/assets/paper/cast_krishna/krishna_104_holding_bamboo_flute.png', 254.584, 255.233], // पिया
     ['s30_17', '/assets/paper/cast_radha/radha_044_standing_with_open_arms.png', 255.234, 255.883], // मिलन
     ['s30_18', '/assets/paper/cast_radha/radha_029_pointing_toward_rainbow.png', 255.884, 256.199], // आस
-  ], { bottom: '1%', right: '3%', width: '65%' }),
+  ], { bottom: '1%', right: '3%', width: '60%' }),
 
   // मोसे नैना मिलाकर — 256.20s - 261.55s (Left)
   s31_chorus_naina_milakar_1: beatCuts([
@@ -996,7 +996,7 @@ export const shotLayers = {
     ['s31_07', '/assets/paper/cast_radha/Woman_walking_in_town_aa85b854.png', 259.646, 260.295], // छोड़
     ['s31_08', '/assets/paper/cast_krishna/Young_figure_leaving_with_bansuri_74bc42a7.png', 260.296, 260.922], // गए
     ['s31_09', '/assets/paper/cast_krishna/Krishna_leaving_with_bansuri_4f6908bb_2K.jpg_0b8b6b5c.png', 260.923, 261.549], // गए
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // मोसे नैना मिलाकर (दोहराव) — 261.55s - 266.20s (Right)
   s31_chorus_naina_milakar_1_2: beatCuts([
@@ -1008,7 +1008,7 @@ export const shotLayers = {
     ['s31_15', '/assets/paper/cast_krishna/krishna_069_making_hush_gesture.png', 264.684, 265.31], // बेदरदी
     ['s31_16', '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png', 265.311, 265.937], // बेदरदी
     ['s31_17', '/assets/paper/cast_krishna/krishna_048_reclining_looking_at_clouds.png', 265.938, 266.199], // बेदरदी
-  ], { bottom: '1%', right: '3%', width: '65%' }),
+  ], { bottom: '1%', right: '3%', width: '60%' }),
 
   // मोसे नैना मिलाकर २ — 266.20s - 270.98s (Left)
   s32_chorus_naina_milakar_2: beatCuts([
@@ -1020,7 +1020,7 @@ export const shotLayers = {
     ['s32_06', '/assets/paper/cast_radha/radha_033_radha_reaching_toward_peacock.png', 269.073, 269.722], // मिलाकर
     ['s32_07', '/assets/paper/cast_krishna/krishna_042_looking_back_with_sorrow.png', 269.723, 270.349], // छोड़
     ['s32_08', '/assets/paper/cast_krishna/krishna_052_stepping_through_forest_g.png', 270.35, 270.976], // गए
-  ], { bottom: '1%', right: '3%', width: '65%' }),
+  ], { bottom: '1%', right: '3%', width: '60%' }),
 
   // मोसे नैना मिलाकर २ (दोहराव) — 270.98s - 276.40s (Right)
   s32_chorus_naina_milakar_2_2: beatCuts([
@@ -1033,7 +1033,7 @@ export const shotLayers = {
     ['s32_15', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_c9b43d9b.png', 274.715, 275.341], // बेदरदी
     ['s32_16', '/assets/paper/cast_krishna/krishna_074_pressing_holy_dust_to.png', 275.342, 275.968], // बेदरदी
     ['s32_17', '/assets/paper/cast_radha/radha_052_walking_with_sorrowful_steps.png', 275.969, 276.399], // बेदरदी
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 
   // उपसंहार — 276.40s - 281.01s (Left)
   s33_outro_apna_banakar: beatCuts([
@@ -1045,7 +1045,7 @@ export const shotLayers = {
     ['s33_06', '/assets/paper/cast_radha/radha_045_stringing_flowers_into_gar.png', 279.127, 279.753], // बनाकर
     ['s33_07', '/assets/paper/cast_krishna/krishna_020_silhouette_looking_ove.png', 279.754, 280.38], // छोड़
     ['s33_08', '/assets/paper/cast_krishna/krishna_084_walking_along_river_edge.png', 280.381, 281.007], // गए
-  ], { bottom: '1%', right: '-2%', width: '65%' }),
+  ], { bottom: '1%', right: '-2%', width: '60%' }),
 
   // उपसंहार (दोहराव) — 281.01s - 288.00s (Right)
   s33_outro_apna_banakar_2: beatCuts([
@@ -1058,7 +1058,7 @@ export const shotLayers = {
     ['s33_15', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 284.77, 285.442], // बेदरदी
     ['s33_16', '/assets/paper/cast_krishna/krishna_036_gazing_downward_at_ripples.png', 285.443, 286.092], // बेदरदी
     ['s33_17', '/assets/paper/cast_radha/Kneeling_woman_holding_red_thread_8526b54d.png', 286.093, 287.999], // बेदरदी
-  ], { bottom: '1%', left: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '60%' }),
 }
 
 export default shotLayers
