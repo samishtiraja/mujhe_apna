@@ -654,7 +654,7 @@ export const shotLayers = {
     ['s24_17', '/assets/paper/cast_radha/Woman_holding_smoking_coal_abf8c154.png', 193.422, 193.599], // राख
   ], { bottom: '1%', left: '-6%', width: '65%' }),
 
-  // मैं पापिन ऐसी जली — lyric bottom, figure top-left
+  // मैं पापिन ऐसी जली — 193.60s - 199.11s (Left)
   s25_verse3_papin_aisi_jali: beatCuts([
     ['s25_01', '/assets/paper/cast_radha/Young_woman_standing_quietly_4ce7fde9.png', 193.6, 194.048], // मैं
     ['s25_02', '/assets/paper/cast_radha/Woman_confessing_with_hand_on_cde593bc.png', 194.049, 194.698], // पापिन
@@ -665,6 +665,10 @@ export const shotLayers = {
     ['s25_07', '/assets/paper/cast_radha/Woman_holding_flaming_wooden_stick_bdffd7f7.png', 197.207, 197.833], // कोयला
     ['s25_08', '/assets/paper/cast_radha/Woman_standing_in_quiet_dignity_2384a8a0.png', 197.834, 198.483], // बनी
     ['s25_09', '/assets/paper/cast_radha/radha_069_lying_on_ground.png', 198.484, 199.11], // राख
+  ], { bottom: '1%', right: '-6%', width: '65%' }),
+
+  // मैं पापिन ऐसी जली (दोहराव) — 199.11s - 204.20s (Right)
+  s25_verse3_papin_aisi_jali_2: beatCuts([
     ['s25_10', '/assets/paper/cast_radha/Woman_smiling_with_folded_hands_23a9ccd0.png', 199.111, 199.737], // मैं
     ['s25_11', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 199.738, 200.364], // पापिन
     ['s25_12', '/assets/paper/cast_radha/radha_030_portrait_with_tear_falling.png', 200.365, 201.014], // ऐसी
@@ -673,7 +677,7 @@ export const shotLayers = {
     ['s25_15', '/assets/paper/cast_radha/Young_woman_holding_falling_ash_3a4c90bd.png', 202.269, 202.895], // कोयला
     ['s25_16', '/assets/paper/cast_radha/Woman_standing_with_folded_hands_441ce051.png', 202.896, 203.522], // बनी
     ['s25_17', '/assets/paper/cast_radha/Woman_warning_crowd_d85261e7.png', 203.523, 204.199], // ना
-  ], { bottom: '1%', right: '-6%', width: '65%' }),
+  ], { bottom: '1%', left: '-6%', width: '65%' }),
 
   // मुझे जलती चिता में
   s26_chorus_jalti_chita_1: beatCuts([
@@ -694,7 +698,7 @@ export const shotLayers = {
     ['s26_15', '/assets/paper/cast_krishna/krishna_064_holding_single_tear.png', 212.904, 213.53], // बेदरदी
     ['s26_16', '/assets/paper/cast_radha/radha_077_sitting_with_spotted_deer.png', 213.531, 214.157], // बेदरदी
     ['s26_17', '/assets/paper/cast_krishna/krishna_088_leaning_against_tree.png', 214.158, 214.399], // बेदरदी
-  ], SLOT_LEFT),
+  ], { bottom: '1%', right: '0%', width: '65%' }),
 
   // मुझे जलती चिता में २
   s27_chorus_jalti_chita_2: beatCuts([
@@ -708,14 +712,14 @@ export const shotLayers = {
     ['s27_08', '/assets/paper/cast_krishna/Figure_walking_away_holding_bansuri_7a551536.png', 218.546, 219.172], // गए
     ['s27_09', '/assets/paper/cast_radha/radha_020_radha_gazing_at_full_moon.png', 219.173, 219.799], // आए
     ['s27_10', '/assets/paper/cast_radha/Woman_warning_do_not_love_43c27279.png', 219.8, 220.426], // ना
-    ['s27_11', '/assets/paper/cast_radha/Woman_warning_do_not_love_068f8aa0.png', 220.427, 221.053], // ना
+    ['s27_11', '/assets/paper/cast_radha/Woman_warning_do_not_love_43c27279.png', 220.427, 221.053], // ना
     ['s27_12', '/assets/paper/cast_krishna/krishna_089_playing_bamboo_flute.png', 221.054, 221.68], // सँवरिया
     ['s27_13', '/assets/paper/cast_krishna/Figure_playing_flute_7f64f0af.png', 221.681, 222.307], // सँवरिया
     ['s27_14', '/assets/paper/cast_krishna/krishna_083_standing_with_golden_flute.png', 222.308, 222.934], // सँवरिया
     ['s27_15', '/assets/paper/cast_radha/radha_054_holding_clay_calf.png', 222.935, 223.561], // बेदरदी
     ['s27_16', '/assets/paper/cast_krishna/krishna_080_standing_in_storm_clouds.png', 223.562, 224.164], // बेदरदी
     ['s27_17', '/assets/paper/cast_radha/radha_078_sitting_with_white_cow.png', 224.165, 224.599], // बेदरदी
-  ], SLOT_LEFT),
+  ],  { bottom: '1%', left: '0%', width: '65%' }),
 
   // मुझे अपना बनाकर — lyric right
   s28_chorus_apna_7: beatCuts([

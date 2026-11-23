@@ -726,12 +726,12 @@ export const shotBackgrounds = [
   },
 
   // ==========================================
-  // SHOT 25 (seg_22): 193.60s - 204.20s (Verse 3 - मैं पापिन ऐसी जली | Lyric low-center)
+  // SHOT 25 (seg_22): 193.60s - 199.11s (Verse 3 - मैं पापिन ऐसी जली 1 | Lyric low-center)
   // ==========================================
   {
     id: 's25_verse3_papin_aisi_jali',
     start: 193.60,
-    end: 204.20,
+    end: 199.11,
     file: 'Kneeling_figure_on_aged_paper_840fbfd4_2K.jpg',
     src: '/assets/paper/Kneeling_figure_on_aged_paper_840fbfd4_2K.jpg',
     bgOpacity: 0.52,
@@ -751,6 +751,29 @@ export const shotBackgrounds = [
       originEndY: 48,
     },
   },
+  {
+    id: 's25_verse3_papin_aisi_jali_2',
+    start: 199.11,
+    end: 204.20,
+    file: 'Woman_holding_charcoal_dust_fc528c17_2K.jpg',
+    src: '/assets/paper/Woman_holding_charcoal_dust_fc528c17_2K.jpg',
+    bgOpacity: 0.52,
+    fade: 0.65,
+    transition: { type: 'smoke-dissolve', duration: 0.85 },
+    effects: {
+      vignette: { strength: 0.40, size: 60 },
+      colorGrade: { saturate: 1.16, brightness: 0.98, contrast: 1.13, sepia: 0.12 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.08,
+      beatPunch: 1.35,
+      originStartX: 48,
+      originStartY: 48,
+      originEndX: 52,
+      originEndY: 50,
+    },
+  },
 
   // ==========================================
   // SHOT 26 (seg_23): 204.20s - 214.40s (Chorus - जलती चिता में 1 | Fiery Climax Peak!)
@@ -759,8 +782,8 @@ export const shotBackgrounds = [
     id: 's26_chorus_jalti_chita_1',
     start: 204.20,
     end: 214.40,
-    file: 'plate_20c_sandalwood_embers.png',
-    src: '/assets/paper/plate_20c_sandalwood_embers.png',
+    file: 'Woman_standing_in_smoke_sketch_8a4fe7e9_2K.jpg',
+    src: '/assets/paper/Woman_standing_in_smoke_sketch_8a4fe7e9_2K.jpg',
     bgOpacity: 0.58,
     fade: 0.65,
     transition: { type: 'ink-burst', duration: 0.85 },
@@ -786,8 +809,8 @@ export const shotBackgrounds = [
     id: 's27_chorus_jalti_chita_2',
     start: 214.40,
     end: 224.60,
-    file: 'plate_04b_departing_dust.png',
-    src: '/assets/paper/plate_04b_departing_dust.png',
+    file: 'Lord_Krishna_walking_away_4c58a1b6_2K.jpg',
+    src: '/assets/paper/Lord_Krishna_walking_away_4c58a1b6_2K.jpg',
     bgOpacity: 0.50,
     bgBlur: 0.8,
     fade: 0.65,
