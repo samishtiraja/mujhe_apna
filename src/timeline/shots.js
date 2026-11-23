@@ -863,7 +863,7 @@ export const shotBackgrounds = [
   {
     id: 's29_verse4_kaga_sab_tan',
     start: 234.80,
-    end: 245.20,
+    end: 239.84,
     file: 'plate_23c_crow_bough.png',
     src: '/assets/paper/plate_23c_crow_bough.png',
     bgOpacity: 0.54,
@@ -882,6 +882,28 @@ export const shotBackgrounds = [
       originEndY: 46,
     },
   },
+  {
+    id: 's29_verse4_kaga_sab_tan_2',
+    start: 239.84,
+    end: 245.20,
+    file: 'plate_23c_crow_bough.png',
+    src: '/assets/paper/plate_23c_crow_bough.png',
+    bgOpacity: 0.54,
+    fade: 0.7,
+    transition: { type: 'ink-wash', duration: 0.9 },
+    effects: {
+      vignette: { strength: 0.36, size: 64 },
+      colorGrade: { saturate: 0.98, brightness: 0.99, contrast: 1.08 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.07,
+      originStartX: 48,
+      originStartY: 46,
+      originEndX: 52,
+      originEndY: 50,
+    },
+  },
 
   // ==========================================
   // SHOT 30 (seg_27): 245.20s - 256.20s (Verse 4 - दो नैना मत खाइयो | Extreme Close-Up Emotional Peak!)
@@ -889,7 +911,7 @@ export const shotBackgrounds = [
   {
     id: 's30_verse4_do_naina',
     start: 245.20,
-    end: 256.20,
+    end: 250.68,
     file: 'plate_24c_eyes_longing.png',
     src: '/assets/paper/plate_24c_eyes_longing.png',
     bgOpacity: 0.60,
@@ -909,6 +931,29 @@ export const shotBackgrounds = [
       originEndY: 42,
     },
   },
+  {
+    id: 's30_verse4_do_naina_2',
+    start: 250.68,
+    end: 256.20,
+    file: 'plate_24c_eyes_longing.png',
+    src: '/assets/paper/plate_24c_eyes_longing.png',
+    bgOpacity: 0.60,
+    fade: 0.75,
+    transition: { type: 'radial-bloom', duration: 0.95 },
+    effects: {
+      vignette: { strength: 0.38, size: 62 },
+      colorGrade: { saturate: 1.06, brightness: 1.0, contrast: 1.10 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.10,
+      beatPunch: 1.15,
+      originStartX: 52,
+      originStartY: 42,
+      originEndX: 48,
+      originEndY: 46,
+    },
+  },
 
   // ==========================================
   // SHOT 31 (seg_28): 256.20s - 266.20s (Chorus - मोसे नैना मिलाकर 1 | Lyric top-center)
@@ -916,7 +961,7 @@ export const shotBackgrounds = [
   {
     id: 's31_chorus_naina_milakar_1',
     start: 256.20,
-    end: 266.20,
+    end: 261.55,
     file: 'plate_08a_krishna_glance_back.png',
     src: '/assets/paper/plate_08a_krishna_glance_back.png',
     bgOpacity: 0.50,
@@ -936,6 +981,29 @@ export const shotBackgrounds = [
       originEndY: 50,
     },
   },
+  {
+    id: 's31_chorus_naina_milakar_1_2',
+    start: 261.55,
+    end: 266.20,
+    file: 'plate_08a_krishna_glance_back.png',
+    src: '/assets/paper/plate_08a_krishna_glance_back.png',
+    bgOpacity: 0.50,
+    fade: 0.65,
+    transition: { type: 'smoke-dissolve', duration: 0.85 },
+    effects: {
+      vignette: { strength: 0.34, size: 66 },
+      colorGrade: { saturate: 1.04, brightness: 1.01, contrast: 1.07 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.07,
+      beatPunch: 1.3,
+      originStartX: 52,
+      originStartY: 50,
+      originEndX: 48,
+      originEndY: 50,
+    },
+  },
 
   // ==========================================
   // SHOT 32 (seg_29): 266.20s - 276.40s (Chorus - मोसे नैना मिलाकर 2 | Lyric low-center)
@@ -943,7 +1011,7 @@ export const shotBackgrounds = [
   {
     id: 's32_chorus_naina_milakar_2',
     start: 266.20,
-    end: 276.40,
+    end: 270.98,
     file: 'plate_08b_krishna_distant_mist.png',
     src: '/assets/paper/plate_08b_krishna_distant_mist.png',
     bgOpacity: 0.52,
@@ -962,6 +1030,28 @@ export const shotBackgrounds = [
       originEndY: 50,
     },
   },
+  {
+    id: 's32_chorus_naina_milakar_2_2',
+    start: 270.98,
+    end: 276.40,
+    file: 'plate_08b_krishna_distant_mist.png',
+    src: '/assets/paper/plate_08b_krishna_distant_mist.png',
+    bgOpacity: 0.52,
+    fade: 0.65,
+    transition: { type: 'smoke-dissolve', duration: 0.9 },
+    effects: {
+      vignette: { strength: 0.36, size: 64 },
+      colorGrade: { saturate: 1.0, brightness: 1.0, contrast: 1.08 },
+    },
+    camera: {
+      scaleStart: 1.0,
+      scaleEnd: 1.07,
+      originStartX: 48,
+      originStartY: 50,
+      originEndX: 52,
+      originEndY: 50,
+    },
+  },
 
   // ==========================================
   // SHOT 33 (seg_30): 276.40s - 288.00s (Outro - मुझे अपना बनाकर छोड़ गए | Final Horizon Stillness)
@@ -969,6 +1059,28 @@ export const shotBackgrounds = [
   {
     id: 's33_outro_apna_banakar',
     start: 276.40,
+    end: 281.01,
+    file: 'plate_27c_final_horizon.png',
+    src: '/assets/paper/plate_27c_final_horizon.png',
+    bgOpacity: 0.56,
+    fade: 0.8,
+    transition: { type: 'smoke-dissolve', duration: 1.0 },
+    effects: {
+      vignette: { strength: 0.40, size: 62 },
+      colorGrade: { saturate: 0.96, brightness: 0.98, contrast: 1.08 },
+    },
+    camera: {
+      scaleStart: 1.06,
+      scaleEnd: 1.0,
+      originStartX: 50,
+      originStartY: 48,
+      originEndX: 50,
+      originEndY: 50,
+    },
+  },
+  {
+    id: 's33_outro_apna_banakar_2',
+    start: 281.01,
     end: 288.00,
     file: 'plate_27c_final_horizon.png',
     src: '/assets/paper/plate_27c_final_horizon.png',

@@ -8,6 +8,7 @@
 const SLOT_LEFT = { bottom: '1%', left: '3%', width: '40%' }
 const SLOT_RIGHT = { bottom: '1%', right: '3%', width: '40%' }
 const SLOT_TOP_LEFT = { top: '2%', left: '2%', width: '34%' }
+const SLOT_TOP_RIGHT = { top: '2%', right: '2%', width: '34%' }
 
 // One figure per beat. End is 1ms before the next cut, so two poses never share a frame.
 // Change the src string to swap a pose. Timing stays on the beat.
@@ -742,7 +743,7 @@ export const shotLayers = {
     ['s28_17', '/assets/paper/cast_radha/radha_052_radha_walking_with_sorrowful_steps.png', 234.196, 234.799], // बेदरदी
   ], { bottom: '1%', right: '0%', width: '65%' }),
 
-  // कागा सब तन — lyric bottom, figure top-left
+  // कागा सब तन — 234.80s - 239.84s (Top-Left)
   s29_verse4_kaga_sab_tan: beatCuts([
     ['s29_01', '/assets/paper/cast_radha/radha_041_radha_speaking_to_crow.png', 234.8, 235.426], // कागा
     ['s29_02', '/assets/paper/cast_radha/Woman_looking_downward_in_silence_c5bbd308.png', 235.427, 236.076], // सब
@@ -752,6 +753,10 @@ export const shotLayers = {
     ['s29_06', '/assets/paper/cast_radha/radha_036_radha_seated_in_lotus_pose.png', 237.958, 238.584], // चुन
     ['s29_07', '/assets/paper/cast_radha/Figure_touching_forearm_in_grief_de00a3c1.png', 238.585, 239.211], // खइयो
     ['s29_08', '/assets/paper/cast_radha/radha_059_embracing_tree_and_weeping.png', 239.212, 239.838], // मांस
+  ], SLOT_TOP_LEFT),
+
+  // कागा सब तन (दोहराव) — 239.84s - 245.20s (Top-Right)
+  s29_verse4_kaga_sab_tan_2: beatCuts([
     ['s29_09', '/assets/paper/cast_radha/radha_041_speaking_to_crow.png', 239.839, 240.465], // कागा
     ['s29_10', '/assets/paper/cast_radha/Woman_nodding_at_crow_b4e056fe.png', 240.466, 241.115], // कागा
     ['s29_11', '/assets/paper/cast_radha/Woman_looking_at_hands_6a44994c.png', 241.116, 241.719], // तन
@@ -761,9 +766,9 @@ export const shotLayers = {
     ['s29_15', '/assets/paper/cast_radha/Young_woman_covering_eyes_waterc…_c5aa362e.png', 243.624, 244.25], // खइयो
     ['s29_16', '/assets/paper/cast_radha/radha_098_hugging_knees.png', 244.251, 244.877], // मांस
     ['s29_17', '/assets/paper/cast_radha/radha_076_sitting_hugging_midriff.png', 244.878, 245.199], // मांस
-  ], SLOT_TOP_LEFT),
+  ], SLOT_TOP_RIGHT),
 
-  // दो नैना मत खाइयो — lyric bottom, figure top-left
+  // दो नैना मत खाइयो — 245.20s - 250.68s (Top-Left)
   s30_verse4_do_naina: beatCuts([
     ['s30_01', '/assets/paper/cast_radha/radha_068_looking_into_round_mirror.png', 245.2, 245.504], // दो
     ['s30_02', '/assets/paper/cast_radha/radha_062_gazing_into_hand_mirror.png', 245.505, 246.154], // दो
@@ -774,6 +779,10 @@ export const shotLayers = {
     ['s30_07', '/assets/paper/cast_krishna/krishna_100_reaching_upward.png', 248.755, 249.381], // पिया
     ['s30_08', '/assets/paper/cast_radha/radha_032_radha_reaching_outward_in_longing.png', 249.382, 250.031], // मिलन
     ['s30_09', '/assets/paper/cast_radha/radha_020_gazing_at_full_moon.png', 250.032, 250.682], // की
+  ], SLOT_TOP_LEFT),
+
+  // दो नैना मत खाइयो (दोहराव) — 250.68s - 256.20s (Top-Right)
+  s30_verse4_do_naina_2: beatCuts([
     ['s30_10', '/assets/paper/cast_radha/radha_100_art_portrait.png', 250.683, 251.332], // दो
     ['s30_11', '/assets/paper/cast_radha/radha_087_staring_at_mehndi_patterns.png', 251.333, 251.959], // नैना
     ['s30_12', '/assets/paper/cast_radha/Woman_looking_through_her_hands_dabcf5b1.png', 251.96, 252.609], // नैना
@@ -783,9 +792,9 @@ export const shotLayers = {
     ['s30_16', '/assets/paper/cast_krishna/krishna_104_holding_bamboo_flute.png', 254.584, 255.233], // पिया
     ['s30_17', '/assets/paper/cast_radha/radha_044_standing_with_open_arms.png', 255.234, 255.883], // मिलन
     ['s30_18', '/assets/paper/cast_radha/radha_029_pointing_toward_rainbow.png', 255.884, 256.199], // आस
-  ], SLOT_TOP_LEFT),
+  ], SLOT_TOP_RIGHT),
 
-  // मोसे नैना मिलाकर
+  // मोसे नैना मिलाकर — 256.20s - 261.55s (Left)
   s31_chorus_naina_milakar_1: beatCuts([
     ['s31_01', '/assets/paper/cast_radha/Young_woman_listening_for_lover_b65c8333.png', 256.2, 256.533], // मोसे
     ['s31_02', '/assets/paper/cast_radha/radha_026_radha_looking_back_over_shoulder.png', 256.534, 257.183], // मोसे
@@ -796,6 +805,10 @@ export const shotLayers = {
     ['s31_07', '/assets/paper/cast_radha/Woman_walking_in_town_aa85b854.png', 259.646, 260.295], // छोड़
     ['s31_08', '/assets/paper/cast_krishna/Young_figure_leaving_with_bansuri_74bc42a7.png', 260.296, 260.922], // गए
     ['s31_09', '/assets/paper/cast_krishna/Krishna_leaving_with_bansuri_4f6908bb_2K.jpg_0b8b6b5c.png', 260.923, 261.549], // गए
+  ], SLOT_LEFT),
+
+  // मोसे नैना मिलाकर (दोहराव) — 261.55s - 266.20s (Right)
+  s31_chorus_naina_milakar_1_2: beatCuts([
     ['s31_10', '/assets/paper/cast_radha/radha_029_radha_pointing_toward_rainbow.png', 261.55, 262.176], // आए
     ['s31_11', '/assets/paper/cast_radha/Young_person_reacting_in_shock_d0407228.png', 262.177, 262.802], // ना
     ['s31_12', '/assets/paper/cast_krishna/Young_figure_standing_with_bansuri_894a09e8.png', 262.803, 263.429], // सँवरिया
@@ -804,9 +817,9 @@ export const shotLayers = {
     ['s31_15', '/assets/paper/cast_krishna/krishna_069_making_hush_gesture.png', 264.684, 265.31], // बेदरदी
     ['s31_16', '/assets/paper/cast_radha/radha_006_kneeling_in_grief.png', 265.311, 265.937], // बेदरदी
     ['s31_17', '/assets/paper/cast_krishna/krishna_048_reclining_looking_at_clouds.png', 265.938, 266.199], // बेदरदी
-  ], SLOT_LEFT),
+  ], SLOT_RIGHT),
 
-  // मोसे नैना मिलाकर २
+  // मोसे नैना मिलाकर २ — 266.20s - 270.98s (Left)
   s32_chorus_naina_milakar_2: beatCuts([
     ['s32_01', '/assets/paper/cast_radha/radha_044_radha_standing_with_open_arms.png', 266.2, 266.564], // मोसे
     ['s32_02', '/assets/paper/cast_radha/Woman_posing_with_open_arms_8e912f83.png', 266.565, 267.191], // मोसे
@@ -816,6 +829,10 @@ export const shotLayers = {
     ['s32_06', '/assets/paper/cast_radha/radha_033_radha_reaching_toward_peacock.png', 269.073, 269.722], // मिलाकर
     ['s32_07', '/assets/paper/cast_krishna/krishna_042_looking_back_with_sorrow.png', 269.723, 270.349], // छोड़
     ['s32_08', '/assets/paper/cast_krishna/krishna_052_stepping_through_forest_g.png', 270.35, 270.976], // गए
+  ], SLOT_LEFT),
+
+  // मोसे नैना मिलाकर २ (दोहराव) — 270.98s - 276.40s (Right)
+  s32_chorus_naina_milakar_2_2: beatCuts([
     ['s32_09', '/assets/paper/cast_radha/radha_028_radha_pointing_into_distance.png', 270.977, 271.603], // आए
     ['s32_10', '/assets/paper/cast_radha/radha_084_standing_in_shock.png', 271.604, 272.207], // ना
     ['s32_11', '/assets/paper/cast_radha/Young_woman_holding_red_thread_2963fdc2.png', 272.208, 272.833], // ना
@@ -825,9 +842,9 @@ export const shotLayers = {
     ['s32_15', '/assets/paper/cast_radha/Grieving_woman_drops_to_knee_c9b43d9b.png', 274.715, 275.341], // बेदरदी
     ['s32_16', '/assets/paper/cast_krishna/krishna_074_pressing_holy_dust_to.png', 275.342, 275.968], // बेदरदी
     ['s32_17', '/assets/paper/cast_radha/radha_052_walking_with_sorrowful_steps.png', 275.969, 276.399], // बेदरदी
-  ], SLOT_LEFT),
+  ], SLOT_RIGHT),
 
-  // उपसंहार
+  // उपसंहार — 276.40s - 281.01s (Left)
   s33_outro_apna_banakar: beatCuts([
     ['s33_01', '/assets/paper/cast_radha/radha_038_radha_seated_on_rope_swing.png', 276.4, 276.618], // मुझे
     ['s33_02', '/assets/paper/cast_radha/radha_060_feeling_wind_with_arms.png', 276.619, 277.245], // मुझे
@@ -837,6 +854,10 @@ export const shotLayers = {
     ['s33_06', '/assets/paper/cast_radha/radha_045_stringing_flowers_into_gar.png', 279.127, 279.753], // बनाकर
     ['s33_07', '/assets/paper/cast_krishna/krishna_020_silhouette_looking_ove.png', 279.754, 280.38], // छोड़
     ['s33_08', '/assets/paper/cast_krishna/krishna_084_walking_along_river_edge.png', 280.381, 281.007], // गए
+  ], SLOT_LEFT),
+
+  // उपसंहार (दोहराव) — 281.01s - 288.00s (Right)
+  s33_outro_apna_banakar_2: beatCuts([
     ['s33_09', '/assets/paper/cast_radha/radha_027_radha_peeking_from_marble_archway.png', 281.008, 281.634], // आए
     ['s33_10', '/assets/paper/cast_radha/Woman_reacting_with_shock_ccf8fd0e.png', 281.635, 282.261], // ना
     ['s33_11', '/assets/paper/cast_radha/Young_woman_clutching_veil_14d505c8.png', 282.262, 282.888], // ना
@@ -846,7 +867,7 @@ export const shotLayers = {
     ['s33_15', '/assets/paper/cast_radha/Woman_sitting_with_broken_thread_ef1e1e6d.png', 284.77, 285.442], // बेदरदी
     ['s33_16', '/assets/paper/cast_krishna/krishna_036_gazing_downward_at_ripples.png', 285.443, 286.092], // बेदरदी
     ['s33_17', '/assets/paper/cast_radha/Kneeling_woman_holding_red_thread_8526b54d.png', 286.093, 287.999], // बेदरदी
-  ], SLOT_LEFT),
+  ], SLOT_RIGHT),
 }
 
 export default shotLayers
