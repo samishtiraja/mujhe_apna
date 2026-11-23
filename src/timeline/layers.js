@@ -740,7 +740,7 @@ export const shotLayers = {
     ['s28_15', '/assets/paper/cast_radha/Woman_crying_with_lifted_hand_45127963.png', 232.943, 233.569], // बेदरदी
     ['s28_16', '/assets/paper/cast_krishna/krishna_105_looking_at_reflection.png', 233.57, 234.195], // बेदरदी
     ['s28_17', '/assets/paper/cast_radha/radha_052_radha_walking_with_sorrowful_steps.png', 234.196, 234.799], // बेदरदी
-  ], SLOT_LEFT),
+  ], { bottom: '1%', right: '0%', width: '65%' }),
 
   // कागा सब तन — lyric bottom, figure top-left
   s29_verse4_kaga_sab_tan: beatCuts([
