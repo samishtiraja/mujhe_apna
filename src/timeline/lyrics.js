@@ -25,10 +25,10 @@ export const lyricLines = [
     enter: { type: 'ink-reveal', duration: 0.45 },
     exit: { type: 'ink-dry', duration: 0.55 },
     words: [
-      { text: 'मुझे', time: 15.1,  },
-      { text: 'अपना', time: 16.05, style: { color: '#8c2f2f' } }, // Hero word
-      { text: 'बनाकर', time: 17.2 },
-      { text: 'छोड़', time: 18.16, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'मुझे', time: 15.85,  },
+      { text: 'अपना', time: 16.50, style: { color: '#8c2f2f' } }, // Hero word
+      { text: 'बनाकर', time: 17.00 },
+      { text: 'छोड़', time: 18.99, style: { color: '#8c2f2f' } }, // Hero word
       { text: 'गए', time: 19.24 },
       { text: 'आए', time: 20.74 },
       { text: 'ना', time: 21.54, style: { color: '#8c2f2f' } }, // Hero word

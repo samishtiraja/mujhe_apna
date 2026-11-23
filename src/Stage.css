@@ -687,11 +687,23 @@
 }
 
 .time-display {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3rem;
   font-family: var(--font-hindi);
   font-size: 0.95rem;
   color: var(--ink);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.time-raw {
+  font-size: 0.82rem;
+  color: var(--maroon);
+  font-weight: 600;
+  opacity: 0.88;
+  letter-spacing: 0.02em;
 }
 
 .time-sep {

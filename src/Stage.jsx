@@ -12,9 +12,13 @@ import CreditRenderer from './engine/renderers/CreditRenderer.jsx'
 import SectionMarkers from './engine/renderers/SectionMarkers.jsx'
 import './Stage.css'
 
-function formatClock(seconds) {
+function formatClock(seconds, includeMs = false) {
   const m = Math.floor(seconds / 60)
   const s = Math.floor(seconds % 60)
+  if (includeMs) {
+    const ms = Math.floor((seconds % 1) * 1000)
+    return `${m}:${s.toString().padStart(2, '0')}.${ms.toString().padStart(3, '0')}`
+  }
   return `${m}:${s.toString().padStart(2, '0')}`
 }
 
@@ -308,9 +312,10 @@ export default function Stage() {
                 </button>
 
                 <div className="time-display">
-                  <span>{formatClock(time)}</span>
+                  <span className="time-current">{formatClock(time, true)}</span>
+                  <span className="time-raw">({time.toFixed(3)}s)</span>
                   <span className="time-sep">/</span>
-                  <span>{formatClock(totalDuration)}</span>
+                  <span className="time-total">{formatClock(totalDuration, false)}</span>
                 </div>
               </div>
 
