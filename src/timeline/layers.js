@@ -158,7 +158,7 @@ export const shotLayers = {
     ['s06_15', '/assets/paper/cast_krishna/krishna_033_crying_with_bamboo_flute.png', 23.8, 24.403], // बेदरदी
     ['s06_16', '/assets/paper/cast_radha/radha_096_weeping_in_sorrow.png', 24.404, 25.007], // बेदरदी
     ['s06_17', '/assets/paper/cast_krishna/krishna_076_sitting_in_sorrow.png', 25.008, 25.399], // बेदरदी
-  ], SLOT_RIGHT),
+  ], { bottom: '1%', right: '3%', width: '50%' }),
 
   // मुझे अपना बनाकर — lyric on top, figure left
   s07_chorus_cycle2: beatCuts([
@@ -178,7 +178,7 @@ export const shotLayers = {
     ['s07_14', '/assets/paper/cast_radha/radha_095_weeping_against_pillar.png', 33.622, 34.248], // बेदरदी
     ['s07_15', '/assets/paper/cast_radha/Young_woman_covering_eyes_waterc…_c5aa362e.png', 34.249, 34.852], // बेदरदी
     ['s07_16', '/assets/paper/cast_krishna/krishna_064_holding_single_tear.png', 34.853, 35.299], // बेदरदी
-  ], SLOT_LEFT),
+  ],  { bottom: '1%', left: '3%', width: '50%' }),
 
   // मुझे अपना बनाकर — lyric on the left, figure right
   s08_chorus_cycle3: beatCuts([

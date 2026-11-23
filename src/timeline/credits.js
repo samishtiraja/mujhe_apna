@@ -116,7 +116,7 @@ export const credits = [
     start: 8.1,
     end: 15.3,
     isPoet: true,
-    position: { top: '16%', right: '8%', textAlign: 'right' },
+    position: { top: '32%', right: '18%', textAlign: 'right' },
     motion: { xStart: 25, xEnd: 0 },
     style: { fontSize: '2.4vw' },
     enter: { type: 'slide-down', duration: 0.6 },
