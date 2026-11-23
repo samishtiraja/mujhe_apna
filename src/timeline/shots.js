@@ -211,28 +211,28 @@ export const shotBackgrounds = [
   },
 
   // ==========================================
-  // SHOT 10 (seg_07): 55.10s - 58.20s (Interlude 1 - Diya & Kadamba)
+  // SHOT 10 (seg_07): 55.10s - 58.20s (Interlude 1 - Pure Paper Frieze / No BG)
   // ==========================================
   {
     id: 's10_interlude_diya',
     start: 55.10,
     end: 58.20,
-    file: 'plate_01_moon_sky.png',
-    src: '/assets/paper/plate_01_moon_sky.png',
-    bgOpacity: 0.54,
-    fade: 0.55,
-    transition: { type: 'ink-wash', duration: 0.7 },
+    file: 'none',
+    src: 'none',
+    bgOpacity: 0,
+    fade: 0.4,
+    transition: { type: 'smoke-dissolve', duration: 0.6 },
     effects: {
-      vignette: { strength: 0.32, size: 68 },
-      colorGrade: { saturate: 1.04, brightness: 1.0, contrast: 1.06 },
+      vignette: { strength: 0.22, size: 75 },
+      colorGrade: { saturate: 1.02, brightness: 1.0, contrast: 1.04 },
     },
     camera: {
       scaleStart: 1.0,
-      scaleEnd: 1.05,
+      scaleEnd: 1.03,
       originStartX: 50,
       originStartY: 50,
       originEndX: 50,
-      originEndY: 46,
+      originEndY: 50,
     },
   },
 
@@ -445,28 +445,28 @@ export const shotBackgrounds = [
   },
 
   // ==========================================
-  // SHOT 17 (seg_14): 118.80s - 122.00s (Interlude 2 - Braj Cow & Peacock)
+  // SHOT 17 (seg_14): 118.80s - 122.00s (Interlude 2 - Pure Paper Frieze / No BG)
   // ==========================================
   {
     id: 's17_interlude_braj_cow',
     start: 118.80,
     end: 122.00,
-    file: 'plate_09a_waiting_cow.png',
-    src: '/assets/paper/plate_09a_waiting_cow.png',
-    bgOpacity: 1,
-    fade: 0.55,
-    transition: { type: 'smoke-dissolve', duration: 0.7 },
+    file: 'none',
+    src: 'none',
+    bgOpacity: 0,
+    fade: 0.4,
+    transition: { type: 'smoke-dissolve', duration: 0.6 },
     effects: {
-      vignette: { strength: 0.30, size: 70 },
-      colorGrade: { saturate: 1.04, brightness: 1.0, contrast: 1.05 },
+      vignette: { strength: 0.22, size: 75 },
+      colorGrade: { saturate: 1.02, brightness: 1.0, contrast: 1.04 },
     },
     camera: {
       scaleStart: 1.0,
-      scaleEnd: 1.05,
+      scaleEnd: 1.03,
       originStartX: 50,
       originStartY: 50,
       originEndX: 50,
-      originEndY: 46,
+      originEndY: 50,
     },
   },
 
